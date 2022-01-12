@@ -3,6 +3,11 @@
     <Header />
     <Feministech />
     <Sobre />
+    <QuemParticipa />
+    <Projetos />
+    <Eventos />
+    <Contato />
+    <Footer />
   </div>
 </template>
 

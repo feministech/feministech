@@ -1,14 +1,12 @@
 <template>
   <div class="feministech">
-    <img src="feminis_logo.png" alt="Feministech Logo" class="feminisLogo">
-    <span class="feministechTitle">
-      Feita para todes
-    </span>
+    <img src="feminis_logo.png" alt="Feministech Logo" class="feminisLogo" />
+    <span class="feministechTitle"> Feita para todes </span>
 
     <p>
-      Somos um grupo de pessoas que se identificam no feminino e não binárias e que compartilham o interesse por lives na Twitch.
+      Somos um grupo de pessoas que se identificam no feminino e não binárias e
+      que compartilham o interesse por lives na Twitch.
     </p>
-
   </div>
 </template>
 
@@ -19,28 +17,29 @@ export default {
 </script>
 
 <style>
-.feministech{
+.feministech {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 45vh;
   margin-left: 10vw;
   margin-top: 5vh;
+  margin-bottom: 25vh;
 }
 
-.feminisLogo{
+.feminisLogo {
   width: 15%;
 }
 
-.feministechTitle{
+.feministechTitle {
   font-family: 'Nunito', sans-serif;
   font-size: 6ch;
   font-weight: 700;
-  color: #C9086D;
+  color: #c9086d;
 }
 
-p{
-  font-family: "Open Sans", sans-serif;
+p {
+  font-family: 'Open Sans', sans-serif;
   width: 50%;
   font-size: 2ch;
 }

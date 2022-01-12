@@ -1,7 +1,7 @@
 <template>
-  <div class="background grey">
-    <div class="content pink" id="sobre">
-      <h1>Sobre a Feministech</h1>
+  <div class="background white">
+    <div class="content blue">
+      <h1>Nossos Eventos</h1>
 
       <p>
         Ipsum lorem durun sirun virum durum mussum kirum abum
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'sobreComponent',
+  name: 'eventosComponent',
 }
 </script>
 
