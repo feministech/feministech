@@ -1,12 +1,17 @@
 <template>
   <div class="feministech">
-    <img src="feminis_logo.png" alt="Feministech Logo" class="feminisLogo" />
-    <span class="feministechTitle"> Feita para todes </span>
+    <div class="feministechContent">
+      <img src="feminis_logo.png" alt="Feministech Logo" class="feminisLogo" />
+      <span class="feministechTitle"> Feita para todes </span>
 
-    <p>
-      Somos um grupo de pessoas que se identificam no feminino e não binárias e
-      que compartilham o interesse por lives na Twitch.
-    </p>
+      <p>
+        Somos um grupo de pessoas que se identificam no feminino e não binárias
+        e que compartilham o interesse por lives na Twitch.
+      </p>
+    </div>
+    <div class="feministechRainbow">
+      <img src="arco-iris.png" alt="Arco Íris" />
+    </div>
   </div>
 </template>
 
@@ -19,12 +24,23 @@ export default {
 <style>
 .feministech {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: -4vh;
+}
+
+.feministechContent {
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 45vh;
   margin-left: 10vw;
-  margin-top: 5vh;
-  margin-bottom: 25vh;
+  margin-top: 10vh;
+}
+
+.feministechRainbow {
+  width: 40vw;
+  z-index: -1;
 }
 
 .feminisLogo {
@@ -33,7 +49,7 @@ export default {
 
 .feministechTitle {
   font-family: 'Nunito', sans-serif;
-  font-size: 6ch;
+  font-size: 7ch;
   font-weight: 700;
   color: #c9086d;
 }
@@ -41,6 +57,6 @@ export default {
 p {
   font-family: 'Open Sans', sans-serif;
   width: 50%;
-  font-size: 2ch;
+  font-size: 2.5ch;
 }
 </style>

@@ -6,7 +6,7 @@
 
 h1 {
   font-family: 'Nunito', sans-serif;
-  font-size: 3ch;
+  font-size: 4ch;
   text-align: center;
   margin-bottom: 1em;
 }
@@ -31,6 +31,7 @@ h1 {
   border-style: solid;
   border-radius: 50px;
   margin-bottom: 5vh;
+  padding: 2em;
 }
 
 .grey {

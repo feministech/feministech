@@ -1,19 +1,21 @@
 <template>
   <div class="member">
     <div class="memberInfo">
-      <div class="name">
+      <div class="memberName">
         <span class="memberName">
-          {{ name }}
+          {{ memberName }}
         </span>
       </div>
-      <div class="job">
-        {{ job }}
+      <div class="memberJob">
+        {{ memberJob }}
       </div>
-      <div class="city">
-        {{ city }}
+      <div class="memberCity">
+        {{ memberCity }}
       </div>
     </div>
-    <div class="image"></div>
+    <div>
+      <img :src="memberImage" alt="" class="memberImage" />
+    </div>
   </div>
 </template>
 
@@ -21,18 +23,19 @@
 export default {
   name: 'ParticipanteComponent',
   props: {
-    name: String,
-    job: String,
-    city: String,
-    image: String,
+    memberName: String,
+    memberJob: String,
+    memberCity: String,
+    memberImage: String,
   },
 }
 </script>
 
 <style>
 .member {
-  margin: 1.5em;
+  margin: 1em;
   width: 30vw;
+  max-width: 35em;
   height: 20vh;
   border-style: solid;
   border-radius: 25px;
@@ -40,6 +43,9 @@ export default {
   background-color: #cd3066;
   color: white;
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .memberInfo {
@@ -55,8 +61,14 @@ export default {
   font-weight: 700;
 }
 
-.job {
+.memberJob {
   font-size: 2ch;
   font-weight: 700;
+}
+
+.memberImage {
+  height: 20vh;
+  border-style: solid;
+  border-radius: 25px;
 }
 </style>

@@ -5,24 +5,28 @@
 
       <div class="members">
         <Participante
-          name="Amanda"
-          job="Desenvolvedora Web"
-          city="São Paulo, SP"
+          memberName="Amanda"
+          memberJob="Desenvolvedora Web"
+          memberCity="São Paulo, SP"
+          memberImage="mandys.jpg"
         />
         <Participante
-          name="Amanda"
-          job="Desenvolvedora Web"
-          city="São Paulo, SP"
+          memberName="Amanda"
+          memberJob="Desenvolvedora Web"
+          memberCity="São Paulo, SP"
+          memberImage="mandys.jpg"
         />
         <Participante
-          name="Amanda"
-          job="Desenvolvedora Web"
-          city="São Paulo, SP"
+          memberName="Amanda"
+          memberJob="Desenvolvedora Web"
+          memberCity="São Paulo, SP"
+          memberImage="mandys.jpg"
         />
         <Participante
-          name="Amanda"
-          job="Desenvolvedora Web"
-          city="São Paulo, SP"
+          memberName="Amanda"
+          memberJob="Desenvolvedora Web"
+          memberCity="São Paulo, SP"
+          memberImage="mandys.jpg"
         />
       </div>
     </div>
@@ -40,7 +44,7 @@ export default {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
-  height: 120vh;
+  justify-content: space-between;
+  height: 100vh;
 }
 </style>
