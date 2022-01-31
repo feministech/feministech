@@ -3,8 +3,8 @@
     <div class="hero">
       <h1>Entre em contato</h1>
       <p>
-        Ipsum lorem durun sirun virum durum mussum kirum abum
-        <strong>kabum tcha tacha tacha</strong> zip zop zup
+        Para entrar em contato com a Feministech, nos envie um email em
+        <a href="mailto:oifeministech@gmail.com">oifeministech@gmail.com</a>
       </p>
     </div>
   </div>
@@ -32,5 +32,10 @@ export default {
 
 .hero > p > strong {
   color: white;
+}
+
+.hero > p > a {
+  color: #4bc9f1;
+  font-weight: 700;
 }
 </style>

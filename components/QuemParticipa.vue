@@ -5,28 +5,22 @@
 
       <div class="members">
         <Participante
-          memberName="Amanda"
-          memberJob="Desenvolvedora Web"
-          memberCity="São Paulo, SP"
-          memberImage="mandys.jpg"
+          memberName="Levxyca"
+          memberJob="Estudante e Streamer"
+          memberCity="Paraná, BR"
+          memberImage="levxyca.jpg"
         />
         <Participante
-          memberName="Amanda"
-          memberJob="Desenvolvedora Web"
-          memberCity="São Paulo, SP"
-          memberImage="mandys.jpg"
+          memberName="Morganna Giovanelli"
+          memberJob="Desenvolvedora Backend"
+          memberCity="São Paulo, BR"
+          memberImage="morganna.jpg"
         />
         <Participante
-          memberName="Amanda"
-          memberJob="Desenvolvedora Web"
-          memberCity="São Paulo, SP"
-          memberImage="mandys.jpg"
-        />
-        <Participante
-          memberName="Amanda"
-          memberJob="Desenvolvedora Web"
-          memberCity="São Paulo, SP"
-          memberImage="mandys.jpg"
+          memberName="Pachi Codes"
+          memberJob="DevRel"
+          memberCity="São Paulo, BR"
+          memberImage="pachicodes.jpg"
         />
       </div>
     </div>
@@ -45,6 +39,7 @@ export default {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 100vh;
+  padding: 1em;
+  height: 70vh;
 }
 </style>

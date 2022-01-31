@@ -5,8 +5,8 @@
       <span class="feministechTitle"> Feita para todes </span>
 
       <p>
-        Somos um grupo de pessoas que se identificam no feminino e não binárias
-        e que compartilham o interesse por lives na Twitch.
+        Somos um grupo de pessoas que se identificam no feminino e não bináries
+        e que compartilham o interesse por tecnologia.
       </p>
     </div>
     <div class="feministechRainbow">

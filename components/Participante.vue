@@ -36,10 +36,10 @@ export default {
   margin: 1em;
   width: 30vw;
   max-width: 35em;
-  height: 20vh;
+  height: 22vh;
   border-style: solid;
   border-radius: 25px;
-  padding: 1em;
+  padding: 1.5em;
   background-color: #cd3066;
   color: white;
   font-family: 'Open Sans', sans-serif;

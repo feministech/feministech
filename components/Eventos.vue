@@ -4,8 +4,9 @@
       <h1>Nossos Eventos</h1>
 
       <p>
-        Ipsum lorem durun sirun virum durum mussum kirum abum
-        <strong>kabum tcha tacha tacha</strong> zip zop zup
+        Nossos eventos são sempre mensais,
+        <a href="https://twitter.com/feminis_tech/">Veja o nosso Twitter</a>
+        para acompanhar nossos próximos eventos!
       </p>
     </div>
   </div>

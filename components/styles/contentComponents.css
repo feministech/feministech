@@ -4,6 +4,10 @@
   padding: 2em;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 4ch;
