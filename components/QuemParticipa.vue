@@ -8,19 +8,19 @@
           memberName="Levxyca"
           memberJob="Estudante e Streamer"
           memberCity="Paraná, BR"
-          memberImage="levxyca.jpg"
+          memberImage="images/levxyca.webp"
         />
         <Participante
           memberName="Morganna Giovanelli"
           memberJob="Desenvolvedora Backend"
           memberCity="São Paulo, BR"
-          memberImage="morganna.jpg"
+          memberImage="images/morganna.webp"
         />
         <Participante
           memberName="Pachi Codes"
           memberJob="DevRel"
           memberCity="São Paulo, BR"
-          memberImage="pachicodes.jpg"
+          memberImage="images/pachicodes.webp"
         />
       </div>
     </div>

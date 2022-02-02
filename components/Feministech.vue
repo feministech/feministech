@@ -1,7 +1,7 @@
 <template>
   <div class="feministech">
     <div class="feministechContent">
-      <img src="feminis_logo.png" alt="Feministech Logo" class="feminisLogo" />
+      <img src="images/feminis_logo.webp" alt="Feministech Logo" class="feminisLogo" />
       <span class="feministechTitle"> Feita para todes </span>
 
       <p>
@@ -10,7 +10,7 @@
       </p>
     </div>
     <div class="feministechRainbow">
-      <img src="arco-iris.png" alt="Arco Íris" />
+      <img src="images/arco-iris.webp" alt="Arco Íris" />
     </div>
   </div>
 </template>
