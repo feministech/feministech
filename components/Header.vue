@@ -1,13 +1,17 @@
 <template>
   <header>
-    <span class="headerTitle"> Feministech </span>
+    <strong class="header-title">Feministech</strong>
 
-    <nav class="headerNav">
-      <a href="#sobre" class="headerAnchor">Sobre a comunidade</a>
-      <a href="#partipantes" class="headerAnchor">Quem participa</a>
-      <a href="#projetos" class="headerAnchor">Projetos</a>
-      <a href="#eventos" class="headerAnchor">Eventos</a>
-      <a href="#contatos" class="headerAnchor">Contatos</a>
+    <nav class="header-nav">
+      <a href="#sobre" class="header-anchor">Sobre a comunidade</a>
+      <strong>|</strong>
+      <a href="#partipantes" class="header-anchor">Quem participa</a>
+      <strong>|</strong>
+      <a href="#projetos" class="header-anchor">Projetos</a>
+      <strong>|</strong>
+      <a href="#eventos" class="header-anchor">Eventos</a>
+      <strong>|</strong>
+      <a href="#contatos" class="header-anchor">Contatos</a>
     </nav>
   </header>
 </template>
@@ -20,34 +24,31 @@ export default {
 
 <style>
 header {
-  background-color: #cd3066;
-  color: white;
-  padding: 1em;
-  height: 2em;
-  border-style: solid;
-  border-color: #cd3066;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  background-color: var(--pink);
+  padding: 1em 15em;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   display: flex;
-  justify-content: space-around;
-  font-weight: 700;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.headerTitle {
-  font-family: 'Nunito', sans-serif;
+.header-nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav > * {
+  margin: 0 0.3em;
+}
+
+.header-title {
   font-size: 2.5ch;
 }
 
-.headerNav {
-  font-family: 'Open Sans', sans-serif;
-  width: 60%;
-  display: flex;
-  justify-content: space-around;
-  font-size: 2ch;
-}
-
-.headerAnchor {
-  text-decoration: none;
+.header-anchor, 
+.header-title {
   color: white;
 }
 </style>
