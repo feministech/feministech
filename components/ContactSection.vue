@@ -4,9 +4,9 @@
     <p>
       Para entrar em contato com a Feministech, nos envie um email em
       <a 
-        href="mailto:oifeministech@gmail.com" class="email-link"
+        href="mailto:contato@feminis.tech" class="email-link"
         >
-        oifeministech@gmail.com
+        contato@feminis.tech
       </a>
     </p>
   </section>
@@ -20,7 +20,7 @@ export default {
 
 <style>
 .contact-section {
-  background-color: var(--blue);
+  background-color: var(--pink);
   display: flex;
   flex-direction: column;
   align-items: center;

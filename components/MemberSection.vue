@@ -1,5 +1,5 @@
 <template>
-  <section id="partipantes">
+  <section id="partipantes" class="member-section">
     <h1>Quem participa?</h1>
 
     <div class="members">
@@ -62,6 +62,10 @@ export default {
 </script>
 
 <style>
+.member-section > h1 {
+  text-align: center;
+}
+
 .members {
   display: flex;
   flex-direction: row;

@@ -41,6 +41,10 @@ export default {
   background-color: whitesmoke;
 }
 
+.project-section > h1 {
+  text-align: center;
+}
+
 .projects {
   display: flex;
   flex-direction: row;
