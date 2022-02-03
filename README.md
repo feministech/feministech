@@ -1,15 +1,65 @@
-# Site oficial
+<p align="center">
+    <img src="https://img.shields.io/badge/vue-js-%234FC08D.svg?&style=for-the-badge&logo=vue-js&logoColor=white">
+    <img src="https://img.shields.io/badge/nuxt-js-%2300C58E.svg?&style=for-the-badge&logo=nuxt-js&logoColor=white">
+    <img src="https://img.shields.io/github/license/feministech/site-oficial?style=for-the-badge">
+</p>
 
-Site oficial da Feministech, contendo informações sobre a comunidade, eventos, projetos, etc.
+<p align="center">
+    <img src="logo.png">
+</p>
 
-![Captura de tela do site oficial](siteoficial.png)
+# ⭐ Site oficial da Feministech 
 
-Feito em NuxtJS e VueJS
+> Site oficial da Feministech, contendo informações sobre a comunidade, eventos, projetos, etc.
 
-# Rodando
+<details>
+    <summary>Captura de tela do site oficial</summary>
+    <img src="screenshot.jpeg">
+</details>
 
-Para iniciar o site em modo de desenvolvimento, use:
+## 🔎 Requisitos:
 
+1. [Node LTS](https://nodejs.org/en/);
+2. [Visual Studio Code](https://code.visualstudio.com/) ou outra IDE de sua preferência;
+3. [GitHub Desktop](https://desktop.github.com/) para clonar e realizar os *commits*;
+4. [Git](https://git-scm.com/) se preferir usar o *terminal*.
+
+## ✅ Como começar:
+
+1. Clone o repositório na sua máquina através do **GitHub Desktop** ou do comando `git clone`.
+
+2. Criei uma branch próprio de trabalho para não realizar *commits* diretamente na *branch* principal.
+
+3. Prepare o ambiente de desenvolvimento instalando as dependências, usando uma das opções abaixo:
+
+```console
+yarn install
+# ou
+npm install
 ```
+
+3. Inicie o site em modo de desenvolvimento local para visualizar as suas alterações em tempo real usando:
+
+```console
 yarn dev
+# ou
+npm run dev
 ```
+
+4. Assim que terminar os trabalhos, abra um *pull request* para o *branch* principal solicitando a revisão e aprovação de outra pessoa da comunidade para evitarmos erros que possam tirar o site do ar.
+
+## 🚀 Como é feito o *deploy*?
+
+Criamos um *workflow* do **GitHub Actions** para automatizar a *build* do site estático em **Nuxt**, e o *deploy* da nova versão em uma *branch* separada para o **GitHub Pages** a cada nova *pull request* aprovada.
+
+Você pode encontrar informação sobre esse processo nos arquivos dentro da pasta de *workflows*.
+
+## 📋 Como abrir uma *issue*:
+
+**Encontrou algum bug ou tem alguma ideia e/ou sugestão?**
+
+Fique à vontade para abrir uma *issue* aqui no repositório, e sempre que possível use *labels* e pense em um título objetivo para facilitar para quem estiver em busca de uma tarefa ou mesmo o entendimento dela.
+
+## 📜 Licença
+
+Este projeto está sob a licença MIT, clique [aqui](LICENSE.md) para saber mais.
