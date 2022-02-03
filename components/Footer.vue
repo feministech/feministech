@@ -1,17 +1,45 @@
 <template>
   <footer>
-    <nav class="footerNav">
-      <a href="#sobre" class="footerAnchor">Sobre a comunidade</a>
-      <a href="#partipantes" class="footerAnchor">Quem participa</a>
-      <a href="#projetos" class="footerAnchor">Projetos</a>
-      <a href="#eventos" class="footerAnchor">Eventos</a>
-      <a href="#contatos" class="footerAnchor">Contatos</a>
+    <nav class="footer-nav">
+      <a href="https://github.com/feministech/codigo-de-conduta" class="footer-anchor" target="_blank">Código de Conduta</a>
+      <hr class="divider solid">
+      <a href="#sobre" class="footer-anchor">Sobre a comunidade</a>
+      <a href="#partipantes" class="footer-anchor">Quem participa</a>
+      <a href="#projetos" class="footer-anchor">Projetos</a>
+      <a href="#eventos" class="footer-anchor">Eventos</a>
+      <a href="#contatos" class="footer-anchor">Contatos</a>
     </nav>
 
-    <div class="thanks">
-      <span class="thanksTitle"> Feministech </span>
-
-      <span class="thanksText"> Feito com ❤️ </span>
+    <div class="right-col">
+      <div class="footer-social-links">
+        <SocialButton
+          socialLink="https://twitter.com/feminis_tech/"
+          fontAwesome="fab fa-twitter"
+          class="purple-social-link"
+        />
+        <SocialButton
+          socialLink="https://www.twitch.tv/team/livecodergirls"
+          fontAwesome="fab fa-twitch"
+          class="purple-social-link"
+        />
+        <SocialButton
+          socialLink="https://dev.to/feministech"
+          fontAwesome="fab fa-dev"
+          class="purple-social-link"
+        />
+        <SocialButton
+          socialLink="https://github.com/feministech"
+          fontAwesome="fab fa-github"
+          class="purple-social-link"
+        />
+        <SocialButton
+          socialLink="https://www.instagram.com/feminis_cat/"
+          fontAwesome="fab fa-instagram"
+          class="purple-social-link"
+        />
+      </div>
+      <h2 class="footer-title">Feministech</h2>
+      <strong class="made-with"> Feito com ❤️ </strong>
     </div>
   </footer>
 </template>
@@ -24,48 +52,44 @@ export default {
 
 <style>
 footer {
-  background-color: #7109b6;
-  height: 25vh;
-
+  background-color: var(--purple);
+  padding: 5em 15em;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.footerNav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  font-weight: 700;
-  margin-left: 10vw;
-  padding: 1em;
-}
-
-.thanks {
-  font-family: 'Nunito', sans-serif;
-  color: white;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-nav > a {
+  text-align: left;
+}
+
+.footer-nav, .right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.footer-social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.made-with {
+  display: flex;
+  flex-direction: column;
   height: 30%;
-  text-align: center;
-  margin-right: 10vw;
-  margin-top: 8vh;
 }
 
-.thanksTitle {
-  font-size: 3ch;
-  font-weight: 700;
-}
-
-.thanksText {
-  font-size: 2ch;
-}
-
-.footerAnchor {
-  text-decoration: none;
+.footer-anchor,
+.footer-title,
+.made-with  {
   color: white;
-  font-size: 2ch;
+  text-align: right;
+}
+
+.divider {
+  border-top: 3px solid white;
 }
 </style>

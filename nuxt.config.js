@@ -15,6 +15,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'apple-touch-icon', type: 'image/png', href: '/apple-touch-icon.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@400;700&display=swap' }
+    ],
+    script: [
+      { src: "https://kit.fontawesome.com/23c3df5bad.js", crossorigin: 'anonymous' }
     ]
   },
 
