@@ -3,9 +3,7 @@
     <h1>Entre em contato</h1>
     <p>
       Para entrar em contato com a Feministech, nos envie um email em
-      <a 
-        href="mailto:contato@feminis.tech" class="email-link"
-        >
+      <a href="mailto:contato@feminis.tech" class="email-link">
         contato@feminis.tech
       </a>
     </p>
@@ -27,10 +25,9 @@ export default {
   text-align: center;
 }
 
-.contact-section > h1, 
-.contact-section > p, 
+.contact-section > h1,
+.contact-section > p,
 .email-link {
   color: white;
 }
-
 </style>

@@ -1,7 +1,7 @@
 <template>
-    <a :href="socialLink" id="social-link" class="social-link" target="_blank">
-      <i :class="fontAwesome"></i>
-    </a>
+  <a :href="socialLink" id="social-link" class="social-link" target="_blank">
+    <i :class="fontAwesome"></i>
+  </a>
 </template>
 
 <script>
@@ -16,8 +16,8 @@ export default {
 
 <style>
 .social-link {
-    border-radius: 10px;
-    padding: 0.5em 0.8em;
+  border-radius: 10px;
+  padding: 0.5em 0.8em;
 }
 
 .social-link:hover {
