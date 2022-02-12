@@ -47,7 +47,7 @@ header {
   font-size: 2.5ch;
 }
 
-.header-anchor, 
+.header-anchor,
 .header-title {
   color: white;
 }

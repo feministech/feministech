@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploying Nuxt to GitHub Pages 🚀
     steps:
-    - uses: actions/checkout@v2
-    - id: Build-Vue
-      uses: ashkantaravati/NuxtToGithubPages@v1.0
-      with:
-        username: 'feministech'
-        reponame: 'site-oficial'
-        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+      - uses: actions/checkout@v2
+      - id: Build-Vue
+        uses: ashkantaravati/NuxtToGithubPages@v1.0
+        with:
+          username: 'feministech'
+          reponame: 'site-oficial'
+          token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged

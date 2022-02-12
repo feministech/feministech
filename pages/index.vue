@@ -45,7 +45,9 @@ section {
 
 /* Default font styles */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Nunito', sans-serif;
   color: var(--pink);
 }
@@ -62,11 +64,17 @@ h3 {
   font-size: 2.5ch;
 }
 
-p, a, strong {
+p,
+a,
+strong {
   font-size: 2ch;
 }
 
-h1, h2, h3, strong, a {
+h1,
+h2,
+h3,
+strong,
+a {
   font-weight: 700;
   text-decoration: none;
 }

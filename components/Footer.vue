@@ -1,8 +1,13 @@
 <template>
   <footer>
     <nav class="footer-nav">
-      <a href="https://github.com/feministech/codigo-de-conduta" class="footer-anchor" target="_blank">Código de Conduta</a>
-      <hr class="divider solid">
+      <a
+        href="https://github.com/feministech/codigo-de-conduta"
+        class="footer-anchor"
+        target="_blank"
+        >Código de Conduta</a
+      >
+      <hr class="divider solid" />
       <a href="#sobre" class="footer-anchor">Sobre a comunidade</a>
       <a href="#partipantes" class="footer-anchor">Quem participa</a>
       <a href="#projetos" class="footer-anchor">Projetos</a>
@@ -12,31 +17,7 @@
 
     <div class="right-col">
       <div class="footer-social-links">
-        <SocialButton
-          socialLink="https://twitter.com/feminis_tech/"
-          fontAwesome="fab fa-twitter"
-          class="purple-social-link"
-        />
-        <SocialButton
-          socialLink="https://www.twitch.tv/team/livecodergirls"
-          fontAwesome="fab fa-twitch"
-          class="purple-social-link"
-        />
-        <SocialButton
-          socialLink="https://dev.to/feministech"
-          fontAwesome="fab fa-dev"
-          class="purple-social-link"
-        />
-        <SocialButton
-          socialLink="https://github.com/feministech"
-          fontAwesome="fab fa-github"
-          class="purple-social-link"
-        />
-        <SocialButton
-          socialLink="https://www.instagram.com/feminis_cat/"
-          fontAwesome="fab fa-instagram"
-          class="purple-social-link"
-        />
+        <SocialLinks color="purple" />
       </div>
       <h2 class="footer-title">Feministech</h2>
       <strong class="made-with"> Feito com ❤️ </strong>
@@ -64,7 +45,8 @@ footer {
   text-align: left;
 }
 
-.footer-nav, .right-col {
+.footer-nav,
+.right-col {
   display: flex;
   flex-direction: column;
   gap: 0.3em;
@@ -84,7 +66,7 @@ footer {
 
 .footer-anchor,
 .footer-title,
-.made-with  {
+.made-with {
   color: white;
   text-align: right;
 }

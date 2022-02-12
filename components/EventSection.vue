@@ -3,8 +3,7 @@
     <h1>Nossos Eventos</h1>
     <p>
       Nossos eventos são sempre mensais,
-      <a 
-        href="https://twitter.com/feminis_tech/"  target="_blank">
+      <a href="https://twitter.com/feminis_tech/" target="_blank">
         veja o nosso Twitter
         <i class="fas fa-external-link-alt"></i>
       </a>

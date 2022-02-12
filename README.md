@@ -8,7 +8,7 @@
     <img src="logo.png">
 </p>
 
-# ⭐ Site oficial da Feministech 
+# ⭐ Site oficial da Feministech
 
 > Site oficial da Feministech, contendo informações sobre a comunidade, eventos, projetos, etc.
 
@@ -21,14 +21,14 @@
 
 1. [Node LTS](https://nodejs.org/en/);
 2. [Visual Studio Code](https://code.visualstudio.com/) ou outra IDE de sua preferência;
-3. [GitHub Desktop](https://desktop.github.com/) para clonar e realizar os *commits*;
-4. [Git](https://git-scm.com/) se preferir usar o *terminal*.
+3. [GitHub Desktop](https://desktop.github.com/) para clonar e realizar os _commits_;
+4. [Git](https://git-scm.com/) se preferir usar o _terminal_.
 
 ## ✅ Como começar:
 
 1. Clone o repositório na sua máquina através do **GitHub Desktop** ou do comando `git clone`.
 
-2. Criei uma branch próprio de trabalho para não realizar *commits* diretamente na *branch* principal.
+2. Criei uma branch próprio de trabalho para não realizar _commits_ diretamente na _branch_ principal.
 
 3. Prepare o ambiente de desenvolvimento instalando as dependências, usando uma das opções abaixo:
 
@@ -46,19 +46,19 @@ yarn dev
 npm run dev
 ```
 
-4. Assim que terminar os trabalhos, abra um *pull request* para o *branch* principal solicitando a revisão e aprovação de outra pessoa da comunidade para evitarmos erros que possam tirar o site do ar.
+4. Assim que terminar os trabalhos, abra um _pull request_ para o _branch_ principal solicitando a revisão e aprovação de outra pessoa da comunidade para evitarmos erros que possam tirar o site do ar.
 
-## 🚀 Como é feito o *deploy*?
+## 🚀 Como é feito o _deploy_?
 
-Criamos um *workflow* do **GitHub Actions** para automatizar a *build* do site estático em **Nuxt**, e o *deploy* da nova versão em uma *branch* separada para o **GitHub Pages** a cada nova *pull request* aprovada.
+Criamos um _workflow_ do **GitHub Actions** para automatizar a _build_ do site estático em **Nuxt**, e o _deploy_ da nova versão em uma _branch_ separada para o **GitHub Pages** a cada nova _pull request_ aprovada.
 
-Você pode encontrar informação sobre esse processo nos arquivos dentro da pasta de *workflows*.
+Você pode encontrar informação sobre esse processo nos arquivos dentro da pasta de _workflows_.
 
-## 📋 Como abrir uma *issue*:
+## 📋 Como abrir uma _issue_:
 
 **Encontrou algum bug ou tem alguma ideia e/ou sugestão?**
 
-Fique à vontade para abrir uma *issue* aqui no repositório, e sempre que possível use *labels* e pense em um título objetivo para facilitar para quem estiver em busca de uma tarefa ou mesmo o entendimento dela.
+Fique à vontade para abrir uma _issue_ aqui no repositório, e sempre que possível use _labels_ e pense em um título objetivo para facilitar para quem estiver em busca de uma tarefa ou mesmo o entendimento dela.
 
 ## 📜 Licença
 

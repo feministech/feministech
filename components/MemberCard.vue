@@ -11,32 +11,32 @@
         {{ memberCity }}
       </p>
       <div class="member-social-links">
-      <SocialButton
-        :socialLink="githubLink"
-        fontAwesome="fab fa-github"
-        class="pink-social-link"
-      />
-      <SocialButton
-        :socialLink="twitchLink"
-        fontAwesome="fab fa-twitch"
-        class="pink-social-link"
-      />
-      <SocialButton
-        :socialLink="devtoLink"
-        fontAwesome="fab fa-dev"
-        class="pink-social-link"
-      />
-      <SocialButton
-        :socialLink="twitterLink"
-        fontAwesome="fab fa-twitter"
-        class="pink-social-link"
-      />
-      <SocialButton
-        :socialLink="linkedinLink"
-        fontAwesome="fab fa-linkedin-in"
-        class="pink-social-link"
-      />
-    </div>
+        <SocialButton
+          :socialLink="githubLink"
+          fontAwesome="fab fa-github"
+          class="pink-social-link"
+        />
+        <SocialButton
+          :socialLink="twitchLink"
+          fontAwesome="fab fa-twitch"
+          class="pink-social-link"
+        />
+        <SocialButton
+          :socialLink="devtoLink"
+          fontAwesome="fab fa-dev"
+          class="pink-social-link"
+        />
+        <SocialButton
+          :socialLink="twitterLink"
+          fontAwesome="fab fa-twitter"
+          class="pink-social-link"
+        />
+        <SocialButton
+          :socialLink="linkedinLink"
+          fontAwesome="fab fa-linkedin-in"
+          class="pink-social-link"
+        />
+      </div>
     </div>
     <div>
       <img :src="memberImage" alt="imageAlt" class="member-image" />
@@ -82,8 +82,8 @@ export default {
   flex-direction: column;
 }
 
-.member-name, 
-.member-job, 
+.member-name,
+.member-job,
 .member-city {
   color: white;
 }

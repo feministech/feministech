@@ -44,7 +44,7 @@ export default {
   flex-direction: column;
 }
 
-.project-name, 
+.project-name,
 .project-description {
   width: 100%;
   color: white;
