@@ -44,4 +44,14 @@ export default {
   background-color: var(--blue);
   color: white;
 }
+
+.pink-background-social-link {
+  background-color: var(--pink);
+  color: white;
+}
+
+.pink-background-social-link:hover {
+  background-color: white;
+  color: var(--pink);
+}
 </style>
