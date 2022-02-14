@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Levxyca",
+    "job": "Estudante e Streamer",
+    "city": "Paraná, BR",
+    "image": "images/members/levxyca.webp",
+    "imageAlt": "Leticia sorrindo de cabelos cacheados azuis, delineado e batom nude escuro.",
+    "githubLink": "https://github.com/levxyca",
+    "twitchLink": "https://twitch.tv/levxyca",
+    "devtoLink": "https://dev.to/levxyca",
+    "twitterLink": "https://twitter.com/levxyca",
+    "linkedinLink": "https://linkedin.com/in/leticiacaroline"
+  },
+  {
+    "name": "Morganna Giovanelli",
+    "job": "Desenvolvedora Back-End",
+    "city": "São Paulo, BR",
+    "image": "images/members/morganna.webp",
+    "imageAlt": "Morganna sorrindo com cabelos cacheados e castanhos com mechas azuis, vestindo um macacão jeans e camiseta preta.",
+    "githubLink": "https://github.com/morgannadev",
+    "twitchLink": "https://twitch.tv/morgannadev",
+    "devtoLink": "https://dev.to/morgannadev",
+    "twitterLink": "https://twitter.com/morgannadev",
+    "linkedin": "https://linkedin.com/in/morgannadev"
+  },
+  {
+    "name": "Pachi Codes",
+    "job": "DevRel",
+    "city": "São Paulo, BR",
+    "image": "images/members/pachicodes.webp",
+    "imageAlt": "Pachi sorrindo de óculos com cabelos lisos pretos com mechas amarelas e blusa de moletom branca.",
+    "githubLink": "https://github.com/pachicodes",
+    "twitchLink": "https://twitch.tv/pachicodes",
+    "devtoLink": "https://dev.to/pachicodes",
+    "twitterLink": "https://twitter.com/pachicodes",
+    "linkedin": "https://linkedin.com/in/pachicodes"
+  },
+  {
+    "name": "Amanda Martins",
+    "job": "Desenvolvedora Fullstack",
+    "city": "São Paulo, BR",
+    "image": "images/members/mandys.webp",
+    "imageAlt": "Amanda sorrindo com cabelos cacheados roxos e camiseta branca.",
+    "githubLink": "https://github.com/mandysdev",
+    "twitchLink": "https://twitch.tv/mandysdev",
+    "devtoLink": "https://dev.to/mandysdev",
+    "twitterLink": "https://twitter.com/mandysdev",
+    "linkedin": "https://linkedin.com/in/mandysdev"
+  }
+]
