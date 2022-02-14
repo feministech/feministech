@@ -1,7 +1,21 @@
 [
   {
+    "name": "Letícia (Lelê) Gargez",
+    "job": "Produtora de conteúdo",
+    "communityRole": "Coordenadora",
+    "color": "pink",
+    "city": "Canguçu, BR",
+    "image": "images/members/lele.webp",
+    "imageAlt": "Leticia sorrindo com um cabelo castanho escuro, óculos de grau e camisa violeta",
+    "githubLink": "https://github.com/LelePG",
+    "devtoLink": "https://dev.to/lelepg",
+    "twitterLink": "https://dev.to/lelepg"
+  },
+  {
     "name": "Levxyca",
     "job": "Estudante e Streamer",
+    "communityRole": "Coordenadora",
+    "color": "pink",
     "city": "Paraná, BR",
     "image": "images/members/levxyca.webp",
     "imageAlt": "Leticia sorrindo de cabelos cacheados azuis, delineado e batom nude escuro.",
@@ -12,8 +26,38 @@
     "linkedinLink": "https://linkedin.com/in/leticiacaroline"
   },
   {
+    "name": "Lissa",
+    "job": "Produtora de Conteúdo",
+    "communityRole": "Coordenadora",
+    "color": "pink",
+    "city": "Mato Grosso do Sul, BR",
+    "image": "images/members/lissa.webp",
+    "imageAlt": "Lissa sorridente com cabelos castanhos cacheados, piscando só um olhos para a foto",
+    "githubLink": "https://github.com/lissaferreira",
+    "twitchLink": "https://twitch.tv/lissadev",
+    "devtoLink": "https://dev.to/lissadev",
+    "twitterLink": "https://twitter.com/lissadev_",
+    "linkedinLink": "https://www.linkedin.com/in/lissadev/"
+  },
+  {
+    "name": "MoniqueLive",
+    "job": "Empreendedora",
+    "communityRole": "Coordenadora",
+    "color": "pink",
+    "city": "Rio de Janeiro, BR",
+    "image": "images/members/monique.webp",
+    "imageAlt": "Monique sorridente com cabelos castanhos, brinco, e uma regata listrada.",
+    "githubLink": "https://github.com/moniquelive",
+    "twitchLink": "https://www.twitch.tv/moniquelive",
+    "devtoLink": "https://dev.to/moniquelive",
+    "twitterLink": "https://twitter.com/moniquelive",
+    "linkedinLink": "https://www.linkedin.com/in/moniquelive/"
+  },
+  {
     "name": "Morganna Giovanelli",
     "job": "Desenvolvedora Back-End",
+    "communityRole": "Coordenadora",
+    "color": "pink",
     "city": "São Paulo, BR",
     "image": "images/members/morganna.webp",
     "imageAlt": "Morganna sorrindo com cabelos cacheados e castanhos com mechas azuis, vestindo um macacão jeans e camiseta preta.",
@@ -21,11 +65,13 @@
     "twitchLink": "https://twitch.tv/morgannadev",
     "devtoLink": "https://dev.to/morgannadev",
     "twitterLink": "https://twitter.com/morgannadev",
-    "linkedin": "https://linkedin.com/in/morgannadev"
+    "linkedinLink": "https://linkedin.com/in/morgannadev"
   },
   {
     "name": "Pachi Codes",
     "job": "DevRel",
+    "communityRole": "Coordenadora",
+    "color": "pink",
     "city": "São Paulo, BR",
     "image": "images/members/pachicodes.webp",
     "imageAlt": "Pachi sorrindo de óculos com cabelos lisos pretos com mechas amarelas e blusa de moletom branca.",
@@ -33,11 +79,13 @@
     "twitchLink": "https://twitch.tv/pachicodes",
     "devtoLink": "https://dev.to/pachicodes",
     "twitterLink": "https://twitter.com/pachicodes",
-    "linkedin": "https://linkedin.com/in/pachicodes"
+    "linkedinLink": "https://linkedin.com/in/pachicodes"
   },
   {
     "name": "Amanda Martins",
     "job": "Desenvolvedora Fullstack",
+    "communityRole": "Streamer",
+    "color": "purple",
     "city": "São Paulo, BR",
     "image": "images/members/mandys.webp",
     "imageAlt": "Amanda sorrindo com cabelos cacheados roxos e camiseta branca.",
@@ -45,6 +93,45 @@
     "twitchLink": "https://twitch.tv/mandysdev",
     "devtoLink": "https://dev.to/mandysdev",
     "twitterLink": "https://twitter.com/mandysdev",
-    "linkedin": "https://linkedin.com/in/mandysdev"
+    "linkedinLink": "https://linkedin.com/in/mandysdev"
+  },
+  {
+    "name": "Jeniffer Bittencourt",
+    "job": "Estagiária de Mobile",
+    "communityRole": "Creator",
+    "color": "darkBlue",
+    "city": "Minas Geral, BR",
+    "image": "images/members/jeni.webp",
+    "imageAlt": "Jeniffer sorridente com o rosto levemente para o lado, com cabelo preto com pontas azuis e óculos de grau",
+    "githubLink": "https://github.com/jeniblodev",
+    "devtoLink": "https://dev.to/jeniblo_dev",
+    "twitterLink": "https://twitter.com/jeniblo_dev",
+    "linkedinLink": "https://www.linkedin.com/in/jeniffer-bittencourt"
+  },
+  {
+    "name": "Jess Temporal",
+    "job": "Sr. Developer Advocate",
+    "communityRole": "Creator",
+    "color": "darkBlue",
+    "city": "Santa Catarina, BR",
+    "image": "images/members/jessicatemporal.webp",
+    "imageAlt": "Jessica sorridente de cabelo cacheado curto, de óculos escuros, colar e regata",
+    "githubLink": "https://github.com/LelePG",
+    "devtoLink": "https://dev.to/lelepg",
+    "twitterLink": "https://twitter.com/jesstemporal",
+    "linkedinLink": "https://www.linkedin.com/in/jessicatemporal"
+  },
+  {
+    "name": "Snittey",
+    "job": "Cientista de Dados",
+    "communityRole": "Streamer",
+    "color": "purple",
+    "city": "São Paulo, BR",
+    "image": "images/members/snittey.webp",
+    "imageAlt": "",
+    "githubLink": "https://github.com/mayara-canaver/",
+    "twitchLink": "https://www.twitch.tv/snittey/",
+    "twitterLink": "https://twitter.com/MayaraCanaver",
+    "linkedinLink": "https://www.linkedin.com/in/mayara-canaver/"
   }
 ]

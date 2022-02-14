@@ -31,7 +31,7 @@ export default {
 }
 
 .purple-social-link:hover {
-  background-color: var(--blue);
+  background-color: var(--lightBlue);
   color: white;
 }
 
@@ -41,7 +41,17 @@ export default {
 }
 
 .pink-social-link:hover {
-  background-color: var(--blue);
+  background-color: var(--lightBlue);
+  color: white;
+}
+
+.darkBlue-social-link {
+  background-color: white;
+  color: var(--darkBlue);
+}
+
+.darkBlue-social-link:hover {
+  background-color: var(--pink);
   color: white;
 }
 

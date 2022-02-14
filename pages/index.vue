@@ -23,7 +23,8 @@ export default {
 :root {
   --pink: #cd3066;
   --purple: #7109b6;
-  --blue: #4bc9f1;
+  --lightBlue: #4bc9f1;
+  --darkBlue: #3a0ca3;
 }
 
 /* General styles */

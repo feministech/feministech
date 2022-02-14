@@ -1,5 +1,5 @@
 <template>
-  <div class="member-card">
+  <div :class="memberColor + '-member-card member-card'">
     <div class="member-info">
       <h2 class="member-name">
         {{ memberName }}
@@ -10,31 +10,39 @@
       <p class="member-city">
         {{ memberCity }}
       </p>
+      <p class="member-community-role">
+        {{ memberCommunityRole }}
+      </p>
       <div class="member-social-links">
         <SocialButton
+          v-if="githubLink"
           :socialLink="githubLink"
           fontAwesome="fab fa-github"
-          class="pink-social-link"
+          :class="memberColor + '-social-link'"
         />
         <SocialButton
+          v-if="twitchLink"
           :socialLink="twitchLink"
           fontAwesome="fab fa-twitch"
-          class="pink-social-link"
+          :class="memberColor + '-social-link'"
         />
         <SocialButton
+          v-if="devtoLink"
           :socialLink="devtoLink"
           fontAwesome="fab fa-dev"
-          class="pink-social-link"
+          :class="memberColor + '-social-link'"
         />
         <SocialButton
+          v-if="twitterLink"
           :socialLink="twitterLink"
           fontAwesome="fab fa-twitter"
-          class="pink-social-link"
+          :class="memberColor + '-social-link'"
         />
         <SocialButton
+          v-if="linkedinLink"
           :socialLink="linkedinLink"
           fontAwesome="fab fa-linkedin-in"
-          class="pink-social-link"
+          :class="memberColor + '-social-link'"
         />
       </div>
     </div>
@@ -51,6 +59,8 @@ export default {
     memberName: String,
     memberJob: String,
     memberCity: String,
+    memberCommunityRole: String,
+    memberColor: String,
     memberImage: String,
     imageAlt: String,
     githubLink: String,
@@ -64,38 +74,55 @@ export default {
 
 <style>
 .member-card {
-  width: 30vw;
-  max-width: 35em;
-  height: 22vh;
+  width: 40vw;
+  max-width: 33em;
+  min-height: 16vh;
   border-radius: 15px;
   padding: 1em;
   background-color: var(--pink);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 1em 0.5em;
+}
+
+.pink-member-card {
+  background: var(--pink);
+}
+
+.purple-member-card {
+  background: var(--purple);
+}
+
+.darkBlue-member-card {
+  background: var(--darkBlue);
 }
 
 .member-info {
   height: 100%;
   width: 100%;
+  min-height: 16vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .member-name,
 .member-job,
-.member-city {
+.member-city,
+.member-community-role {
   color: white;
 }
 
 .member-image {
-  height: 100%;
+  height: 25vh;
   border-radius: 15px;
+  margin-top: 0.5em;
 }
 
 .member-social-links {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  justify-content: space-around;
 }
 </style>

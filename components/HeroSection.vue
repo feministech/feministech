@@ -46,7 +46,7 @@ p {
   width: 40%;
 }
 
-.hero-social-links{
+.hero-social-links {
   margin-top: 2em;
 }
 </style>

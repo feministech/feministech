@@ -52,7 +52,7 @@ export default {
 
 .project-link {
   margin-top: 0.5em;
-  color: var(--blue);
+  color: var(--lightBlue);
   border-radius: 10px;
   padding: 0.5em 0.8em;
   background-color: white;
@@ -66,7 +66,7 @@ export default {
 .project-link:hover {
   cursor: pointer;
   transition: 0.2s;
-  background-color: var(--blue);
+  background-color: var(--lightBlue);
   color: white;
 }
 </style>
