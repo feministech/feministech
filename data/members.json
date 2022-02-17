@@ -132,6 +132,20 @@
     "linkedinLink": "https://www.linkedin.com/in/patricia-novaes"
   },
   {
+    "name": "Eh Muito Drama",
+    "job": "Fullstack",
+    "communityRole": "Streamer",
+    "color": "purple",
+    "city": "Brasil",
+    "image": "images/members/ehmuitodrama.webp",
+    "imageAlt": "Andressa com um sorriso com um batom rosa e cabelo encaracolado preto",
+    "githubLink": "http://github.com/andressansantos",
+    "twitchLink": "https://twitch.tv/ehmuitodrama",
+    "devtoLink": "https://dev.to/andressansantos",
+    "twitterLink": "https://twitter.com/ehmuitodrama",
+    "linkedinLink": "https://www.linkedin.com/in/andressa-santosemd/"
+  },
+  {
     "name": "Amanda Martins",
     "job": "Desenvolvedora Fullstack",
     "communityRole": "Streamer",
