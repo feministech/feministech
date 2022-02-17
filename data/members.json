@@ -1,5 +1,42 @@
 [
   {
+    "name": "Bruna Ferreira (bug_elseif)",
+    "job": "Estudante de ciência da computação",
+    "communityRole": "Coordenadora",
+    "color": "pink",
+    "city": "Lages, BR",
+    "image": "images/members/bug.webp",
+    "imageAlt": "Bruna com um olhar curioso, e com óculos de grau. Foto em preto e branco",
+    "githubLink": "https://github.com/bugelseif",
+    "twitchLink": "https://twitch.tv/bug_elseif",
+    "devtoLink": "https://dev.to/bug_elseif",
+    "twitterLink": "https://twitter.com/bug_elseif"
+  },
+  {
+    "name": "Carol Donadel",
+    "job": "Desenvolvedora Frontend",
+    "communityRole": "Coordenadora",
+    "color": "pink",
+    "city": "Lages, BR",
+    "image": "images/members/carol.webp",
+    "imageAlt": "Carol de cabelos pretos, brinco e com rosto sorridente",
+    "githubLink": "https://github.com/caroldonadel",
+    "twitterLink": "https://dev.to/acaroldonadel"
+  },
+  {
+    "name": "Fernanda Souza",
+    "job": "Estudante de Análise e Desenolvimento de Sistemas",
+    "communityRole": "Coordenadora",
+    "color": "pink",
+    "city": "São Paulo, BR",
+    "image": "images/members/fernanda.webp",
+    "imageAlt": "Fernanda de óculos de sol, rosto sorridente e cabelo crespo castanho escuro.",
+    "githubLink": "https://github.com/leitoraincomum",
+    "twitchLink": "https://twitch.tv/leitoraincomum",
+    "twitterLink": "https://twitter.com/leitoraincomum",
+    "linkedinLink": "https://linkedin.com/in/leitoraincomum"
+  },
+  {
     "name": "Letícia (Lelê) Gargez",
     "job": "Produtora de conteúdo",
     "communityRole": "Coordenadora",
@@ -9,7 +46,7 @@
     "imageAlt": "Leticia sorrindo com um cabelo castanho escuro, óculos de grau e camisa violeta",
     "githubLink": "https://github.com/LelePG",
     "devtoLink": "https://dev.to/lelepg",
-    "twitterLink": "https://dev.to/lelepg"
+    "linkedinLink": "https://www.linkedin.com/in/lelepg/"
   },
   {
     "name": "Levxyca",
@@ -26,7 +63,7 @@
     "linkedinLink": "https://linkedin.com/in/leticiacaroline"
   },
   {
-    "name": "Lissa",
+    "name": "Lissa Ferreira",
     "job": "Produtora de Conteúdo",
     "communityRole": "Coordenadora",
     "color": "pink",
@@ -68,18 +105,31 @@
     "linkedinLink": "https://linkedin.com/in/morgannadev"
   },
   {
-    "name": "Pachi Codes",
-    "job": "DevRel",
+    "name": "Raquel Marcolino",
+    "job": "Desenvolvedora de Software/Web",
     "communityRole": "Coordenadora",
     "color": "pink",
-    "city": "São Paulo, BR",
-    "image": "images/members/pachicodes.webp",
-    "imageAlt": "Pachi sorrindo de óculos com cabelos lisos pretos com mechas amarelas e blusa de moletom branca.",
-    "githubLink": "https://github.com/pachicodes",
-    "twitchLink": "https://twitch.tv/pachicodes",
-    "devtoLink": "https://dev.to/pachicodes",
-    "twitterLink": "https://twitter.com/pachicodes",
-    "linkedinLink": "https://linkedin.com/in/pachicodes"
+    "city": "Rio de Janeiro, BR",
+    "image": "images/members/tecna.webp",
+    "imageAlt": "Raquel sorrindo de cabelos cacheados pretos de camisa listrada",
+    "githubLink": "https://github.com/xTecna",
+    "twitchLink": "https://www.twitch.tv/xtecna",
+    "twitterLink": "https://twitter.com/RaquelTecna",
+    "linkedinLink": "https://www.linkedin.com/in/raquelmarcolino/"
+  },
+  {
+    "name": "Patricia Novaes",
+    "job": "Frontend Web Developer",
+    "communityRole": "Coordenadora",
+    "color": "pink",
+    "city": "Santos, BR",
+    "image": "images/members/pixl.webp",
+    "imageAlt": "Patrícia com um leve sorriso, cabelo preto liso, e de lado na imagem, mostrando um monitor com um código ao lado.",
+    "githubLink": "https://github.com/pxlrose",
+    "twitchLink": "https://twitch.tv/pixlrose",
+    "devtoLink": "https://dev.to/pfanovaes",
+    "twitterLink": "https://twitter.com/pixlrose",
+    "linkedinLink": "https://www.linkedin.com/in/patricia-novaes"
   },
   {
     "name": "Amanda Martins",
@@ -128,7 +178,7 @@
     "color": "purple",
     "city": "São Paulo, BR",
     "image": "images/members/snittey.webp",
-    "imageAlt": "",
+    "imageAlt": "Mayara em um fundo neon, rosto sorridente, de casaco e de corpo todo",
     "githubLink": "https://github.com/mayara-canaver/",
     "twitchLink": "https://www.twitch.tv/snittey/",
     "twitterLink": "https://twitter.com/MayaraCanaver",
