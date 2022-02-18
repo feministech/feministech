@@ -45,7 +45,7 @@ div.app{
 }
 
 section {
-  padding: 5em 15em;
+  padding: 10vh 10vw;
 }
 
 /* Default font styles */

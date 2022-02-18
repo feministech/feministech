@@ -17,7 +17,7 @@
 
     <div class="right-col">
       <div class="footer-social-links">
-        <SocialLinks color="purple" />
+        <SocialLinks color="purple" justify="flex-end" />
       </div>
       <h2 class="footer-title">Feministech</h2>
       <strong class="made-with"> Feito com ❤️ </strong>

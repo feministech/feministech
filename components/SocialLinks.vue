@@ -1,5 +1,5 @@
 <template>
-  <div class="social-links">
+  <div class="social-links" :style="cssProps">
     <SocialButton
       socialLink="https://twitter.com/feminis_tech/"
       fontAwesome="fab fa-twitter"
@@ -33,14 +33,22 @@ export default {
   name: 'SocialLinks',
   props: {
     color: String,
+    justify: String,
+  },
+  computed: {
+    cssProps() {
+      return {
+        '--justify': this.justify,
+      }
+    },
   },
 }
 </script>
 
 <style>
-.social-links{
-  display:flex;
+.social-links {
+  display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: var(--justify);
 }
 </style>

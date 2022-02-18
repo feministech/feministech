@@ -73,6 +73,8 @@ export default {
 </script>
 
 <style>
+
+
 @media screen and (min-width: 1001px) {
   .member-card {
     width: 40vw;
@@ -88,7 +90,7 @@ export default {
   }
 
   .member-image {
-    width: 20vw;
+    width: 15vw;
     border-radius: 15px;
     margin-top: 0.5em;
     margin-right: 1em;
@@ -120,7 +122,7 @@ export default {
 
 @media screen and (max-width: 400px) {
   .member-image {
-    width: 15vw;
+    width: 35vw;
     border-radius: 15px;
     margin-top: 0.5em;
   }
