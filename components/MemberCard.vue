@@ -75,7 +75,7 @@ export default {
 
 <style>
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1001px) {
   .member-card {
     width: 40vw;
     max-width: 33em;
@@ -90,14 +90,14 @@ export default {
   }
 
   .member-image {
-  height: 25vh;
+  width: 20vw;
   border-radius: 15px;
   margin-top: 0.5em;
   margin-right: 1em;
 }
 }
 
-@media screen and (max-width:1279px) {
+@media screen and (max-width:1000px) {
   .member-card {
     width: 40vw;
     max-width: 33em;
@@ -113,7 +113,7 @@ export default {
   }
 
    .member-image {
-  height: 25vh;
+  width: 25vw;
   border-radius: 15px;
   margin-top: 0.5em;
   align-self: center;
@@ -122,8 +122,7 @@ export default {
 
 @media screen and (max-width:400px) {
 .member-image {
-  width: 150px;
-  height: 150px;
+  width: 15vw;
   border-radius: 15px;
   margin-top: 0.5em;
 }
@@ -161,11 +160,7 @@ export default {
   color: white;
 }
 
-.member-image {
-  height: 25vh;
-  border-radius: 15px;
-  margin-top: 0.5em;
-}
+
 .social-link{
   margin-bottom:0.5em;
 }
