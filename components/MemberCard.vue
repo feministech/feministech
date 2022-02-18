@@ -1,5 +1,8 @@
 <template>
   <div :class="memberColor + '-member-card member-card'">
+    <div>
+      <img :src="memberImage" alt="imageAlt" class="member-image" />
+    </div>
     <div class="member-info">
       <h2 class="member-name">
         {{ memberName }}
@@ -46,9 +49,7 @@
         />
       </div>
     </div>
-    <div>
-      <img :src="memberImage" alt="imageAlt" class="member-image" />
-    </div>
+    
   </div>
 </template>
 
@@ -73,17 +74,60 @@ export default {
 </script>
 
 <style>
-.member-card {
-  width: 40vw;
-  max-width: 33em;
-  min-height: 16vh;
+
+@media screen and (min-width:1280px) {
+  .member-card {
+    width: 40vw;
+    max-width: 33em;
+    min-height: 16vh;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: var(--pink);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em 0.5em;
+  }
+
+  .member-image {
+  height: 25vh;
   border-radius: 15px;
-  padding: 1em;
-  background-color: var(--pink);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 1em 0.5em;
+  margin-top: 0.5em;
+  margin-right: 1em;
+}
+}
+
+@media screen and (max-width:1279px) {
+  .member-card {
+    width: 40vw;
+    max-width: 33em;
+    min-height: 16vh;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: var(--pink);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0.5em;
+  }
+
+   .member-image {
+  height: 25vh;
+  border-radius: 15px;
+  margin-top: 0.5em;
+  align-self: center;
+}
+}
+
+@media screen and (max-width:400px) {
+.member-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  margin-top: 0.5em;
+}
+
 }
 
 .pink-member-card {
@@ -98,6 +142,7 @@ export default {
   background: var(--darkBlue);
 }
 
+
 .member-info {
   height: 100%;
   width: 100%;
@@ -105,6 +150,8 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+    word-wrap: break-word;
+
 }
 
 .member-name,
@@ -119,10 +166,13 @@ export default {
   border-radius: 15px;
   margin-top: 0.5em;
 }
-
+.social-link{
+  margin-bottom:0.5em;
+}
 .member-social-links {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 </style>
