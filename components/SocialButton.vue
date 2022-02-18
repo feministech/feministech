@@ -18,6 +18,7 @@ export default {
 .social-link {
   border-radius: 10px;
   padding: 0.5em 0.8em;
+  margin :0.1em;
 }
 
 .social-link:hover {

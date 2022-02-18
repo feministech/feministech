@@ -49,7 +49,6 @@
         />
       </div>
     </div>
-    
   </div>
 </template>
 
@@ -74,8 +73,7 @@ export default {
 </script>
 
 <style>
-
-@media screen and (min-width:1001px) {
+@media screen and (min-width: 1001px) {
   .member-card {
     width: 40vw;
     max-width: 33em;
@@ -90,14 +88,14 @@ export default {
   }
 
   .member-image {
-  width: 20vw;
-  border-radius: 15px;
-  margin-top: 0.5em;
-  margin-right: 1em;
-}
+    width: 20vw;
+    border-radius: 15px;
+    margin-top: 0.5em;
+    margin-right: 1em;
+  }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
   .member-card {
     width: 40vw;
     max-width: 33em;
@@ -112,21 +110,20 @@ export default {
     margin: 1em 0.5em;
   }
 
-   .member-image {
-  width: 25vw;
-  border-radius: 15px;
-  margin-top: 0.5em;
-  align-self: center;
-}
-}
-
-@media screen and (max-width:400px) {
-.member-image {
-  width: 15vw;
-  border-radius: 15px;
-  margin-top: 0.5em;
+  .member-image {
+    width: 25vw;
+    border-radius: 15px;
+    margin-top: 0.5em;
+    align-self: center;
+  }
 }
 
+@media screen and (max-width: 400px) {
+  .member-image {
+    width: 15vw;
+    border-radius: 15px;
+    margin-top: 0.5em;
+  }
 }
 
 .pink-member-card {
@@ -141,7 +138,6 @@ export default {
   background: var(--darkBlue);
 }
 
-
 .member-info {
   height: 100%;
   width: 100%;
@@ -149,8 +145,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-    word-wrap: break-word;
-
+  word-wrap: break-word;
 }
 
 .member-name,
@@ -160,10 +155,6 @@ export default {
   color: white;
 }
 
-
-.social-link{
-  margin-bottom:0.5em;
-}
 .member-social-links {
   display: flex;
   flex-direction: row;

@@ -36,3 +36,11 @@ export default {
   },
 }
 </script>
+
+<style>
+.social-links{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+</style>
