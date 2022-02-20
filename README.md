@@ -4,9 +4,7 @@
     <img src="https://img.shields.io/github/license/feministech/site-oficial?style=for-the-badge">
 </p>
 
-<p align="center">
-    <img src="logo.png">
-</p>
+![logo da Feministech](logo.png)
 
 # ⭐ Site oficial da Feministech
 
