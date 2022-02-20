@@ -120,7 +120,20 @@ export default {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
+  .member-card {
+    width: 60vw;
+    max-width: 33em;
+    min-height: 16vh;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: var(--pink);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0.5em;
+  }
   .member-image {
     width: 35vw;
     border-radius: 15px;
