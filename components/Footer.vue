@@ -17,7 +17,7 @@
 
     <div class="right-col">
       <div class="footer-social-links">
-        <SocialLinks color="purple" />
+        <SocialLinks color="purple" justify="flex-end" />
       </div>
       <h2 class="footer-title">Feministech</h2>
       <strong class="made-with"> Feito com ❤️ </strong>
@@ -34,11 +34,11 @@ export default {
 <style>
 footer {
   background-color: var(--purple);
-  padding: 5em 15em;
+  padding: 5vh 8vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: baseline;
 }
 
 .footer-nav > a {
@@ -55,7 +55,8 @@ footer {
 .footer-social-links {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  margin-bottom: 0.2em;
+  align-items: baseline;
 }
 
 .made-with {

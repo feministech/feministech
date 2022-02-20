@@ -13,7 +13,7 @@
     </p>
 
     <div class="hero-social-links">
-      <SocialLinks color="pink-background" />
+      <SocialLinks color="pink-background" justify="flex-start" />
     </div>
   </section>
 </template>

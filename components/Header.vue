@@ -25,22 +25,40 @@ export default {
 <style>
 header {
   background-color: var(--pink);
-  padding: 1em 15em;
+  padding: 5vh 8vw;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1001px) {
+  header {
+    padding: 5vh 8vw;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    padding: 3vh 8vw;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
 
 .header-nav {
   height: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-nav > * {
-  margin: 0 0.3em;
+  margin: 0.3em;
 }
 
 .header-title {

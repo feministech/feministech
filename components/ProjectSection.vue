@@ -49,7 +49,7 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 2em 0 0 0;
   gap: 4em 1em;
 }

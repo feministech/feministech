@@ -34,7 +34,14 @@ export default {
   background-color: var(--purple);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .project-card {
+    width: 60vw;
+  }
 }
 
 .project-info {
@@ -61,6 +68,7 @@ export default {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .project-link:hover {

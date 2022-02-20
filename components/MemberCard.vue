@@ -1,5 +1,8 @@
 <template>
   <div :class="memberColor + '-member-card member-card'">
+    <div>
+      <img :src="memberImage" alt="imageAlt" class="member-image" />
+    </div>
     <div class="member-info">
       <h2 class="member-name">
         {{ memberName }}
@@ -46,9 +49,6 @@
         />
       </div>
     </div>
-    <div>
-      <img :src="memberImage" alt="imageAlt" class="member-image" />
-    </div>
   </div>
 </template>
 
@@ -74,16 +74,68 @@ export default {
 
 <style>
 .member-card {
-  width: 40vw;
   max-width: 33em;
   min-height: 16vh;
   border-radius: 15px;
   padding: 1em;
   background-color: var(--pink);
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin: 1em 0.5em;
+}
+
+.member-image {
+  border-radius: 15px;
+  margin-top: 0.5em;
+  align-self: center;
+}
+
+@media screen and (min-width: 2200px) {
+  .member-card {
+    width: 40vw;
+    flex-direction: row;
+  }
+
+  .member-image {
+    width: 10vw;
+    margin-right: 1em;
+  }
+}
+
+@media screen and (max-width: 2200px) {
+  .member-card {
+    width: 40vw;
+    flex-direction: row;
+  }
+
+  .member-image {
+    width: 15vw;
+    margin-right: 1em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .member-card {
+    width: 40vw;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .member-image {
+    width: 25vw;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .member-card {
+    width: 60vw;
+    flex-direction: column;
+    align-items: center;
+  }
+  .member-image {
+    width: 35vw;
+  }
 }
 
 .pink-member-card {
@@ -105,6 +157,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  word-wrap: break-word;
 }
 
 .member-name,
@@ -114,15 +167,10 @@ export default {
   color: white;
 }
 
-.member-image {
-  height: 25vh;
-  border-radius: 15px;
-  margin-top: 0.5em;
-}
-
 .member-social-links {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 </style>

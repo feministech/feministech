@@ -28,6 +28,10 @@ export default {
 }
 
 /* General styles */
+div.app{
+  width:100vw;
+  height: 100vh;
+}
 
 * {
   margin: 0;
@@ -41,7 +45,7 @@ export default {
 }
 
 section {
-  padding: 5em 15em;
+  padding: 10vh 10vw;
 }
 
 /* Default font styles */
