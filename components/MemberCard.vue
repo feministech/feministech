@@ -73,26 +73,31 @@ export default {
 </script>
 
 <style>
+.member-card {
+  max-width: 33em;
+  min-height: 16vh;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: var(--pink);
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0.5em;
+}
 
+.member-image {
+  border-radius: 15px;
+  margin-top: 0.5em;
+  align-self: center;
+}
 
 @media screen and (min-width: 1001px) {
   .member-card {
     width: 40vw;
-    max-width: 33em;
-    min-height: 16vh;
-    border-radius: 15px;
-    padding: 1em;
-    background-color: var(--pink);
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 1em 0.5em;
   }
 
   .member-image {
     width: 15vw;
-    border-radius: 15px;
-    margin-top: 0.5em;
     margin-right: 1em;
   }
 }
@@ -100,22 +105,12 @@ export default {
 @media screen and (max-width: 1000px) {
   .member-card {
     width: 40vw;
-    max-width: 33em;
-    min-height: 16vh;
-    border-radius: 15px;
-    padding: 1em;
-    background-color: var(--pink);
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    margin: 1em 0.5em;
   }
 
   .member-image {
     width: 25vw;
-    border-radius: 15px;
-    margin-top: 0.5em;
     align-self: center;
   }
 }
@@ -123,21 +118,11 @@ export default {
 @media screen and (max-width: 500px) {
   .member-card {
     width: 60vw;
-    max-width: 33em;
-    min-height: 16vh;
-    border-radius: 15px;
-    padding: 1em;
-    background-color: var(--pink);
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    margin: 1em 0.5em;
   }
   .member-image {
     width: 35vw;
-    border-radius: 15px;
-    margin-top: 0.5em;
   }
 }
 

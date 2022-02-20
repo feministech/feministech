@@ -23,30 +23,29 @@ export default {
 </script>
 
 <style>
+header {
+  background-color: var(--pink);
+  padding: 5vh 8vw;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 @media screen and (min-width: 1001px) {
   header {
-    background-color: var(--pink);
     padding: 5vh 8vw;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 1000px) {
   header {
-    background-color: var(--pink);
     padding: 3vh 8vw;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
   }
 }
 
