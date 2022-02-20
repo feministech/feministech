@@ -90,7 +90,19 @@ export default {
   align-self: center;
 }
 
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 2200px) {
+  .member-card {
+    width: 40vw;
+    flex-direction: row;
+  }
+
+  .member-image {
+    width: 10vw;
+    margin-right: 1em;
+  }
+}
+
+@media screen and (max-width: 2200px) {
   .member-card {
     width: 40vw;
     flex-direction: row;
