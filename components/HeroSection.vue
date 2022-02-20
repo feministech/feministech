@@ -26,7 +26,7 @@ export default {
 
 <style>
 .hero {
-  background-image: url('~static/images/rainbow-background.webp');
+  background-image: url('/images/rainbow-background.webp');
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
