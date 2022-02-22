@@ -160,6 +160,19 @@
     "linkedinLink": "https://linkedin.com/in/mandysdev"
   },
   {
+    "name": "Gláucia Esppenchutz",
+    "job": "Lead Data Engineer",
+    "communityRole": "Creator",
+    "color": "darkBlue",
+    "city": "Rio Grande do Sul, BR",
+    "image": "images/members/glaucia-esppenchutz.webp",
+    "imageAlt": "Amanda sorrindo com cabelos cacheados roxos e camiseta branca.",
+    "twitchLink": "https://github.com/glauesppen",
+    "devtoLink": "https://dev.to/glesppen",
+    "twitterLink": "https://twitter.com/glauesppen",
+    "linkedinLink": "https://www.linkedin.com/in/gesppen/"
+  },
+  {
     "name": "Jeniffer Bittencourt",
     "job": "Estagiária de Mobile",
     "communityRole": "Creator",
