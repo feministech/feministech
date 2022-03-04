@@ -105,6 +105,20 @@
     "linkedinLink": "https://linkedin.com/in/morgannadev"
   },
   {
+    "name": "Pachi Codes",
+    "job": "Devrel",
+    "communityRole": "Coordenadora",
+    "color": "pink",
+    "city": "São Paulo, BR",
+    "image": "images/members/pachicodes.webp",
+    "imageAlt": "Pachi com um cabelo de raiz preta e fios verdes, óculos e de casaco, com um leve sorriso de um lado do rosto",
+    "githubLink": "https://github.com/pachicodes",
+    "twitchLink": "https://twitch.tv/pachicodes",
+    "devtoLink": "https://dev.to/pachicodes",
+    "twitterLink": "https://twitter.com/pachicodes",
+    "linkedinLink": "https://linkedin.com/in/pachicodes"
+  },
+  {
     "name": "Raquel Marcolino",
     "job": "Desenvolvedora de Software/Web",
     "communityRole": "Coordenadora",
