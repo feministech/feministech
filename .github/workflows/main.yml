@@ -10,5 +10,5 @@ jobs:
         uses: ashkantaravati/NuxtToGithubPages@v1.0
         with:
           username: 'feministech'
-          reponame: 'site-oficial'
+          reponame: 'feministech.github.io'
           token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
