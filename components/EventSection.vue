@@ -20,6 +20,7 @@ export default {
 
 <style>
 .event-section {
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;

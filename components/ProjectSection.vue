@@ -38,7 +38,7 @@ export default {
 
 <style>
 .project-section {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .project-section > h1 {
