@@ -3,8 +3,8 @@
     <Header />
     <HeroSection />
     <AboutSection />
-    <MemberSection />
     <ProjectSection />
+    <MemberSection />
     <EventSection />
     <ContactSection />
     <Footer />
@@ -28,8 +28,8 @@ export default {
 }
 
 /* General styles */
-div.app{
-  width:100vw;
+div.app {
+  width: 100vw;
   height: 100vh;
 }
 
@@ -40,7 +40,7 @@ div.app{
   outline: 0;
   vertical-align: baseline;
   background: transparent;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 100%;
 }
 
@@ -53,7 +53,7 @@ section {
 h1,
 h2,
 h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--pink);
 }
 
