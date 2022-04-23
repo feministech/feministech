@@ -1,29 +1,52 @@
 <template>
   <section id="eventos" class="event-section">
     <h1>Nossos Eventos</h1>
-    <p>
-      Nossos eventos são sempre mensais,
-      <a href="https://twitter.com/feminis_tech/" target="_blank">
-        veja o nosso Twitter
-        <i class="fas fa-external-link-alt"></i>
-      </a>
-      para acompanhar nossos próximos eventos!
-    </p>
+    <div class="events">
+      <div class="event" v-for="(event, index) in events" :key="event">
+        <EventCard
+          :id="index"
+          :eventName="event.name"
+          :eventDescription="event.description"
+          :eventDate="event.date"
+          :eventLink="event.link"
+          :next="event.next"
+        />
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
+import eventsJSON from '../data/events.json'
+
 export default {
   name: 'EventSection',
+  data() {
+    return {
+      events: eventsJSON,
+    }
+  },
 }
+
 </script>
 
 <style>
 .event-section {
   background-color: whitesmoke;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.events {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+  .events {
+    flex-direction: column;
+  }
 }
 </style>
