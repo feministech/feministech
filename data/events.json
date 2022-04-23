@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Botequeens Spoilers 2022",
+    "description": "Evento de começo de ano da Feministech, anunciando os eventos que terão durante o ano",
+    "date": "29/01/2022",
+    "next": false
+  },
+  {
+    "name": "Feministalk: Como Palestrar",
+    "description": "Feministalk onde falamos sobre como começar a palestrar",
+    "date": "26/02/2022",
+    "talks": [
+      {
+        "title": "E aí, bora palestrar?",
+        "time": "14h15",
+        "hosts": [
+          {
+            "name": "Camila Campos",
+            "twitter": "https://twitter.com/camposmilaa"
+          }
+        ]
+      },
+      {
+        "title": "5 Dicas para quem quer começar a palestrar",
+        "time": "14h45",
+        "hosts": [
+          {
+            "name": "Mariana Silva",
+            "linkedin": "https://www.linkedin.com/in/amaridoqa"
+          }
+        ]
+      }
+    ],
+    "link": "https://www.twitch.tv/videos/1413257315",
+    "next": false
+  },
+  {
+    "name": "Feministalk: AprenDev",
+    "description": "Feministalk sobre técnicas de aprendizado no mundo da tecnologia",
+    "date": "26/03/2022",
+    "talks": [
+      {
+        "title": "Como desenvolver projetos pessoais e aprender com isso",
+        "time": "14h15",
+        "hosts": [
+          {
+            "name": "Letícia (Lelê) Gargez",
+            "github": "https://github.com/LelePG",
+            "devto": "https://dev.to/lelepg",
+            "linkedin": "https://www.linkedin.com/in/lelepg/"
+          }
+        ]
+      },
+      {
+        "title": "Como aprender utilizando o método 3C",
+        "time": "14h45",
+        "hosts": [
+          {
+            "name": "Lissa Ferreira",
+            "github": "https://github.com/lissaferreira",
+            "devto": "https://dev.to/lissadev",
+            "instagram": "https://instagram.com/lissadev",
+            "linkedin": "https://www.linkedin.com/in/lissadev/",
+            "twitter": "https://twitter.com/lissadev_"
+          }
+        ]
+      }
+    ],
+    "link": "https://www.twitch.tv/videos/1438780503",
+    "next": false
+  },
+  {
+    "name": "Feministalk: Grace Hopper",
+    "description": "Feministalk sobre Frontend em comemoração á primeira reunião da Grace Hopper para a criação da linguagem Cobol",
+    "date": "08/04/2022",
+    "talks": [
+      {
+        "title": "Acessibilidade e HTML semântico",
+        "time": "17h45",
+        "hosts": [
+          {
+            "name": "levxyca",
+            "twitter": "https://twitter.com/levxyca",
+            "github": "https://github.com/levxyca",
+            "instagram": "https://instagram.com/levxyca",
+            "devto": "https://dev.to/levxyca",
+            "linkedin": "https://www.linkedin.com/in/levxyca/"
+          }
+        ]
+      },
+      {
+        "title": "Github e Readme",
+        "time": "18h15",
+        "hosts": [
+          {
+            "name": "Letícia (Lelê) Gargez",
+            "github": "https://github.com/LelePG",
+            "devto": "https://dev.to/lelepg",
+            "linkedin": "https://www.linkedin.com/in/lelepg/"
+          }
+        ]
+      }
+    ],
+    "link": "https://www.twitch.tv/videos/1461190040",
+    "next": false
+  },
+  {
+    "name": "Feministalk: Carreiras",
+    "description": "Feministalk sobre carreiras no mundo da tecnologia",
+    "date": "23/04/2022 às 12h45",
+    "link": "https://www.twitch.tv/morgannadev",
+    "talks": [
+      {
+        "title": "Keynote: Conhecendo Silvia Coelho: Inspire-se em sua história",
+        "time": "13h00",
+        "hosts": [
+          {
+            "name": "Silvia Coelho",
+            "instagram": "https://instagram.com/elasprogramam"
+          }
+        ]
+      },
+      {
+        "title": "O mundo das mentorias e suas surpresas",
+        "time": "13h35",
+        "hosts": [
+          {
+            "name": "Paula Santana",
+            "twitter": "https://twitter.com/psanrosa13",
+            "linkedin": "https://linkedin.com/in/paula-macedo-santana-dev"
+          }
+        ]
+      },
+      {
+        "title": "Papo sobre vida de pessoa desenvolvedora e empreendedora",
+        "hosts": [
+          {
+            "name": "Monique Oliveira",
+            "twitter": "https://twitter.com/moniquelive",
+            "instagram": "https://instagram.com/moniquelive.dev"
+          }
+        ],
+        "time": "14h10"
+      },
+      {
+        "title": "Dicas de carreira para ingresso, transição e processos seletivos",
+        "hosts": [
+          {
+            "name": "Cami Martins",
+            "twitter": "https://twitter.com/punkdodevops",
+            "instagram": "https://instagram.com/punkdodevops",
+            "twitch": "https://twitch.tv/punkdodevops",
+            "github": "https://github.com/camilla-m"
+          }
+        ],
+        "time": "14h45"
+      },
+      {
+        "title": "PJotinha, vale mesmo a pena?",
+        "hosts": [
+          {
+            "name": "Isabelle Samways",
+            "twitter": "https://twitter.com/bellesamways"
+          }
+        ],
+        "time": "15h20"
+      },
+      {
+        "title": "Roda de conversa sobre carreiras",
+        "hosts": [
+          {
+            "name": "Jamille Oliveira",
+            "linkedin": "https://linkedin.com/in/jamille-de-oliveira-26b4756b"
+          },
+          {
+            "name": "Kamila Santos",
+            "github": "https://github.com/Kamilahsantos",
+            "linkedin": "https://linkedin.com/in/kamila-santos-oliveira",
+            "instagram": "https://instagram.com/kamila_code",
+            "twitter": "https://twitter.com/kamilah_santos"
+          },
+          {
+            "name": "Letícia Silva",
+            "instagram": "https://instagram.com/dii_lua",
+            "twitter": "https://twitter.com/dii_lua"
+          },
+          {
+            "name": "Marianna Costa",
+            "twitter": "https://twitter.com/ITrecruitermari",
+            "instagram": "https://instagram.com/mariannapcosta"
+          },
+          {
+            "name": "Bru",
+            "linkedin": "https://linkedin.com/in/bruna-s-b2700b46"
+          },
+          {
+            "name": "Isabela Norton",
+            "twitter": "https://twitter.com/isanortontech",
+            "linkedin": "https://linkedin.com/in/isabelanorton"
+          }
+        ],
+        "time": "16h05"
+      }
+    ],
+    "next": true
+  }
+]

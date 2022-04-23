@@ -18,7 +18,7 @@ export default {
 .social-link {
   border-radius: 10px;
   padding: 0.5em 0.8em;
-  margin :0.1em;
+  margin: 0.1em;
 }
 
 .social-link:hover {
@@ -47,6 +47,16 @@ export default {
 }
 
 .darkBlue-social-link {
+  background-color: white;
+  color: var(--darkBlue);
+}
+
+.darkBlue-inverse-social-link {
+  background-color: var(--darkBlue);
+  color: white;
+}
+
+.darkBlue-inverse-social-link:hover {
   background-color: white;
   color: var(--darkBlue);
 }
