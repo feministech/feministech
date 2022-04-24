@@ -12,7 +12,12 @@
 
     <div class="talks" v-if="event.talks">
       <div v-for="talk in event.talks" :key="talk">
-        <Talk :talkTitle="talk.title" :talkHosts="talk.hosts" :talkTime="talk.time" />
+        <Talk
+          :talkTitle="talk.title"
+          :talkTime="talk.time"
+          :talkLink="talk.link"
+          :talkHosts="talk.hosts"
+        />
       </div>
     </div>
   </div>
