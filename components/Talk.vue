@@ -1,54 +1,57 @@
 <template>
   <div class="talk">
     <div class="talk-info">
-      <h1 class="talk-title">{{ talkTitle }}</h1>
-      <h3 class="talk-time">{{ talkTime }}</h3>
+      <h1 class="talk-title" v-if="talkTitle">{{ talkTitle }}</h1>
+      <h3 class="talk-time" v-if="talkTime">{{ talkTime }}</h3>
+      <h3>
+        <a :href="talkLink" v-if="talkLink">Vídeo</a>
+      </h3>
       <div class="hosts" v-if="talkHosts">
-      <div class="host" v-for="host in talkHosts" :key="host"><h2 class="talk-host">{{ host.name }}</h2>
-      <div class="host-social-links">
-        <SocialButton
-          v-if="host.github"
-          :socialLink="host.github"
-          fontAwesome="fab fa-github"
-          class="social-link darkBlue-inverse-social-link"
-        />
-        <SocialButton
-          v-if="host.twitch"
-          :socialLink="host.twitch"
-          fontAwesome="fab fa-twitch"
-          class="social-link darkBlue-inverse-social-link"
-        />
-        <SocialButton
-          v-if="host.devto"
-          :socialLink="host.devto"
-          fontAwesome="fab fa-dev"
-          class="social-link darkBlue-inverse-social-link"
-        />
-        <SocialButton
-          v-if="host.twitter"
-          :socialLink="host.twitter"
-          fontAwesome="fab fa-twitter"
-          class="social-link darkBlue-inverse-social-link"
-        />
-        <SocialButton
-          v-if="host.linkedin"
-          :socialLink="host.linkedin"
-          fontAwesome="fab fa-linkedin-in"
-          class="social-link darkBlue-inverse-social-link"
-        />
-        <SocialButton
-          v-if="host.instagram"
-          :socialLink="host.instagram"
-          fontAwesome="fab fa-instagram"
-          class="social-link darkBlue-inverse-social-link"
-        />
+        <div class="host" v-for="host in talkHosts" :key="host">
+          <h2 class="talk-host">{{ host.name }}</h2>
+          <div class="host-social-links">
+            <SocialButton
+              v-if="host.github"
+              :socialLink="host.github"
+              fontAwesome="fab fa-github"
+              class="social-link darkBlue-inverse-social-link"
+            />
+            <SocialButton
+              v-if="host.twitch"
+              :socialLink="host.twitch"
+              fontAwesome="fab fa-twitch"
+              class="social-link darkBlue-inverse-social-link"
+            />
+            <SocialButton
+              v-if="host.devto"
+              :socialLink="host.devto"
+              fontAwesome="fab fa-dev"
+              class="social-link darkBlue-inverse-social-link"
+            />
+            <SocialButton
+              v-if="host.twitter"
+              :socialLink="host.twitter"
+              fontAwesome="fab fa-twitter"
+              class="social-link darkBlue-inverse-social-link"
+            />
+            <SocialButton
+              v-if="host.linkedin"
+              :socialLink="host.linkedin"
+              fontAwesome="fab fa-linkedin-in"
+              class="social-link darkBlue-inverse-social-link"
+            />
+            <SocialButton
+              v-if="host.instagram"
+              :socialLink="host.instagram"
+              fontAwesome="fab fa-instagram"
+              class="social-link darkBlue-inverse-social-link"
+            />
+          </div>
+          <div></div>
+        </div>
       </div>
-      <div>
-      </div>
-      </div>
+      <span class="line"></span>
     </div>
-    <span class="line"></span>
-  </div>
   </div>
 </template>
 
@@ -57,8 +60,9 @@ export default {
   name: "TalkCard",
   props: {
     talkTitle: String,
-    talkHosts: Array,
     talkTime: String,
+    talkLink: String,
+    talkHosts: Array,
   },
 }
 </script>
@@ -88,16 +92,16 @@ export default {
   text-align: justify;
 }
 
-.host{
+.host {
   margin-top: 1em;
-    margin-bottom: 2em;
-  }
+  margin-bottom: 2em;
+}
 
-.host-social-links{
+.host-social-links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  }
+}
 
 .talk-title {
   font-size: 4.5ch;

@@ -13,6 +13,7 @@
       {
         "title": "E aí, bora palestrar?",
         "time": "14h15",
+        "link": "https://www.twitch.tv/videos/1410939651",
         "hosts": [
           {
             "name": "Camila Campos",
@@ -23,6 +24,7 @@
       {
         "title": "5 Dicas para quem quer começar a palestrar",
         "time": "14h45",
+        "link": "https://www.twitch.tv/videos/1413257315",
         "hosts": [
           {
             "name": "Mariana Silva",
@@ -31,7 +33,6 @@
         ]
       }
     ],
-    "link": "https://www.twitch.tv/videos/1413257315",
     "next": false
   },
   {
@@ -42,6 +43,7 @@
       {
         "title": "Como desenvolver projetos pessoais e aprender com isso",
         "time": "14h15",
+        "link": "https://www.twitch.tv/videos/1438780506?collection=6rWTuUld4BY8Sw",
         "hosts": [
           {
             "name": "Letícia (Lelê) Gargez",
@@ -54,7 +56,29 @@
       {
         "title": "Como aprender utilizando o método 3C",
         "time": "14h45",
+        "link": "https://www.twitch.tv/videos/1438780505?collection=6rWTuUld4BY8Sw",
         "hosts": [
+          {
+            "name": "Lissa Ferreira",
+            "github": "https://github.com/lissaferreira",
+            "devto": "https://dev.to/lissadev",
+            "instagram": "https://instagram.com/lissadev",
+            "linkedin": "https://www.linkedin.com/in/lissadev/",
+            "twitter": "https://twitter.com/lissadev_"
+          }
+        ]
+      },
+      {
+        "title": "Roda de conversa sobre aprendizado",
+        "time": "14h15",
+        "link": "https://www.twitch.tv/videos/1438780503?collection=6rWTuUld4BY8Sw",
+        "hosts": [
+          {
+            "name": "Letícia (Lelê) Gargez",
+            "github": "https://github.com/LelePG",
+            "devto": "https://dev.to/lelepg",
+            "linkedin": "https://www.linkedin.com/in/lelepg/"
+          },
           {
             "name": "Lissa Ferreira",
             "github": "https://github.com/lissaferreira",
@@ -75,8 +99,30 @@
     "date": "08/04/2022",
     "talks": [
       {
+        "title": "Roda de conversa sobre Frontend",
+        "time": "17h15",
+        "link": "https://www.twitch.tv/videos/1461190039?collection=_MJeUri46BZdNw",
+        "hosts": [
+          {
+            "name": "Letícia (Lelê) Gargez",
+            "github": "https://github.com/LelePG",
+            "devto": "https://dev.to/lelepg",
+            "linkedin": "https://www.linkedin.com/in/lelepg/"
+          },
+          {
+            "name": "levxyca",
+            "twitter": "https://twitter.com/levxyca",
+            "github": "https://github.com/levxyca",
+            "instagram": "https://instagram.com/levxyca",
+            "devto": "https://dev.to/levxyca",
+            "linkedin": "https://www.linkedin.com/in/levxyca/"
+          }
+        ]
+      },
+      {
         "title": "Acessibilidade e HTML semântico",
         "time": "17h45",
+        "link": "https://www.twitch.tv/videos/1461190043?collection=_MJeUri46BZdNw",
         "hosts": [
           {
             "name": "levxyca",
@@ -91,6 +137,7 @@
       {
         "title": "Github e Readme",
         "time": "18h15",
+        "link": "https://www.twitch.tv/videos/1461190042?collection=_MJeUri46BZdNw",
         "hosts": [
           {
             "name": "Letícia (Lelê) Gargez",
@@ -101,18 +148,18 @@
         ]
       }
     ],
-    "link": "https://www.twitch.tv/videos/1461190040",
     "next": false
   },
   {
     "name": "Feministalk: Carreiras",
     "description": "Feministalk sobre carreiras no mundo da tecnologia",
     "date": "23/04/2022 às 12h45",
-    "link": "https://www.twitch.tv/morgannadev",
+    "link": "https://www.twitch.tv/videos/1465825509",
     "talks": [
       {
         "title": "Keynote: Conhecendo Silvia Coelho: Inspire-se em sua história",
         "time": "13h00",
+        "link": "https://www.twitch.tv/videos/1465813089?collection=cHX1ETLm6BaiEw",
         "hosts": [
           {
             "name": "Silvia Coelho",
@@ -123,6 +170,7 @@
       {
         "title": "O mundo das mentorias e suas surpresas",
         "time": "13h35",
+        "link": "https://www.twitch.tv/videos/1465813090?collection=cHX1ETLm6BaiEw",
         "hosts": [
           {
             "name": "Paula Santana",
@@ -133,17 +181,20 @@
       },
       {
         "title": "Papo sobre vida de pessoa desenvolvedora e empreendedora",
+        "link": "https://www.twitch.tv/videos/1465813087?collection=cHX1ETLm6BaiEw",
+        "time": "14h10",
         "hosts": [
           {
             "name": "Monique Oliveira",
             "twitter": "https://twitter.com/moniquelive",
             "instagram": "https://instagram.com/moniquelive.dev"
           }
-        ],
-        "time": "14h10"
+        ]
       },
       {
         "title": "Dicas de carreira para ingresso, transição e processos seletivos",
+        "time": "14h45",
+        "link": "https://www.twitch.tv/videos/1465813092?collection=cHX1ETLm6BaiEw",
         "hosts": [
           {
             "name": "Cami Martins",
@@ -152,21 +203,23 @@
             "twitch": "https://twitch.tv/punkdodevops",
             "github": "https://github.com/camilla-m"
           }
-        ],
-        "time": "14h45"
+        ]
       },
       {
         "title": "PJotinha, vale mesmo a pena?",
+        "time": "15h20",
+        "link": "https://www.twitch.tv/videos/1465813091?collection=cHX1ETLm6BaiEw",
         "hosts": [
           {
             "name": "Isabelle Samways",
             "twitter": "https://twitter.com/bellesamways"
           }
-        ],
-        "time": "15h20"
+        ]
       },
       {
         "title": "Roda de conversa sobre carreiras",
+        "time": "16h05",
+        "link": "https://www.twitch.tv/videos/1465813088?collection=cHX1ETLm6BaiEw",
         "hosts": [
           {
             "name": "Jamille Oliveira",
@@ -198,8 +251,7 @@
             "twitter": "https://twitter.com/isanortontech",
             "linkedin": "https://linkedin.com/in/isabelanorton"
           }
-        ],
-        "time": "16h05"
+        ]
       }
     ],
     "next": true
