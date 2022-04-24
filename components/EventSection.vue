@@ -23,7 +23,7 @@ export default {
   name: 'EventSection',
   data() {
     return {
-      events: eventsJSON,
+      events: eventsJSON.reverse(),
     }
   },
 }
@@ -38,7 +38,7 @@ export default {
 }
 
 .events {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

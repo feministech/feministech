@@ -26,7 +26,7 @@ export default {
 <style>
 .event-card {
   width: 30em;
-  min-height: 23vh;
+  min-height: 29vh;
   border-radius: 15px;
   padding: 1em;
   background-color: var(--pink);
@@ -36,15 +36,9 @@ export default {
   margin: 1em 0.5em;
 }
 
-@media screen and (max-width: 2200px) {
-  .event-card {
-    width: 40vw;
-  }
-}
-
 @media screen and (max-width: 1000px) {
   .event-card {
-    width: 40vw;
+    width: 30vw;
     flex-direction: column;
     align-items: center;
   }
@@ -55,6 +49,9 @@ export default {
     width: 60vw;
     flex-direction: column;
     align-items: center;
+  }
+  .event-image {
+    width: 35vw;
   }
 }
 
