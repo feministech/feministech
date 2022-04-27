@@ -4,7 +4,7 @@
     <div class="events">
       <div class="event" v-for="(event, index) in events" :key="event">
         <EventCard
-          :id="index"
+          :id="events.length - 1 - index"
           :eventName="event.name"
           :eventDescription="event.description"
           :eventDate="event.date"
