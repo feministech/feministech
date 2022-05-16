@@ -21,7 +21,8 @@
     "image": "images/members/carol.webp",
     "imageAlt": "Carol de cabelos pretos, brinco e com rosto sorridente",
     "githubLink": "https://github.com/caroldonadel",
-    "twitterLink": "https://dev.to/acaroldonadel"
+    "twitterLink": "https://twitter.com/acaroldonadel",
+    "linkedinLink": "https://linkedin.com/in/carolina-donadel"
   },
   {
     "name": "Fernanda Souza",
@@ -37,7 +38,7 @@
     "linkedinLink": "https://linkedin.com/in/leitoraincomum"
   },
   {
-    "name": "Letícia (Lelê) Gargez",
+    "name": "Letícia (Lelê) Garcez",
     "job": "Produtora de conteúdo",
     "communityRole": "Coordenadora",
     "color": "pink",
@@ -106,10 +107,10 @@
   },
   {
     "name": "Pachi Codes",
-    "job": "Devrel",
+    "job": "Engenheira de DevRel",
     "communityRole": "Coordenadora",
     "color": "pink",
-    "city": "São Paulo, BR",
+    "city": "Bauru, BR",
     "image": "images/members/pachicodes.webp",
     "imageAlt": "Pachi com um cabelo de raiz preta e fios verdes, óculos e de casaco, com um leve sorriso de um lado do rosto",
     "githubLink": "https://github.com/pachicodes",

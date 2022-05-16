@@ -8,8 +8,10 @@
     <h1 class="feministech-title">Feita para todes</h1>
 
     <p>
-      Somos um grupo de pessoas que se identificam no feminino e não bináries e
-      que compartilham o interesse por tecnologia.
+      A Feministech é um
+      <strong>grupo de pessoas que se identificam no feminino e não-bináries</strong>
+      que produzem, consumem e compartilham conteúdo sobre tecnologia, em
+      um ambiente diverso e inclusivo.
     </p>
 
     <div class="hero-social-links">
@@ -26,7 +28,7 @@ export default {
 
 <style>
 .hero {
-  background-image: url('/images/rainbow-background.svg');
+  background-image: url("/images/rainbow-background.svg");
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
