@@ -162,17 +162,17 @@
   },
   {
     "name": "Amanda Martins",
-    "job": "Desenvolvedora Fullstack",
-    "communityRole": "Streamer",
-    "color": "purple",
+    "job": "Desenvolvedora de Software",
+    "communityRole": "Creator",
+    "color": "darkBlue",
     "city": "São Paulo, BR",
     "image": "images/members/mandys.webp",
-    "imageAlt": "Amanda sorrindo com cabelos cacheados roxos e camiseta branca.",
-    "githubLink": "https://github.com/mandysdev",
-    "twitchLink": "https://twitch.tv/mandysdev",
-    "devtoLink": "https://dev.to/mandysdev",
+    "imageAlt": "Amanda pensativa, com a mão no queixo, de cabelos cacheados pretos, curtos e camiseta marrom.",
+    "githubLink": "https://github.com/AmandaMartinsDev",
+    "twitchLink": "https://twitch.tv/AmandaMartinsDev",
+    "devtoLink": "https://dev.to/AmandaMartinsDev",
     "twitterLink": "https://twitter.com/mandysdev",
-    "linkedinLink": "https://linkedin.com/in/mandysdev"
+    "linkedinLink": "https://linkedin.com/in/amandamartinsdev"
   },
   {
     "name": "Gláucia Esppenchutz",
