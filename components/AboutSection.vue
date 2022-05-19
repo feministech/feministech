@@ -4,7 +4,7 @@
     <p>
       A Feministech é um
       <strong>grupo de pessoas que se identificam no feminino e não-bináries</strong>
-      que produzem, consumem e compartilham conteúdo sobre tecnologia, em
+      que produzem, consomem e compartilham conteúdo sobre tecnologia, em
       um ambiente diverso e inclusivo.
     </p>
     <p>
