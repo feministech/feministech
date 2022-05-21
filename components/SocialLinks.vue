@@ -6,6 +6,11 @@
       :class="color + '-social-link'"
     />
     <SocialButton
+      socialLink="https://www.linkedin.com/company/feministech"
+      fontAwesome="fab fa-linkedin"
+      :class="color + '-social-link'"
+    />
+    <SocialButton
       socialLink="https://www.twitch.tv/team/livecodergirls"
       fontAwesome="fab fa-twitch"
       :class="color + '-social-link'"

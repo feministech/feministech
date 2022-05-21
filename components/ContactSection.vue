@@ -3,9 +3,10 @@
     <h1>Entre em contato</h1>
     <p>
       Para entrar em contato com a Feministech, nos envie um email em
-      <a href="mailto:contato@feminis.tech" class="email-link">
-        contato@feminis.tech
-      </a>
+      <a
+        href="mailto:oifeministech@gmail.com"
+        class="email-link"
+      >oifeministech@gmail.com</a>
     </p>
   </section>
 </template>
