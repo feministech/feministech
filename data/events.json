@@ -254,6 +254,84 @@
         ]
       }
     ],
+    "next": false
+  },
+  {
+    "name": "Feministalk: Como se tornar uma Feministreamer",
+    "description": "Feministalk sobre como começar a fazer lives",
+    "date": "28/05/2022",
+    "talks": [
+      {
+        "title": "Como começar a fazer lives",
+        "time": "10h00",
+        "hosts": [
+          {
+            "name": "Gisele Passuti",
+            "twitter": "https://twitter.com/gikatips",
+            "instagram": "https://instagram.com/gikatips",
+            "twitch": "https://twitch.tv/gikapassuti",
+            "linkedin": "https://www.linkedin.com/in/gisele-passuti-barbosa"
+          }
+        ]
+      },
+      {
+        "title": "Roda de conversa sobre live",
+        "time": "10h30",
+        "hosts": [
+          {
+            "name": "Gisele Passuti",
+            "twitter": "https://twitter.com/gikatips",
+            "instagram": "https://instagram.com/gikatips",
+            "twitch": "https://twitch.tv/gikapassuti",
+            "linkedin": "https://www.linkedin.com/in/gisele-passuti-barbosa"
+          },
+          {
+            "name": "levxyca",
+            "twitter": "https://twitter.com/levxyca",
+            "github": "https://github.com/levxyca",
+            "instagram": "https://instagram.com/levxyca",
+            "devto": "https://dev.to/levxyca",
+            "linkedin": "https://www.linkedin.com/in/levxyca/"
+          },
+          {
+            "name": "Raquel Tecna",
+            "twitter": "https://twitter.com/RaquelTecna",
+            "instagram": "https://instagram.com/RaquelTecna",
+            "twitch": "xtecna"
+          },
+          {
+            "name": "Amanda Martins",
+            "twitter": "https://twitter.com/MandysDev",
+            "linkedin": "https://www.linkedin.com/in/AmandaMartinsDev",
+            "github": "https://github.com/AmandaMartinsDev",
+            "devto": "https://dev.to/AmandaMartinsDev"
+          },
+          {
+            "name": "Dani Caus",
+            "twitch": "https://twitch.tv/danicaus"
+          },
+          {
+            "name": "Aline",
+            "instagram": "https://instagram.com/sejogaaline",
+            "twitch": "https://instagram.com/sejogaaline"
+          },
+          {
+            "name": "Aline",
+            "twitter": "https://twitter.com/alinepontocom",
+            "twitch": "https://twitch.tv/alinepontocom"
+          },
+          {
+            "name": "Morganna",
+            "twitter": "https://twitter.com/morgannadev",
+            "github": "https://github.com/morgannadev",
+            "instagram": "https://instagram.com/morgannadev",
+            "devto": "https://dev.to/morgannadev",
+            "linkedin": "https://www.linkedin.com/in/morgannadev/"
+          }
+        ]
+      }
+    ],
+    "link": "https://www.twitch.tv/gikapassuti",
     "next": true
   }
 ]
