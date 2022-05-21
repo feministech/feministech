@@ -1,113 +1,32 @@
 [
   {
-    "name": "Botequeens Spoilers 2022",
-    "description": "Evento de começo de ano da Feministech, anunciando os eventos que terão durante o ano",
-    "date": "29/01/2022",
-    "next": false
-  },
-  {
-    "name": "Feministalk: Como Palestrar",
-    "description": "Feministalk onde falamos sobre como começar a palestrar",
-    "date": "26/02/2022",
+    "name": "Feministalk: Como se tornar uma Feministreamer",
+    "description": "Feministalk sobre como começar a fazer lives",
+    "date": "28/05/2022",
     "talks": [
       {
-        "title": "E aí, bora palestrar?",
-        "time": "14h15",
-        "link": "https://www.twitch.tv/videos/1410939651",
+        "title": "Como começar a fazer lives",
+        "time": "10h00",
         "hosts": [
           {
-            "name": "Camila Campos",
-            "twitter": "https://twitter.com/camposmilaa"
+            "name": "Gisele Passuti",
+            "twitter": "https://twitter.com/gikatips",
+            "instagram": "https://instagram.com/gikatips",
+            "twitch": "https://twitch.tv/gikapassuti",
+            "linkedin": "https://www.linkedin.com/in/gisele-passuti-barbosa"
           }
         ]
       },
       {
-        "title": "5 Dicas para quem quer começar a palestrar",
-        "time": "14h45",
-        "link": "https://www.twitch.tv/videos/1413257315",
+        "title": "Roda de conversa sobre live",
+        "time": "10h30",
         "hosts": [
           {
-            "name": "Mariana Silva",
-            "linkedin": "https://www.linkedin.com/in/amaridoqa"
-          }
-        ]
-      }
-    ],
-    "next": false
-  },
-  {
-    "name": "Feministalk: AprenDev",
-    "description": "Feministalk sobre técnicas de aprendizado no mundo da tecnologia",
-    "date": "26/03/2022",
-    "talks": [
-      {
-        "title": "Como desenvolver projetos pessoais e aprender com isso",
-        "time": "14h15",
-        "link": "https://www.twitch.tv/videos/1438780506?collection=6rWTuUld4BY8Sw",
-        "hosts": [
-          {
-            "name": "Letícia (Lelê) Garcez",
-            "github": "https://github.com/LelePG",
-            "devto": "https://dev.to/lelepg",
-            "linkedin": "https://www.linkedin.com/in/lelepg/"
-          }
-        ]
-      },
-      {
-        "title": "Como aprender utilizando o método 3C",
-        "time": "14h45",
-        "link": "https://www.twitch.tv/videos/1438780505?collection=6rWTuUld4BY8Sw",
-        "hosts": [
-          {
-            "name": "Lissa Ferreira",
-            "github": "https://github.com/lissaferreira",
-            "devto": "https://dev.to/lissadev",
-            "instagram": "https://instagram.com/lissadev",
-            "linkedin": "https://www.linkedin.com/in/lissadev/",
-            "twitter": "https://twitter.com/lissadev_"
-          }
-        ]
-      },
-      {
-        "title": "Roda de conversa sobre aprendizado",
-        "time": "14h15",
-        "link": "https://www.twitch.tv/videos/1438780503?collection=6rWTuUld4BY8Sw",
-        "hosts": [
-          {
-            "name": "Letícia (Lelê) Garcez",
-            "github": "https://github.com/LelePG",
-            "devto": "https://dev.to/lelepg",
-            "linkedin": "https://www.linkedin.com/in/lelepg/"
-          },
-          {
-            "name": "Lissa Ferreira",
-            "github": "https://github.com/lissaferreira",
-            "devto": "https://dev.to/lissadev",
-            "instagram": "https://instagram.com/lissadev",
-            "linkedin": "https://www.linkedin.com/in/lissadev/",
-            "twitter": "https://twitter.com/lissadev_"
-          }
-        ]
-      }
-    ],
-    "link": "https://www.twitch.tv/videos/1438780503",
-    "next": false
-  },
-  {
-    "name": "Feministalk: Grace Hopper",
-    "description": "Feministalk sobre Frontend em comemoração á primeira reunião da Grace Hopper para a criação da linguagem Cobol",
-    "date": "08/04/2022",
-    "talks": [
-      {
-        "title": "Roda de conversa sobre Frontend",
-        "time": "17h15",
-        "link": "https://www.twitch.tv/videos/1461190039?collection=_MJeUri46BZdNw",
-        "hosts": [
-          {
-            "name": "Letícia (Lelê) Garcez",
-            "github": "https://github.com/LelePG",
-            "devto": "https://dev.to/lelepg",
-            "linkedin": "https://www.linkedin.com/in/lelepg/"
+            "name": "Gisele Passuti",
+            "twitter": "https://twitter.com/gikatips",
+            "instagram": "https://instagram.com/gikatips",
+            "twitch": "https://twitch.tv/gikapassuti",
+            "linkedin": "https://www.linkedin.com/in/gisele-passuti-barbosa"
           },
           {
             "name": "levxyca",
@@ -116,39 +35,47 @@
             "instagram": "https://instagram.com/levxyca",
             "devto": "https://dev.to/levxyca",
             "linkedin": "https://www.linkedin.com/in/levxyca/"
-          }
-        ]
-      },
-      {
-        "title": "Acessibilidade e HTML semântico",
-        "time": "17h45",
-        "link": "https://www.twitch.tv/videos/1461190043?collection=_MJeUri46BZdNw",
-        "hosts": [
+          },
           {
-            "name": "levxyca",
-            "twitter": "https://twitter.com/levxyca",
-            "github": "https://github.com/levxyca",
-            "instagram": "https://instagram.com/levxyca",
-            "devto": "https://dev.to/levxyca",
-            "linkedin": "https://www.linkedin.com/in/levxyca/"
-          }
-        ]
-      },
-      {
-        "title": "Github e Readme",
-        "time": "18h15",
-        "link": "https://www.twitch.tv/videos/1461190042?collection=_MJeUri46BZdNw",
-        "hosts": [
+            "name": "Raquel Tecna",
+            "twitter": "https://twitter.com/RaquelTecna",
+            "instagram": "https://instagram.com/RaquelTecna",
+            "twitch": "xtecna"
+          },
           {
-            "name": "Letícia (Lelê) Garcez",
-            "github": "https://github.com/LelePG",
-            "devto": "https://dev.to/lelepg",
-            "linkedin": "https://www.linkedin.com/in/lelepg/"
+            "name": "Amanda Martins",
+            "twitter": "https://twitter.com/MandysDev",
+            "linkedin": "https://www.linkedin.com/in/AmandaMartinsDev",
+            "github": "https://github.com/AmandaMartinsDev",
+            "devto": "https://dev.to/AmandaMartinsDev"
+          },
+          {
+            "name": "Dani Caus",
+            "twitch": "https://twitch.tv/danicaus"
+          },
+          {
+            "name": "Aline",
+            "instagram": "https://instagram.com/sejogaaline",
+            "twitch": "https://instagram.com/sejogaaline"
+          },
+          {
+            "name": "Aline",
+            "twitter": "https://twitter.com/alinepontocom",
+            "twitch": "https://twitch.tv/alinepontocom"
+          },
+          {
+            "name": "Morganna",
+            "twitter": "https://twitter.com/morgannadev",
+            "github": "https://github.com/morgannadev",
+            "instagram": "https://instagram.com/morgannadev",
+            "devto": "https://dev.to/morgannadev",
+            "linkedin": "https://www.linkedin.com/in/morgannadev/"
           }
         ]
       }
     ],
-    "next": false
+    "link": "https://www.twitch.tv/gikapassuti",
+    "next": true
   },
   {
     "name": "Feministalk: Carreiras",
@@ -257,33 +184,20 @@
     "next": false
   },
   {
-    "name": "Feministalk: Como se tornar uma Feministreamer",
-    "description": "Feministalk sobre como começar a fazer lives",
-    "date": "28/05/2022",
+    "name": "Feministalk: Grace Hopper",
+    "description": "Feministalk sobre Frontend em comemoração á primeira reunião da Grace Hopper para a criação da linguagem Cobol",
+    "date": "08/04/2022",
     "talks": [
       {
-        "title": "Como começar a fazer lives",
-        "time": "10h00",
+        "title": "Roda de conversa sobre Frontend",
+        "time": "17h15",
+        "link": "https://www.twitch.tv/videos/1461190039?collection=_MJeUri46BZdNw",
         "hosts": [
           {
-            "name": "Gisele Passuti",
-            "twitter": "https://twitter.com/gikatips",
-            "instagram": "https://instagram.com/gikatips",
-            "twitch": "https://twitch.tv/gikapassuti",
-            "linkedin": "https://www.linkedin.com/in/gisele-passuti-barbosa"
-          }
-        ]
-      },
-      {
-        "title": "Roda de conversa sobre live",
-        "time": "10h30",
-        "hosts": [
-          {
-            "name": "Gisele Passuti",
-            "twitter": "https://twitter.com/gikatips",
-            "instagram": "https://instagram.com/gikatips",
-            "twitch": "https://twitch.tv/gikapassuti",
-            "linkedin": "https://www.linkedin.com/in/gisele-passuti-barbosa"
+            "name": "Letícia (Lelê) Garcez",
+            "github": "https://github.com/LelePG",
+            "devto": "https://dev.to/lelepg",
+            "linkedin": "https://www.linkedin.com/in/lelepg/"
           },
           {
             "name": "levxyca",
@@ -292,46 +206,132 @@
             "instagram": "https://instagram.com/levxyca",
             "devto": "https://dev.to/levxyca",
             "linkedin": "https://www.linkedin.com/in/levxyca/"
-          },
+          }
+        ]
+      },
+      {
+        "title": "Acessibilidade e HTML semântico",
+        "time": "17h45",
+        "link": "https://www.twitch.tv/videos/1461190043?collection=_MJeUri46BZdNw",
+        "hosts": [
           {
-            "name": "Raquel Tecna",
-            "twitter": "https://twitter.com/RaquelTecna",
-            "instagram": "https://instagram.com/RaquelTecna",
-            "twitch": "xtecna"
-          },
+            "name": "levxyca",
+            "twitter": "https://twitter.com/levxyca",
+            "github": "https://github.com/levxyca",
+            "instagram": "https://instagram.com/levxyca",
+            "devto": "https://dev.to/levxyca",
+            "linkedin": "https://www.linkedin.com/in/levxyca/"
+          }
+        ]
+      },
+      {
+        "title": "Github e Readme",
+        "time": "18h15",
+        "link": "https://www.twitch.tv/videos/1461190042?collection=_MJeUri46BZdNw",
+        "hosts": [
           {
-            "name": "Amanda Martins",
-            "twitter": "https://twitter.com/MandysDev",
-            "linkedin": "https://www.linkedin.com/in/AmandaMartinsDev",
-            "github": "https://github.com/AmandaMartinsDev",
-            "devto": "https://dev.to/AmandaMartinsDev"
-          },
-          {
-            "name": "Dani Caus",
-            "twitch": "https://twitch.tv/danicaus"
-          },
-          {
-            "name": "Aline",
-            "instagram": "https://instagram.com/sejogaaline",
-            "twitch": "https://instagram.com/sejogaaline"
-          },
-          {
-            "name": "Aline",
-            "twitter": "https://twitter.com/alinepontocom",
-            "twitch": "https://twitch.tv/alinepontocom"
-          },
-          {
-            "name": "Morganna",
-            "twitter": "https://twitter.com/morgannadev",
-            "github": "https://github.com/morgannadev",
-            "instagram": "https://instagram.com/morgannadev",
-            "devto": "https://dev.to/morgannadev",
-            "linkedin": "https://www.linkedin.com/in/morgannadev/"
+            "name": "Letícia (Lelê) Garcez",
+            "github": "https://github.com/LelePG",
+            "devto": "https://dev.to/lelepg",
+            "linkedin": "https://www.linkedin.com/in/lelepg/"
           }
         ]
       }
     ],
-    "link": "https://www.twitch.tv/gikapassuti",
-    "next": true
+    "next": false
+  },
+  {
+    "name": "Feministalk: AprenDev",
+    "description": "Feministalk sobre técnicas de aprendizado no mundo da tecnologia",
+    "date": "26/03/2022",
+    "talks": [
+      {
+        "title": "Como desenvolver projetos pessoais e aprender com isso",
+        "time": "14h15",
+        "link": "https://www.twitch.tv/videos/1438780506?collection=6rWTuUld4BY8Sw",
+        "hosts": [
+          {
+            "name": "Letícia (Lelê) Garcez",
+            "github": "https://github.com/LelePG",
+            "devto": "https://dev.to/lelepg",
+            "linkedin": "https://www.linkedin.com/in/lelepg/"
+          }
+        ]
+      },
+      {
+        "title": "Como aprender utilizando o método 3C",
+        "time": "14h45",
+        "link": "https://www.twitch.tv/videos/1438780505?collection=6rWTuUld4BY8Sw",
+        "hosts": [
+          {
+            "name": "Lissa Ferreira",
+            "github": "https://github.com/lissaferreira",
+            "devto": "https://dev.to/lissadev",
+            "instagram": "https://instagram.com/lissadev",
+            "linkedin": "https://www.linkedin.com/in/lissadev/",
+            "twitter": "https://twitter.com/lissadev_"
+          }
+        ]
+      },
+      {
+        "title": "Roda de conversa sobre aprendizado",
+        "time": "14h15",
+        "link": "https://www.twitch.tv/videos/1438780503?collection=6rWTuUld4BY8Sw",
+        "hosts": [
+          {
+            "name": "Letícia (Lelê) Garcez",
+            "github": "https://github.com/LelePG",
+            "devto": "https://dev.to/lelepg",
+            "linkedin": "https://www.linkedin.com/in/lelepg/"
+          },
+          {
+            "name": "Lissa Ferreira",
+            "github": "https://github.com/lissaferreira",
+            "devto": "https://dev.to/lissadev",
+            "instagram": "https://instagram.com/lissadev",
+            "linkedin": "https://www.linkedin.com/in/lissadev/",
+            "twitter": "https://twitter.com/lissadev_"
+          }
+        ]
+      }
+    ],
+    "link": "https://www.twitch.tv/videos/1438780503",
+    "next": false
+  },
+  {
+    "name": "Feministalk: Como Palestrar",
+    "description": "Feministalk onde falamos sobre como começar a palestrar",
+    "date": "26/02/2022",
+    "talks": [
+      {
+        "title": "E aí, bora palestrar?",
+        "time": "14h15",
+        "link": "https://www.twitch.tv/videos/1410939651",
+        "hosts": [
+          {
+            "name": "Camila Campos",
+            "twitter": "https://twitter.com/camposmilaa"
+          }
+        ]
+      },
+      {
+        "title": "5 Dicas para quem quer começar a palestrar",
+        "time": "14h45",
+        "link": "https://www.twitch.tv/videos/1413257315",
+        "hosts": [
+          {
+            "name": "Mariana Silva",
+            "linkedin": "https://www.linkedin.com/in/amaridoqa"
+          }
+        ]
+      }
+    ],
+    "next": false
+  },
+  {
+    "name": "Botequeens Spoilers 2022",
+    "description": "Evento de começo de ano da Feministech, anunciando os eventos que terão durante o ano",
+    "date": "29/01/2022",
+    "next": false
   }
 ]
