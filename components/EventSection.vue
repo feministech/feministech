@@ -2,9 +2,9 @@
   <section id="eventos" class="event-section">
     <h1>Nossos Eventos</h1>
     <div class="events">
-      <div class="event" v-for="(event, index) in events" :key="event">
+      <div class="event" v-for="event in events" :key="event">
         <EventCard
-          :id="events.length - 1 - index"
+          :id="event.id"
           :eventName="event.name"
           :eventDescription="event.description"
           :eventDate="event.date"
@@ -33,7 +33,6 @@ export default {
   },
   methods: {
     showMoreEvents() {
-      console.log("oi")
       this.eventPage++
       this.events = this.eventsBrute.slice(0, 4 * this.eventPage)
     }
