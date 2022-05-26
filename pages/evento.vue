@@ -11,7 +11,9 @@ export default {
   name: 'EventPage',
   data() {
     return {
-      event: eventsJSON[this.$route.query.evento] || eventsJSON[eventsJSON.length - 1],
+      event: eventsJSON.filter((event) => {
+        return event.id === Number(this.$route.query.evento)
+      })[0] || eventsJSON[eventsJSON.length - 1],
     }
   },
 }
