@@ -10,7 +10,7 @@
     <p>
       O objetivo da Feministech é
       <strong>aumentar a representatividade de minorias no mundo da tecnologia</strong>
-      , que além de serem minorias na tecnologia, também são minorias socias que
+      , que além de serem minorias na tecnologia, também são minorias sociais que
       precisam de mais espaço e alcance em todos os espaços.
     </p>
 

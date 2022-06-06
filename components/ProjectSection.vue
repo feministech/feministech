@@ -11,7 +11,7 @@
 
       <ProjectCard
         projectName="Artigos da Feministech"
-        projectDescription="Artigos criados por participantes da Feministech, ensinando algo ou propondo uma discussão relacionada á tecnologia."
+        projectDescription="Artigos criados por participantes da Feministech, ensinando algo ou propondo uma discussão relacionada à tecnologia."
         projectLink="https://dev.to/feministech"
       />
 
@@ -23,7 +23,7 @@
 
       <ProjectCard
         projectName="Bot da Feministech"
-        projectDescription="Nosso bot que atua em chats da Twitch, divulgando e oferencendo comandos que facilitam a divulgação da palavra da Feministech."
+        projectDescription="Nosso bot que atua em chats da Twitch, divulgando e oferecendo comandos que facilitam a divulgação da palavra da Feministech."
         projectLink="https://github.com/feministech/feministech-bot"
       />
     </div>
