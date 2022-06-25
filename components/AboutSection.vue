@@ -3,14 +3,14 @@
     <h1>Sobre a Feministech</h1>
     <p>
       A Feministech é um
-      <strong>grupo de pessoas que se identificam no feminino e não-bináries</strong>
+      <strong>grupo de pessoas que se identificam no feminino e não bináries</strong>
       que produzem, consomem e compartilham conteúdo sobre tecnologia, em
       um ambiente diverso e inclusivo.
     </p>
     <p>
       O objetivo da Feministech é
       <strong>aumentar a representatividade de minorias no mundo da tecnologia</strong>
-      , que além de serem minorias na tecnologia, também são minorias socias que
+      , que além de serem minorias na tecnologia, também são minorias sociais que
       precisam de mais espaço e alcance em todos os espaços.
     </p>
 
