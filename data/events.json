@@ -1,5 +1,76 @@
 [
   {
+    "id": 7,
+    "name": "Feministalk: Acessibilidade",
+    "description": "Feministalk e roda de conversa sobre acessibilidade",
+    "date": "25/06/2022",
+    "talks": [
+      {
+        "title": "Apresentação",
+        "time": "13h00",
+        "hosts": [
+          {
+            "name": "Ted Sá",
+            "twitter": "https://twitter.com/unnotedme",
+            "instagram": "https://instagram.com/unnotedme",
+            "twitch": "https://twitch.tv/unnotedme",
+            "linkedin": "https://www.linkedin.com/in/unnotedme"
+          }
+        ]
+      },
+      {
+        "title": "Acessibilidade digital, é sobre quem?",
+        "time": "13h15",
+        "hosts": [
+          {
+            "name": "Victória Krupp",
+            "linkedin": "https://www.linkedin.com/in/victoria-raupp",
+            "medium": "https://medium.com/@victoriaraupp"
+          }
+        ]
+      },
+      {
+        "title": "Acessibilidade no contexto de criação de algo: da ideia ao teste",
+        "time": "13h55",
+        "hosts": [
+          {
+            "name": "Lívia Gabos",
+            "twitter": "https://twitter.com/liviagabos",
+            "linkedin": "https://www.linkedin.com/liviagabos"
+          }
+        ]
+      },
+      {
+        "title": "Roda de conversa",
+        "time": "15h15",
+        "hosts": [
+          {
+            "name": "Sandyara Peres",
+            "instagram": "https://www.instagram.com/sandyaraperes/",
+            "linkedin": "https://www.linkedin.com/in/sandyaraperes/",
+            "github": "https://github.com/SandyaraPeres/"
+          },
+          {
+            "name": "Ana Gouvêa",
+            "linkedin": "https://www.linkedin.com/in/aanagouvea/"
+          },
+          {
+            "name": "Marília Suzart",
+            "instagram": "https://instagram.com/unnotedme",
+            "linkedin": "https://www.linkedin.com/in/gabrielesuzart",
+            "linktree": "https://linktr.ee/accessibility4devs"
+          },
+          {
+            "name": "Lívia Gabos",
+            "twitter": "https://twitter.com/liviagabos",
+            "linkedin": "https://www.linkedin.com/liviagabos"
+          }
+        ]
+      }
+    ],
+    "link": "https://www.twitch.tv/unnotedme",
+    "next": true
+  },{
     "id": 6,
     "name": "Feministalk: Como se tornar uma Feministreamer",
     "description": "Feministalk sobre como começar a fazer lives",
@@ -76,7 +147,7 @@
       }
     ],
     "link": "https://www.twitch.tv/gikapassuti",
-    "next": true
+    "next": false
   },
   {
     "id": 5,
