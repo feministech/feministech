@@ -147,6 +147,20 @@
     "linkedinLink": "https://www.linkedin.com/in/patricia-novaes"
   },
   {
+    "name": "Patrícia Villela",
+    "job": "Desenvolvedora de Software",
+    "communityRole": "Coordenadora",
+    "color": "pink",
+    "city": "São Paulo, BR",
+    "image": "images/members/patriciavillela.webp",
+    "imageAlt": "Patrícia, branca de cabelos longos, olhando para a esquerda ao horizonte, vestindo um vestido bordô, um chapéu de palha e um leve sorriso.",
+    "githubLink": "https://github.com/patriciavillela",
+    "twitchLink": "https://twitch.tv/patriciavob",
+    "devtoLink": "https://dev.to/patriciavillela",
+    "twitterLink": "https://twitter.com/patriciaverso",
+    "linkedinLink": "https://www.linkedin.com/in/patriciavob"
+  },
+  {
     "name": "Eh Muito Drama",
     "job": "Fullstack",
     "communityRole": "Streamer",
