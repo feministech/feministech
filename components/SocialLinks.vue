@@ -26,7 +26,7 @@
       :class="color + '-social-link'"
     />
     <SocialButton
-      socialLink="https://www.instagram.com/feminis_cat/"
+      socialLink="https://www.instagram.com/feminis_tech/"
       fontAwesome="fab fa-instagram"
       :class="color + '-social-link'"
     />
