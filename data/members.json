@@ -71,11 +71,11 @@
     "city": "Mato Grosso do Sul, BR",
     "image": "images/members/lissa.webp",
     "imageAlt": "Lissa sorridente com cabelos castanhos cacheados, piscando só um olhos para a foto",
-    "githubLink": "https://github.com/lissaferreira",
-    "twitchLink": "https://twitch.tv/lissadev",
-    "devtoLink": "https://dev.to/lissadev",
-    "twitterLink": "https://twitter.com/lissadev_",
-    "linkedinLink": "https://www.linkedin.com/in/lissadev/"
+    "githubLink": "https://github.com/lissatransborda",
+    "twitchLink": "https://twitch.tv/lissatransborda",
+    "devtoLink": "https://dev.to/lissatransborda",
+    "twitterLink": "https://twitter.com/lissatransborda",
+    "linkedinLink": "https://www.linkedin.com/in/lissatransborda/"
   },
   {
     "name": "MoniqueLive",
@@ -227,17 +227,4 @@
     "twitterLink": "https://twitter.com/jesstemporal",
     "linkedinLink": "https://www.linkedin.com/in/jessicatemporal"
   },
-  {
-    "name": "Snittey",
-    "job": "Cientista de Dados",
-    "communityRole": "Streamer",
-    "color": "purple",
-    "city": "São Paulo, BR",
-    "image": "images/members/snittey.webp",
-    "imageAlt": "Mayara em um fundo neon, rosto sorridente, de casaco e de corpo todo",
-    "githubLink": "https://github.com/mayara-canaver/",
-    "twitchLink": "https://www.twitch.tv/snittey/",
-    "twitterLink": "https://twitter.com/MayaraCanaver",
-    "linkedinLink": "https://www.linkedin.com/in/mayara-canaver/"
-  }
 ]
