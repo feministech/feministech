@@ -67,10 +67,10 @@
         "hosts": [
           {
             "name": "Patrícia Vilella",
-            "twitter": "https://twitter.com/patriciaverso",
+            "twitter": "https://twitter.com/patriciaverso"
           }
         ]
-      },
+      }
     ],
     "link": "https://www.twitch.tv/danicaus",
     "next": true
