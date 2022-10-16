@@ -30,6 +30,11 @@
       fontAwesome="fab fa-instagram"
       :class="color + '-social-link'"
     />
+    <SocialButton
+      socialLink="https://www.youtube.com/c/feministech/"
+      fontAwesome="fab fa-youtube"
+      :class="color + '-social-link'"
+    />
   </div>
 </template>
 
