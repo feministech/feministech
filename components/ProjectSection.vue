@@ -3,10 +3,11 @@
     <h1>Projetos</h1>
 
     <div class="projects">
-      <ProjectCard v-for="project in projects" :key="project"
-       :projectName="project.name"
-       :projectDescription="project.description"
-       :projectLink="project.link"
+      <ProjectCard
+        v-for="project in projects" :key="project.name"
+       :project-name="project.name"
+       :project-description="project.description"
+       :project-link="project.link"
       />
     </div>
   </section>
