@@ -3,8 +3,7 @@
     <h1>Quem participa?</h1>
 
     <div class="members">
-      <div class="member" v-for="member in members" :key="member">
-        <MemberCard
+        <MemberCard v-for="member in members" :key="member"
           :memberName="member.name"
           :memberJob="member.job"
           :memberCity="member.city"
@@ -18,7 +17,6 @@
           :twitterLink="member.twitterLink"
           :linkedinLink="member.linkedinLink"
         />
-      </div>
     </div>
   </section>
 </template>
