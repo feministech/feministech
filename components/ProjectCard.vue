@@ -8,7 +8,7 @@
         {{ projectDescription }}
       </p>
     </div>
-    <a :href="projectLink" class="project-link" target="_blank" v-if="projectLink">
+    <a v-if="projectLink" :href="projectLink" class="project-link" target="_blank">
       <span>Acessar o projeto </span>
       <i class="fas fa-external-link-alt"></i>
     </a>
@@ -19,9 +19,18 @@
 export default {
   name: 'ProjectCard',
   props: {
-    projectName: String,
-    projectDescription: String,
-    projectLink: String,
+    projectName: {
+      type: String,
+      default: ""
+    },
+    projectDescription: {
+      type: String,
+      default: ""
+    },
+    projectLink: {
+      type: String,
+      default: ""
+    },
   },
 }
 </script>

@@ -3,19 +3,20 @@
     <h1>Quem participa?</h1>
 
     <div class="members">
-        <MemberCard v-for="member in members" :key="member"
-          :memberName="member.name"
-          :memberJob="member.job"
-          :memberCity="member.city"
-          :memberCommunityRole="member.communityRole"
-          :memberColor="member.color"
-          :memberImage="member.image"
-          :imageAlt="member.imageAlt"
-          :githubLink="member.githubLink"
-          :twitchLink="member.twitchLink"
-          :devtoLink="member.devtoLink"
-          :twitterLink="member.twitterLink"
-          :linkedinLink="member.linkedinLink"
+        <MemberCard
+v-for="member in members" :key="member.name"
+          :member-name="member.name"
+          :member-job="member.job"
+          :member-city="member.city"
+          :member-community-role="member.communityRole"
+          :member-color="member.color"
+          :member-image="member.image"
+          :image-alt="member.imageAlt"
+          :github-link="member.githubLink"
+          :twitch-link="member.twitchLink"
+          :devto-link="member.devtoLink"
+          :twitter-link="member.twitterLink"
+          :linkedin-link="member.linkedinLink"
         />
     </div>
   </section>
