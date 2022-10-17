@@ -8,7 +8,7 @@
         {{ projectDescription }}
       </p>
     </div>
-    <a :href="projectLink" class="project-link" target="_blank">
+    <a :href="projectLink" class="project-link" target="_blank" v-if="projectLink">
       <span>Acessar o projeto </span>
       <i class="fas fa-external-link-alt"></i>
     </a>

@@ -1,0 +1,35 @@
+[
+    {
+    "name": "Feministech Podcast",
+    "description": "Nosso podcast discute assuntos ligados ao mundo da tecnologia, com pessoas que se identificam no feminino ou não bináries, criando um conteúdo mais diverso e inclusivo num mercado tão pouco representado.",
+    "link": "https://anchor.fm/feministech"
+  },
+
+  {
+    "name": "Artigos da Feministech",
+    "description": "Artigos criados por participantes da Feministech, ensinando algo ou propondo uma discussão relacionada à tecnologia.",
+    "link": "https://dev.to/feministech"
+  },
+
+  {
+    "name": "Time de Streamers",
+    "description": "Nosso time de streamers na Twitch, transmitindo lives de tecnologia, buscando ensinar e aprender juntes.",
+    "link": "https://www.twitch.tv/team/livecodergirls"
+  },
+
+  {
+    "name": "Bot da Feministech",
+    "description": "Nosso bot que atua em chats da Twitch, divulgando e oferecendo comandos que facilitam a divulgação da palavra da Feministech.",
+    "link": "https://github.com/feministech/feministech-bot"
+  },
+  {
+    "name": "Feministalks",
+    "description": "São nossos eventos mensais nos quais  abordamos assuntos relacionados à tecnologia, produção de conteúdo, carreiras e quaisquer outros tópicos que sejam relevantes para as pessoas da comunidade.",
+    "link": "#eventos"
+  },
+  {
+    "name": "Maratonas",
+    "description": "São eventos maiores em que diversas pessoas da comunidade compartilham conhecimento fazendo lives na Twitch, passando de uma live para outra durante o dia.",
+    "link": "https://maratona3.live/"
+  }
+]
