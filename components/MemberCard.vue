@@ -1,7 +1,7 @@
 <template>
   <div :class="memberColor + '-member-card member-card'">
     <div>
-      <img :src="memberImage" alt="imageAlt" class="member-image" />
+      <img :src="memberImage" aria-hidden="true" class="member-image" />
     </div>
     <div class="member-info">
       <h2 class="member-name">
@@ -21,30 +21,35 @@
           v-if="githubLink"
           :socialLink="githubLink"
           fontAwesome="fab fa-github"
+          :aria-label="Link para o github"
           :class="memberColor + '-social-link'"
         />
         <SocialButton
           v-if="twitchLink"
           :socialLink="twitchLink"
           fontAwesome="fab fa-twitch"
+          :aria-label="Link para a twitch"
           :class="memberColor + '-social-link'"
         />
         <SocialButton
           v-if="devtoLink"
           :socialLink="devtoLink"
           fontAwesome="fab fa-dev"
+          :aria-label="Link para o dev.to"
           :class="memberColor + '-social-link'"
         />
         <SocialButton
           v-if="twitterLink"
           :socialLink="twitterLink"
           fontAwesome="fab fa-twitter"
+          :aria-label="Link para o twitter"
           :class="memberColor + '-social-link'"
         />
         <SocialButton
           v-if="linkedinLink"
           :socialLink="linkedinLink"
           fontAwesome="fab fa-linkedin-in"
+          :aria-label="Link para o linkedin"
           :class="memberColor + '-social-link'"
         />
       </div>
