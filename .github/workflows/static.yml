@@ -9,6 +9,6 @@ jobs:
       - id: Build-Vue
         uses: ashkantaravati/NuxtToGithubPages@v1.0
         with:
-          username: 'feministech'
-          reponame: 'feministech.github.io'
+          username: 'tabita'
+          reponame: 'tabita-barbosa.github.io'
           token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
