@@ -20,35 +20,35 @@
         <SocialButton
           v-if="githubLink"
           :socialLink="githubLink"
-          fontAwesome="fab fa-github"
+          socialIcon="github"
           aria-label="Link para o github"
           :class="memberColor + '-social-link'"
         />
         <SocialButton
           v-if="twitchLink"
           :socialLink="twitchLink"
-          fontAwesome="fab fa-twitch"
+          socialIcon="twitch"
           aria-label="Link para a twitch"
           :class="memberColor + '-social-link'"
         />
         <SocialButton
           v-if="devtoLink"
           :socialLink="devtoLink"
-          fontAwesome="fab fa-dev"
+          socialIcon="dev"
           aria-label="Link para o dev.to"
           :class="memberColor + '-social-link'"
         />
         <SocialButton
           v-if="twitterLink"
           :socialLink="twitterLink"
-          fontAwesome="fab fa-twitter"
+          socialIcon="twitter"
           aria-label="Link para o twitter"
           :class="memberColor + '-social-link'"
         />
         <SocialButton
           v-if="linkedinLink"
           :socialLink="linkedinLink"
-          fontAwesome="fab fa-linkedin-in"
+          socialIcon="linkedin"
           aria-label="Link para o linkedin"
           :class="memberColor + '-social-link'"
         />

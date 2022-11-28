@@ -1,3 +1,5 @@
+import { faDev, faGithub, faInstagram, faLinkedin, faTwitch, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+
 export default {
   target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -24,12 +26,6 @@ export default {
         href: 'https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@400;700&display=swap',
       },
     ],
-    script: [
-      {
-        src: 'https://kit.fontawesome.com/d98da4d885.js',
-        crossorigin: 'anonymous',
-      },
-    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -45,6 +41,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/fontawesome',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -61,4 +58,17 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // Font Awesome
+  fontawesome: {
+    icons: [
+      faDev,
+      faGithub,
+      faInstagram,
+      faLinkedin,
+      faTwitch,
+      faTwitter,
+      faYoutube,
+    ]
+  }
 }

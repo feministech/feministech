@@ -13,37 +13,37 @@
             <SocialButton
               v-if="host.github"
               :socialLink="host.github"
-              fontAwesome="fab fa-github"
+              socialIcon="github"
               class="social-link darkBlue-inverse-social-link"
             />
             <SocialButton
               v-if="host.twitch"
               :socialLink="host.twitch"
-              fontAwesome="fab fa-twitch"
+              socialIcon="twitch"
               class="social-link darkBlue-inverse-social-link"
             />
             <SocialButton
               v-if="host.devto"
               :socialLink="host.devto"
-              fontAwesome="fab fa-dev"
+              socialIcon="dev"
               class="social-link darkBlue-inverse-social-link"
             />
             <SocialButton
               v-if="host.twitter"
               :socialLink="host.twitter"
-              fontAwesome="fab fa-twitter"
+              socialIcon="twitter"
               class="social-link darkBlue-inverse-social-link"
             />
             <SocialButton
               v-if="host.linkedin"
               :socialLink="host.linkedin"
-              fontAwesome="fab fa-linkedin-in"
+              socialIcon="linkedin"
               class="social-link darkBlue-inverse-social-link"
             />
             <SocialButton
               v-if="host.instagram"
               :socialLink="host.instagram"
-              fontAwesome="fab fa-instagram"
+              socialIcon="instagram"
               class="social-link darkBlue-inverse-social-link"
             />
           </div>

@@ -13,6 +13,8 @@
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/vue-fontawesome": "^2.0.9",
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.21.0",
     "nuxt": "^2.15.8",
@@ -22,8 +24,11 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@nuxtjs/eslint-config": "^8.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "eslint": "^8.8.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^3.1.0",

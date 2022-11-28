@@ -1,6 +1,12 @@
 <template>
-  <a :href="socialLink" id="social-link" class="social-link" target="_blank">
-    <i :class="fontAwesome" aria-hidden="true"></i>
+  <a :href="$attrs.socialLink" id="social-link" class="social-link" target="_blank">
+    <font-awesome-icon v-if="$attrs.socialIcon == 'dev'" :icon="faDev"/>
+    <font-awesome-icon v-else-if="$attrs.socialIcon == 'github'" :icon="faGithub"/>
+    <font-awesome-icon v-else-if="$attrs.socialIcon == 'instagram'" :icon="faInstagram"/>
+    <font-awesome-icon v-else-if="$attrs.socialIcon == 'linkedin'" :icon="faLinkedin"/>
+    <font-awesome-icon v-else-if="$attrs.socialIcon == 'twitch'" :icon="faTwitch"/>
+    <font-awesome-icon v-else-if="$attrs.socialIcon == 'twitter'" :icon="faTwitter"/>
+    <font-awesome-icon v-else :icon="faYoutube"/>
   </a>
 </template>
 
@@ -9,7 +15,7 @@ export default {
   name: 'SocialButton',
   props: {
     socialLink: String,
-    fontAwesome: String,
+    socialIcon: String,
   },
 }
 </script>
@@ -76,3 +82,37 @@ export default {
   color: var(--pink);
 }
 </style>
+
+<script>
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faTwitter, faLinkedin, faDev, faTwitch, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+
+export default {
+  computed: {
+    fas () {
+       return fas // NOT RECOMMENDED
+    },
+    faGithub () {
+       return faGithub
+    },
+    faTwitter () {
+       return faTwitter
+    },
+    faLinkedin () {
+       return faLinkedin
+    },
+    faTwitch () {
+       return faTwitch
+    },
+    faDev () {
+       return faDev
+    },
+    faInstagram () {
+       return faInstagram
+    },
+    faYoutube () {
+       return faYoutube
+    },
+  },
+}
+</script>
