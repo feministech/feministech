@@ -2,19 +2,19 @@
   <div class="social-links" :style="cssProps">
     <SocialButton
       socialLink="https://twitter.com/feminis_tech/"
-      fontAwesome="fab fa-twitter"
+      fontAwesome="fa fa-twitter"
       aria-label="Link para a twitter"
       :class="color + '-social-link'"
     />
     <SocialButton
       socialLink="https://www.linkedin.com/company/feministech"
-      fontAwesome="fab fa-linkedin"
+      fontAwesome="fa fa-linkedin"
       aria-label="Link para o linkedin"
       :class="color + '-social-link'"
     />
     <SocialButton
       socialLink="https://www.twitch.tv/team/livecodergirls"
-      fontAwesome="fab fa-twitch"
+      fontAwesome="fa fa-twitch"
       aria-label="Link para a twitch"
       :class="color + '-social-link'"
     />
@@ -26,19 +26,19 @@
     />
     <SocialButton
       socialLink="https://github.com/feministech"
-      fontAwesome="fab fa-github"
+      fontAwesome="fa fa-github"
       aria-label="Link para o repositório do github"
       :class="color + '-social-link'"
     />
     <SocialButton
       socialLink="https://www.instagram.com/feminis_tech/"
-      fontAwesome="fab fa-instagram"
+      fontAwesome="fa fa-instagram"
       aria-label="Link para o instagram"
       :class="color + '-social-link'"
     />
     <SocialButton
       socialLink="https://www.youtube.com/c/feministech/"
-      fontAwesome="fab fa-youtube"
+      fontAwesome="fa fa-youtube"
       aria-label="Link para o youtube"
       :class="color + '-social-link'"
     />
