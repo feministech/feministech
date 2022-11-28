@@ -14,12 +14,13 @@
       </div>
     </div>
     <button v-if="events.length != eventsBrute.length" @click="showMoreEvents" class="moreEvents">
-      <i class="fa-solid fa-spinner"></i>
+    <font-awesome-icon :icon="faSpinner" />
     </button>
   </section>
 </template>
 
 <script>
+import { fas, faSpinner } from '@fortawesome/free-solid-svg-icons'
 import eventsJSON from '../data/events.json'
 
 export default {
@@ -36,7 +37,15 @@ export default {
       this.eventPage++
       this.events = this.eventsBrute.slice(0, 4 * this.eventPage)
     }
-  }
+  },
+  computed: {
+    fas () {
+       return fas // NOT RECOMMENDED
+    },
+    faSpinner () {
+       return faSpinner
+    },
+},
 }
 
 </script>

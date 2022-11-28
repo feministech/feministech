@@ -1,4 +1,5 @@
 import { faDev, faGithub, faInstagram, faLinkedin, faTwitch, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 
 export default {
   target: 'static',
@@ -69,6 +70,7 @@ export default {
       faTwitch,
       faTwitter,
       faYoutube,
+      faSpinner
     ]
   }
 }
