@@ -1,7 +1,7 @@
 <template>
   <section class="hero">
     <img
-      src="images/feministech_logo.webp"
+      src="/images/feministech_logo.webp"
       alt="Logo da Feministech com a letra F estilizada roxa no centro de uma arte de uma filmadora."
       class="logo"
     />
