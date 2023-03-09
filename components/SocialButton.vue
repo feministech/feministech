@@ -1,12 +1,12 @@
 <template>
-  <a :href="$attrs.socialLink" id="social-link" class="social-link" target="_blank">
-    <font-awesome-icon v-if="$attrs.socialIcon == 'dev'" :icon="faDev"/>
-    <font-awesome-icon v-else-if="$attrs.socialIcon == 'github'" :icon="faGithub"/>
-    <font-awesome-icon v-else-if="$attrs.socialIcon == 'instagram'" :icon="faInstagram"/>
-    <font-awesome-icon v-else-if="$attrs.socialIcon == 'linkedin'" :icon="faLinkedin"/>
-    <font-awesome-icon v-else-if="$attrs.socialIcon == 'twitch'" :icon="faTwitch"/>
-    <font-awesome-icon v-else-if="$attrs.socialIcon == 'twitter'" :icon="faTwitter"/>
-    <font-awesome-icon v-else :icon="faYoutube"/>
+  <a :href="socialLink" id="social-link" class="social-link" target="_blank">
+    <font-awesome-icon v-if="socialIcon == 'dev'" icon="fa-brands fa-dev"/>
+    <font-awesome-icon v-else-if="socialIcon == 'github'" icon="fa-brands fa-github"/>
+    <font-awesome-icon v-else-if="socialIcon == 'instagram'" icon="fa-brands fa-instagram"/>
+    <font-awesome-icon v-else-if="socialIcon == 'linkedin'" icon="fa-brands fa-linkedin"/>
+    <font-awesome-icon v-else-if="socialIcon == 'twitch'" icon="fa-brands fa-twitch"/>
+    <font-awesome-icon v-else-if="socialIcon == 'twitter'" icon="fa-brands fa-twitter"/>
+    <font-awesome-icon v-else icon="fa-brands fa-youtube"/>
   </a>
 </template>
 
@@ -82,37 +82,3 @@ export default {
   color: var(--pink);
 }
 </style>
-
-<script>
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faTwitter, faLinkedin, faDev, faTwitch, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
-
-export default {
-  computed: {
-    fas () {
-       return fas // NOT RECOMMENDED
-    },
-    faGithub () {
-       return faGithub
-    },
-    faTwitter () {
-       return faTwitter
-    },
-    faLinkedin () {
-       return faLinkedin
-    },
-    faTwitch () {
-       return faTwitch
-    },
-    faDev () {
-       return faDev
-    },
-    faInstagram () {
-       return faInstagram
-    },
-    faYoutube () {
-       return faYoutube
-    },
-  },
-}
-</script>

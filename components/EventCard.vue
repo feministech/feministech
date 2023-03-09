@@ -3,7 +3,7 @@
     <h2 class="event-name">{{ eventName }}</h2>
     <p class="event-description">{{ eventDescription }}</p>
     <span>
-      <NuxtLink class="event-link" :to="{ path: '/evento?evento=' + id }">Link do evento</NuxtLink>
+      <NuxtLink class="event-link" :to="{ path: '/evento', query: {evento: id}}">Link do evento</NuxtLink>
     </span>
     <p class="event-date">{{ eventDate }}</p>
   </div>
