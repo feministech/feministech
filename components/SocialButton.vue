@@ -1,12 +1,6 @@
 <template>
   <a :href="socialLink" id="social-link" class="social-link" target="_blank">
-    <font-awesome-icon v-if="socialIcon == 'dev'" icon="fa-brands fa-dev"/>
-    <font-awesome-icon v-else-if="socialIcon == 'github'" icon="fa-brands fa-github"/>
-    <font-awesome-icon v-else-if="socialIcon == 'instagram'" icon="fa-brands fa-instagram"/>
-    <font-awesome-icon v-else-if="socialIcon == 'linkedin'" icon="fa-brands fa-linkedin"/>
-    <font-awesome-icon v-else-if="socialIcon == 'twitch'" icon="fa-brands fa-twitch"/>
-    <font-awesome-icon v-else-if="socialIcon == 'twitter'" icon="fa-brands fa-twitter"/>
-    <font-awesome-icon v-else icon="fa-brands fa-youtube"/>
+    <font-awesome-icon :icon="['fab', socialIcon]" />
   </a>
 </template>
 

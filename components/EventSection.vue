@@ -14,7 +14,7 @@
       </div>
     </div>
     <button v-if="events.length != eventsBrute.length" @click="showMoreEvents" class="moreEvents">
-    <font-awesome-icon :icon="faSpinner" />
+    <font-awesome-icon :icon="['fas', 'spinner']" />
     </button>
   </section>
 </template>
