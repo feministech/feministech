@@ -19,59 +19,64 @@ export default {
   border-radius: 10px;
   padding: 0.5em 0.8em;
   margin: 0.1em;
+  transition-duration: 0.2s;
 }
 
 .social-link:hover {
   cursor: pointer;
-  transition: 0.2s;
+  transition-duration: 0.2s;
 }
 
-.purple-social-link {
+svg {
+  transition-duration: 0.2s;
+}
+
+.purple-social-link, .purple-social-link > svg {
   background-color: white;
   color: var(--purple);
 }
 
-.purple-social-link:hover {
+.purple-social-link:hover, .purple-social-link:hover > svg {
   background-color: var(--lightBlue);
   color: white;
 }
 
-.pink-social-link {
+.pink-social-link, .pink-social-link > svg {
   background-color: white;
   color: var(--pink);
 }
 
-.pink-social-link:hover {
+.pink-social-link:hover, .pink-social-link:hover > svg {
   background-color: var(--lightBlue);
   color: white;
 }
 
-.darkBlue-social-link {
+.darkBlue-social-link, .darkBlue-social-link > svg {
   background-color: white;
   color: var(--darkBlue);
 }
 
-.darkBlue-inverse-social-link {
+.darkBlue-inverse-social-link, .darkBlue-inverse-social-link > svg {
   background-color: var(--darkBlue);
   color: white;
 }
 
-.darkBlue-inverse-social-link:hover {
+.darkBlue-inverse-social-link:hover, .darkBlue-inverse-social-link:hover > svg {
   background-color: white;
   color: var(--darkBlue);
 }
 
-.darkBlue-social-link:hover {
+.darkBlue-social-link:hover, .darkBlue-social-link:hover > svg {
   background-color: var(--pink);
   color: white;
 }
 
-.pink-background-social-link {
+.pink-background-social-link, .pink-background-social-link > svg {
   background-color: var(--pink);
   color: white;
 }
 
-.pink-background-social-link:hover {
+.pink-background-social-link:hover, .pink-background-social-link:hover > svg {
   background-color: white;
   color: var(--pink);
 }
