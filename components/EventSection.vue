@@ -14,7 +14,7 @@
       </div>
     </div>
     <button v-if="events.length != eventsBrute.length" @click="showMoreEvents" class="moreEvents">
-    <font-awesome-icon :icon="['fas', 'spinner']" />
+      <font-awesome-icon :icon="['fas', 'spinner']" />
     </button>
   </section>
 </template>
@@ -72,6 +72,10 @@ export default {
   width: 8em;
   height: 4em;
   cursor: pointer;
+}
+
+svg {
+  width: 2em;
 }
 @media screen and (max-width: 500px) {
   .events {

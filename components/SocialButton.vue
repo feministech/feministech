@@ -1,8 +1,6 @@
 <template>
   <a :href="socialLink" id="social-link" class="social-link" target="_blank">
-  <client-only>
-    <font-awesome-icon :icon="['fab', socialIcon]" class="brandIcon" />
-  </client-only>
+    <font-awesome-icon :icon="['fab', socialIcon]" />
   </a>
 </template>
 
@@ -19,9 +17,11 @@ export default {
 <style>
 .social-link {
   border-radius: 10px;
-  padding: 0.5em 0.8em;
+  padding: 0.5em 0.5em;
   margin: 0.1em;
   transition-duration: 0.2s;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 .social-link:hover {
@@ -29,56 +29,57 @@ export default {
   transition-duration: 0.2s;
 }
 
-.brandIcon {
+svg {
   transition-duration: 0.2s;
+  width: 100%;
 }
 
-.purple-social-link, .purple-social-link > .brandIcon {
+.purple-social-link, .purple-social-link > svg {
   background-color: white;
   color: var(--purple);
 }
 
-.purple-social-link:hover, .purple-social-link:hover > .brandIcon {
+.purple-social-link:hover, .purple-social-link:hover > svg {
   background-color: var(--lightBlue);
   color: white;
 }
 
-.pink-social-link, .pink-social-link > .brandIcon {
+.pink-social-link, .pink-social-link > svg {
   background-color: white;
   color: var(--pink);
 }
 
-.pink-social-link:hover, .pink-social-link:hover > .brandIcon {
+.pink-social-link:hover, .pink-social-link:hover > svg {
   background-color: var(--lightBlue);
   color: white;
 }
 
-.darkBlue-social-link, .darkBlue-social-link > .brandIcon {
+.darkBlue-social-link, .darkBlue-social-link > svg {
   background-color: white;
   color: var(--darkBlue);
 }
 
-.darkBlue-inverse-social-link, .darkBlue-inverse-social-link > .brandIcon {
+.darkBlue-inverse-social-link, .darkBlue-inverse-social-link > svg {
   background-color: var(--darkBlue);
   color: white;
 }
 
-.darkBlue-inverse-social-link:hover, .darkBlue-inverse-social-link:hover > .brandIcon {
+.darkBlue-inverse-social-link:hover, .darkBlue-inverse-social-link:hover > svg {
   background-color: white;
   color: var(--darkBlue);
 }
 
-.darkBlue-social-link:hover, .darkBlue-social-link:hover > .brandIcon {
+.darkBlue-social-link:hover, .darkBlue-social-link:hover > svg {
   background-color: var(--pink);
   color: white;
 }
 
-.pink-background-social-link, .pink-background-social-link > .brandIcon {
+.pink-background-social-link, .pink-background-social-link > svg {
   background-color: var(--pink);
   color: white;
 }
 
-.pink-background-social-link:hover, .pink-background-social-link:hover > .brandIcon {
+.pink-background-social-link:hover, .pink-background-social-link:hover > svg {
   background-color: white;
   color: var(--pink);
 }
