@@ -17,11 +17,10 @@ export default {
 <style>
 .social-link {
   border-radius: 10px;
-  padding: 0.5em 0.5em;
+  padding: 0.2em;
+  font-size: 2.5ch;
   margin: 0.1em;
   transition-duration: 0.2s;
-  width: 1.5em;
-  height: 1.5em;
 }
 
 .social-link:hover {
@@ -31,7 +30,6 @@ export default {
 
 svg {
   transition-duration: 0.2s;
-  width: 100%;
 }
 
 .purple-social-link, .purple-social-link > svg {
