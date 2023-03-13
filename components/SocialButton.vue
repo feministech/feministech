@@ -32,6 +32,7 @@ export default {
   transition-duration: 0.2s;
   width: 2em;
   height: 1em;
+  margin-top: 0.2em;
 }
 
 .purple-social-link, .purple-social-link > .brandIcon {
