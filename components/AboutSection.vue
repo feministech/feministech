@@ -2,10 +2,9 @@
   <section id="sobre" class="about-section">
     <h1>Sobre a Feministech</h1>
     <p>
-      A Feministech é um
-      <strong>grupo de pessoas que se identificam no feminino e não bináries</strong>
-      que produzem, consomem e compartilham conteúdo sobre tecnologia, em
-      um ambiente diverso e inclusivo.
+      A Feministech é uma <strong>comunidade feminista de pessoas trans, não-binárias
+      e mulheres cis</strong> que produzem, consomem e compartilham conteúdo sobre
+      tecnologia, enquanto constroem uma comunidade diversa e inclusiva.
     </p>
     <p>
       O objetivo da Feministech é
