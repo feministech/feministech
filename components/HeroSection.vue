@@ -8,10 +8,9 @@
     <h1 class="feministech-title">Feita para todes</h1>
 
     <p>
-      A Feministech é um
-      <strong>grupo de pessoas que se identificam no feminino e não-bináries</strong>
-      que produzem, consomem e compartilham conteúdo sobre tecnologia, enquanto constroem
-      uma comunidade diversa e inclusiva.
+      A Feministech é uma <strong>comunidade feminista de pessoas trans, não-binárias
+      e mulheres cis</strong> que produzem, consomem e compartilham conteúdo sobre
+      tecnologia, enquanto constroem uma comunidade diversa e inclusiva.
     </p>
 
     <div class="hero-social-links">
