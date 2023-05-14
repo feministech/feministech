@@ -1,0 +1,14 @@
+@import './vars';
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: $background-color;
+}
+
+body,
+button {
+	font-family: $font-body;
+	font-weight: 300;
+}
