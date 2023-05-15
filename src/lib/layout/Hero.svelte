@@ -2,6 +2,7 @@
 	import BlobGradientLavender from '$lib/blobs/BlobGradientLavender.svelte';
 	import BlobGradientPink from '$lib/blobs/BlobGradientPink.svelte';
 	import SocialMediaList from '$lib/components/SocialMediaList.svelte';
+	import Logo3D from '$lib/components/logo-3d/Logo3D.svelte';
 	import Badge from '$lib/elements/Badge.svelte';
 	import Section from './Section.svelte';
 </script>
@@ -22,7 +23,7 @@
 				</p>
 				<SocialMediaList />
 			</div>
-			<div class="logo-placeholder" />
+			<Logo3D />
 		</div>
 		<BlobGradientLavender />
 		<BlobGradientPink />
@@ -85,12 +86,5 @@
 			line-height: 1.5rem;
 			margin-bottom: 1.75rem;
 		}
-	}
-
-	.logo-placeholder {
-		width: 20rem;
-		height: 20rem;
-		background-color: rgba(#eee, 0.25);
-		border-radius: 4rem;
 	}
 </style>
