@@ -3,7 +3,7 @@
 
 	const pages = [
 		{ label: 'Início', href: '/' },
-		{ label: 'A Feministech', href: '/' },
+		{ label: 'A Feministech', href: '/#sobre' },
 		{ label: 'Eventos', href: '/' },
 		{ label: 'Projetos', href: '/' },
 		{ label: 'Participantes', href: '/' },
@@ -41,7 +41,8 @@
 		border: 1px solid rgba($primary, 0.2);
 		border-radius: 1rem;
 		padding: 0 0.5rem 0 1.5rem;
-		backdrop-filter: blur(4rem);
+		backdrop-filter: blur(1rem);
+		z-index: 10;
 
 		&-items {
 			display: flex;
