@@ -36,7 +36,7 @@
 	.hero {
 		position: relative;
 		width: 100%;
-		padding: calc(6rem + 8rem) 0 8rem; // espaço da navbar + padding
+		padding-top: calc(6rem + 8rem); // espaço da navbar + padding
 
 		&-body {
 			display: flex;
