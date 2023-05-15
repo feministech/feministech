@@ -1,5 +1,11 @@
 @import './vars';
 
+body,
+html {
+	height: 100%;
+	overflow-x: hidden;
+}
+
 body {
 	background-color: $background-color;
 }
