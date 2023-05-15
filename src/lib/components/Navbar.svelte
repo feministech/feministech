@@ -30,7 +30,6 @@
 	.navbar {
 		position: fixed;
 		top: 2rem;
-		left: calc(50% - $page-max-width / 2);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
