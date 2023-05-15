@@ -1,0 +1,96 @@
+<script>
+	import BlobGradientLavender from '$lib/blobs/BlobGradientLavender.svelte';
+	import BlobGradientPink from '$lib/blobs/BlobGradientPink.svelte';
+	import SocialMediaList from '$lib/components/SocialMediaList.svelte';
+	import Badge from '$lib/elements/Badge.svelte';
+	import Section from './Section.svelte';
+</script>
+
+<Section>
+	<div class="hero">
+		<div class="hero-body">
+			<div class="info">
+				<a href="#eventos" class="alert">
+					<Badge>26 de Maio</Badge>
+					Galactech: DevRel, comunidade e conteúdo
+				</a>
+				<h1 class="title">Feita para <span>todes</span>.</h1>
+				<p class="subtitle">
+					A Feministech é uma comunidade feminista de pessoas trans, não-binárias e mulheres cis que
+					produzem, consomem e compartilham conteúdo sobre tecnologia, enquanto constroem uma
+					comunidade diversa e inclusiva.
+				</p>
+				<SocialMediaList />
+			</div>
+			<div class="logo-placeholder" />
+		</div>
+		<BlobGradientLavender />
+		<BlobGradientPink />
+	</div>
+</Section>
+
+<style lang="scss">
+	@import '../scss/vars';
+
+	.hero {
+		position: relative;
+		width: 100%;
+		padding: calc(6rem + 8rem) 0 8rem; // espaço da navbar + padding
+
+		&-body {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+		}
+	}
+
+	.info {
+		display: flex;
+		flex-direction: column;
+
+		.alert {
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+			margin-bottom: 0.5rem;
+			color: #000;
+			text-decoration: none;
+			transition: all 0.2s ease;
+			border-radius: 1rem;
+
+			&:hover {
+				background-color: rgba($primary, 0.05);
+				box-shadow: 0 0 0 0.25rem rgba($primary, 0.05);
+
+				:global(span) {
+					background-color: $primary;
+					color: #fff;
+				}
+			}
+		}
+
+		.title {
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 0.75rem;
+
+			span {
+				color: $primary;
+			}
+		}
+
+		.subtitle {
+			max-width: 28rem;
+			line-height: 1.5rem;
+			margin-bottom: 1.75rem;
+		}
+	}
+
+	.logo-placeholder {
+		width: 20rem;
+		height: 20rem;
+		background-color: rgba(#eee, 0.25);
+		border-radius: 4rem;
+	}
+</style>
