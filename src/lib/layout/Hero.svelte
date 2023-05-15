@@ -54,11 +54,14 @@
 			display: flex;
 			align-items: center;
 			gap: 0.5rem;
+			width: fit-content;
+			padding-right: 0.375rem;
 			margin-bottom: 0.5rem;
 			color: #000;
+			font-size: 14px;
 			text-decoration: none;
-			transition: all 0.2s ease;
 			border-radius: 1rem;
+			transition: all 0.2s ease;
 
 			&:hover {
 				background-color: rgba($primary, 0.05);
