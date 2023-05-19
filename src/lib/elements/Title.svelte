@@ -1,12 +1,15 @@
 <script lang="ts">
 	export let pretitle = '';
+	export let align: 'left' | 'center' | 'right' = 'center';
 </script>
 
 {#if pretitle}
-	<p class="pretitle">{pretitle}</p>
+	<p class="pretitle" class:left={align == 'left'} class:right={align == 'right'}>
+		{pretitle}
+	</p>
 {/if}
 
-<h1 class="title">
+<h1 class="title" class:left={align == 'left'} class:right={align == 'right'}>
 	<slot />
 </h1>
 
@@ -16,6 +19,14 @@
 	.title,
 	.pretitle {
 		text-align: center;
+
+		&.left {
+			text-align: left;
+		}
+
+		&.right {
+			text-align: right;
+		}
 	}
 
 	.pretitle {
