@@ -106,6 +106,7 @@
 			align-items: flex-end;
 			width: 100%;
 			height: 13.5rem;
+			padding: 2rem 0;
 			background: linear-gradient(rgba($background-color, 0.75) 0%, $background-color 75%);
 		}
 	}
