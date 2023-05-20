@@ -2,12 +2,14 @@
 	import '$lib/scss/minireset.scss';
 	import '$lib/scss/global.scss';
 	import Navbar from '$lib/components/Navbar.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <Navbar />
 <main class="main">
 	<slot />
 </main>
+<Footer />
 
 <style lang="scss">
 	.main {
