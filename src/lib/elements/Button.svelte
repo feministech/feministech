@@ -2,9 +2,10 @@
 	export let href = '';
 	export let rounded = false;
 	export let outline = false;
+	export let light = false;
 </script>
 
-<a {href} class="button" class:rounded class:outline>
+<a {href} class="button" class:rounded class:outline class:light>
 	<slot />
 </a>
 
@@ -42,6 +43,11 @@
 				background-color: $primary;
 				color: #fff;
 			}
+		}
+
+		&.light {
+			background-color: #fff;
+			color: $primary;
 		}
 	}
 </style>
