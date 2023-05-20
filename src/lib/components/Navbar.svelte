@@ -36,7 +36,7 @@
 		width: 100%;
 		max-width: $page-max-width;
 		height: 4rem;
-		background-color: rgba($primary, 0.05);
+		background-color: rgba(#f8f2f0, 0.5);
 		border: 1px solid rgba($primary, 0.2);
 		border-radius: 1rem;
 		padding: 0 0.5rem 0 1.5rem;
