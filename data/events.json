@@ -1,5 +1,161 @@
 [
   {
+    "id": 11,
+    "name": "Galactech Conf",
+    "description": "Uma conferência da Feministech sobre Developer Relations, Produção de Conteúdo e Comunidades",
+    "date": "24, 25 e 26/05/2023",
+    "talks": [
+      {
+        "title": "Roda de conversa - As diferentes visões na galáxia Developer Relations",
+        "time": "24/05/23 - das 19h00 às 21h00",
+        "hosts": [
+          {
+            "name": "Morganna (ela/dela)",
+            "twitter": "https://twitter.com/morgannadev",
+            "github": "https://github.com/morgannadev",
+            "instagram": "https://instagram.com/morgannadev",
+            "devto": "https://dev.to/morgannadev",
+            "linkedin": "https://www.linkedin.com/in/morgannadev/"
+          },
+          {
+            "name": "Andreza Rocha (ela/dela)",
+            "linkedin": "https://www.linkedin.com/in/andrezarocha/"
+          },
+          {
+            "name": "Larissa Vitoriano (ela/dela)",
+            "twitter": "https://twitter.com/laricavitoriano",
+            "instagram": "https://instagram.com/laricavitoriano"
+          },
+          {
+            "name": "Pachi Parra (ela/dela)",
+            "twitter": "https://twitter.com/pachicodes",
+            "github": "https://github.com/pachicodes",
+            "instagram": "https://instagram.com/pachicodes"
+          }
+        ]
+      },
+      {
+        "title": "Roda de conversa - Criando conteúdo pelo universo",
+        "time": "25/05/23 - das 19h00 às 21h00",
+        "hosts": [
+          {
+            "name": "Gisele (ela/dela)",
+            "twitter": "https://twitter.com/gikapassuti",
+            "instagram": "https://www.instagram.com/gikapassuti/"
+          },
+          {
+            "name": "Jeniffer Bittencourt (ela/dela)",
+            "twitter": "https://twitter.com/jeniblo_dev",
+            "github": "https://github.com/jeniblodev",
+            "instagram": "https://instagram.com/jeniblo_dev",
+            "linkedin": "https://www.linkedin.com/in/jeniffer-bittencourt"
+          },
+          {
+            "name": "Leticia 'levxyca' (ela/dela)",
+            "twitter": "https://twitter.com/levxyca",
+            "github": "https://github.com/levxyca",
+            "instagram": "https://www.instagram.com/levxyca/",
+            "linkedin": "https://www.linkedin.com/in/leticiacaroline/"
+          },
+          {
+            "name": "Lunna Fabris (ela/dela)",
+            "twitter": "https://twitter.com/Lunna_Fabris"
+          },
+          {
+            "name": "Natália F. Dev (ela/dela)",
+            "instagram": "https://www.instagram.com/nataliafdev/"
+          }
+        ]
+      },
+      {
+        "title": "Abertura",
+        "time": "26/05/23 - das 19h00 às 19h10",
+        "hosts": [
+          {
+            "name": "Gisele (ela/dela)",
+            "twitter": "https://twitter.com/gikapassuti",
+            "instagram": "https://www.instagram.com/gikapassuti/"
+          },
+          {
+            "name": "Morganna (ela/dela)",
+            "twitter": "https://twitter.com/morgannadev",
+            "github": "https://github.com/morgannadev",
+            "instagram": "https://instagram.com/morgannadev",
+            "devto": "https://dev.to/morgannadev",
+            "linkedin": "https://www.linkedin.com/in/morgannadev/"
+          }
+        ]
+      },
+      {
+        "title": "Palestra - Como usar os meios digitais escritos para compartilhar informação com a comunidade.",
+        "time": "26/05/23 - das 19h10 às 19h50",
+        "hosts": [
+          {
+            "name": "Nadi Duno (ela/dela)",
+            "linkedin": "https://www.linkedin.com/in/nadiduno/",
+            "instagram": "https://www.instagram.com/nadiduno.dev/"
+          }
+        ]
+      },
+      {
+        "title": "Palestra - Communities on the Spotlight: O Papel de uma Community Manager",
+        "time": "26/05/23 - das 19h50 às 20h40",
+        "hosts": [
+          {
+            "name": "Malu Sabino (ela/dela)",
+            "linkedin": "https://www.linkedin.com/in/malusabino/",
+            "instagram": "https://www.instagram.com/malusabino/"
+          }
+        ]
+      },
+      {
+        "title": "Palestra - Como gerenciar comunidades?",
+        "time": "26/05/23 - das 20h40 às 21h30",
+        "hosts": [
+          {
+            "name": "Gisele (ela/dela)",
+            "twitter": "https://twitter.com/gikapassuti",
+            "instagram": "https://www.instagram.com/gikapassuti/"
+          },
+          {
+            "name": "Morganna (ela/dela)",
+            "twitter": "https://twitter.com/morgannadev",
+            "github": "https://github.com/morgannadev",
+            "instagram": "https://instagram.com/morgannadev",
+            "devto": "https://dev.to/morgannadev",
+            "linkedin": "https://www.linkedin.com/in/morgannadev/"
+          }
+        ]
+      },
+      {
+        "title": "Ingressos Roadsec, agradecimentos e encerramento",
+        "time": "26/05/23 - das 21h30 às 22h00",
+        "hosts": [
+          {
+            "name": "Malu Sabino (ela/dela)",
+            "linkedin": "https://www.linkedin.com/in/malusabino/",
+            "instagram": "https://www.instagram.com/malusabino/"
+          },
+          {
+            "name": "Gisele (ela/dela)",
+            "twitter": "https://twitter.com/gikapassuti",
+            "instagram": "https://www.instagram.com/gikapassuti/"
+          },
+          {
+            "name": "Morganna (ela/dela)",
+            "twitter": "https://twitter.com/morgannadev",
+            "github": "https://github.com/morgannadev",
+            "instagram": "https://instagram.com/morgannadev",
+            "devto": "https://dev.to/morgannadev",
+            "linkedin": "https://www.linkedin.com/in/morgannadev/"
+          }
+        ]
+      }
+    ],
+    "link": "https://www.twitch.tv/feministech",
+    "next": true
+  },
+  {
     "id": 10,
     "name": "Feministalk Hacktoberfest",
     "description": "Feministalk sobre a Hacktoberfest, abordando Git, Github e Open Source",
