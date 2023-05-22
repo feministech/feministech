@@ -1,5 +1,9 @@
 <script lang="ts">
 	import FeministechLogo from '$lib/brand/FeministechLogo.svelte';
+	import members from '$lib/data/members.json';
+
+	const qtyOfMembers = 24;
+	const randomMembers = members.sort(() => 0.5 - Math.random()).slice(0, qtyOfMembers);
 
 	const calculateRingPositions = (ringSize: number, itemCount: number) => {
 		const positions: [number, number][] = [];
@@ -26,16 +30,17 @@
 	{#each rings as circles, i}
 		<div class="members" class:inner={i == 0} class:outer={i == 1}>
 			{#each circles as [x, y]}
+				{@const index = rings.flat().findIndex(([x2, y2]) => x == x2 && y == y2)}
+				{@const member = randomMembers[index]}
+
 				<a
 					class="member"
-					href="/"
+					href="https://github.com/{member}"
 					target="_blank"
 					rel="noopener noreferrer"
 					style="--x:{x}px;--y:{y}px"
 				>
-					<figure
-						style="background-image:url(https://avatars.dicebear.com/api/adventurer-neutral/{i}{x}{y}.png)"
-					/>
+					<figure style="background-image:url(https://github.com/{member}.png)" />
 				</a>
 			{/each}
 		</div>
