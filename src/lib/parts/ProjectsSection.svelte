@@ -4,22 +4,22 @@
 	import Card from '$lib/elements/Card.svelte';
 	import Title from '$lib/elements/Title.svelte';
 	import Section from '$lib/layout/Section.svelte';
+	import projects from '$lib/data/projects.json';
 </script>
 
 <Section id="projetos">
 	<Title pretitle="Construindo Juntes">Projetos da comunidade</Title>
 	<ul class="projects-grid">
-		{#each Array(6) as uwu}
+		{#each projects as project}
 			<li class="project">
 				<Card>
 					<div class="project-content">
-						<figure class="project-icon" />
-						<h2 class="project-title">Feministech Podcast</h2>
+						<figure class="project-icon" style="background-image:url({project.icon})" />
+						<h2 class="project-title">{project.title}</h2>
 						<p class="project-description">
-							Discutimos assuntos ligados ao mundo da tecnologia, criando um conteúdo mais diverso e
-							inclusivo num mercado tão pouco representado.
+							{project.description}
 						</p>
-						<Button rounded>Ver projeto <ArrowRight size={16} /></Button>
+						<Button href={project.href} rounded>Ver projeto <ArrowRight size={16} /></Button>
 					</div>
 				</Card>
 			</li>
@@ -42,13 +42,13 @@
 			display: flex;
 			flex-direction: column;
 			gap: 12px;
+			height: 100%;
 			padding: 1rem;
 		}
 
 		&-icon {
-			height: 4rem;
-			width: 4rem;
-			border-radius: 1rem;
+			height: 3rem;
+			width: 3rem;
 			background-image: url('/images/projects/feministech-podcast.webp');
 			background-position: center;
 			background-repeat: no-repeat;
@@ -59,6 +59,10 @@
 			font-family: $font-title;
 			font-weight: 700;
 			font-size: 20px;
+		}
+
+		&-description {
+			margin-bottom: auto;
 		}
 	}
 </style>

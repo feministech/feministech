@@ -1,0 +1,38 @@
+[
+	{
+		"title": "Feministech Podcast",
+		"description": "Discutimos assuntos ligados ao mundo da tecnologia, criando um conteúdo mais diverso e inclusivo num mercado tão pouco representado.",
+		"icon": "/images/projects/podcast.webp",
+		"href": "https://anchor.fm/feministech"
+	},
+	{
+		"title": "Artigos da Feministech",
+		"description": "Artigos criados por participantes da Feministech, ensinando algo ou propondo uma discussão relacionada à tecnologia.",
+		"icon": "/images/projects/artigos.webp",
+		"href": "https://dev.to/feministech"
+	},
+	{
+		"title": "Time de Streamers",
+		"description": "Nosso time de streamers na Twitch, transmitindo lives de tecnologia, buscando ensinar e aprender juntes.",
+		"icon": "/images/projects/streamers.webp",
+		"href": "https://www.twitch.tv/team/livecodergirls"
+	},
+	{
+		"title": "Bot da Feministech",
+		"description": "Nosso bot que atua em chats da Twitch, divulgando e oferecendo comandos que facilitam a divulgação da palavra da Feministech.",
+		"icon": "/images/projects/bot.webp",
+		"href": "https://github.com/feministech/feministech-bot"
+	},
+	{
+		"title": "Feministalks",
+		"description": "Nossos eventos mensais nos quais abordamos assuntos relacionados à tecnologia, produção de conteúdo, carreiras e afins.",
+		"icon": "/images/projects/feministalk.webp",
+		"href": "/#eventos"
+	},
+	{
+		"title": "Maratonas",
+		"description": "São eventos maiores em que diversas pessoas compartilham conhecimento fazendo lives na Twitch, passando de uma live para outra durante o dia.",
+		"icon": "/images/projects/maratonas.webp",
+		"href": "https://maratona3.live"
+	}
+]
