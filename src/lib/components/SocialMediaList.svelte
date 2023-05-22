@@ -3,20 +3,20 @@
 	import DevIcon from '$lib/icons/DevIcon.svelte';
 
 	const socials = [
-		{ icon: siGithub, href: '/' },
-		{ icon: siInstagram, href: '/' },
-		{ icon: siTwitter, href: '/' },
-		{ icon: siTwitch, href: '/' },
-		{ icon: siYoutube, href: '/' },
-		{ icon: DevIcon, href: '/' },
-		{ icon: siLinkedin, href: '/' }
+		{ icon: siGithub, href: 'https://github.com/feministech' },
+		{ icon: siInstagram, href: 'https://instagram.com/feminis_tech' },
+		{ icon: siTwitter, href: 'https://twitter.com/feminis_tech' },
+		{ icon: siTwitch, href: 'https://twitch.tv/team/livecodergirls' },
+		{ icon: siYoutube, href: 'https://youtube.com/c/feministech' },
+		{ icon: DevIcon, href: 'https://dev.to/feministech' },
+		{ icon: siLinkedin, href: 'https://linkedin.com/company/feministech' }
 	];
 </script>
 
 <ul class="socials">
 	{#each socials as social}
 		<li>
-			<a href="/" target="_blank" rel="noopener noreferrer">
+			<a href={social.href} target="_blank" rel="noopener noreferrer">
 				{#if 'svg' in social.icon}
 					{@html social.icon.svg}
 				{:else}
