@@ -4,14 +4,11 @@
 	import Button from '$lib/elements/Button.svelte';
 	import Title from '$lib/elements/Title.svelte';
 	import Section from '$lib/layout/Section.svelte';
-	import events from '$lib/data/events.json';
 	import Ribbon from '$lib/elements/Ribbon.svelte';
+	import { getSortedEvents } from '$lib/utils/events';
 
 	const eventsLimit = 4;
-	const eventsByDate = events
-		.map((event) => ({ ...event, date: dayjs(`${event.date} ${event.time || '12:00'}`) }))
-		.sort((a, b) => b.date.valueOf() - a.date.valueOf())
-		.slice(0, eventsLimit + 2);
+	const eventsByDate = getSortedEvents().slice(0, eventsLimit + 2);
 </script>
 
 <Section id="eventos">
@@ -101,6 +98,7 @@
 				.metadata {
 					display: flex;
 					gap: 0.75rem;
+					margin-bottom: auto;
 
 					li {
 						display: flex;

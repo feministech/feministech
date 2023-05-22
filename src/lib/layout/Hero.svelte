@@ -1,20 +1,26 @@
 <script>
+	import 'dayjs/locale/pt-br';
 	import BlobGradientLavender from '$lib/blobs/BlobGradientLavender.svelte';
 	import BlobGradientPink from '$lib/blobs/BlobGradientPink.svelte';
 	import SocialMediaList from '$lib/components/SocialMediaList.svelte';
 	import Logo3D from '$lib/components/logo-3d/Logo3D.svelte';
 	import Badge from '$lib/elements/Badge.svelte';
 	import Section from './Section.svelte';
+	import { getNextEvent } from '$lib/utils/events';
+
+	const nextEvent = getNextEvent();
 </script>
 
 <Section id="inicio">
 	<div class="hero">
 		<div class="hero-body">
 			<div class="info">
-				<a href="#eventos" class="alert">
-					<Badge>26 de Maio</Badge>
-					Galactech: DevRel, comunidade e conteúdo
-				</a>
+				{#if nextEvent}
+					<a href="/eventos/{nextEvent.id}" class="alert">
+						<Badge>{nextEvent.date.locale('pt-br').format('DD [de] MMMM')}</Badge>
+						{nextEvent.title}
+					</a>
+				{/if}
 				<h1 class="title">Feita para <span>todes</span>.</h1>
 				<p class="subtitle">
 					A Feministech é uma comunidade feminista de pessoas trans, não-binárias e mulheres cis que
