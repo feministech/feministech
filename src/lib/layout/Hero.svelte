@@ -7,7 +7,7 @@
 	import Section from './Section.svelte';
 </script>
 
-<Section>
+<Section id="inicio">
 	<div class="hero">
 		<div class="hero-body">
 			<div class="info">

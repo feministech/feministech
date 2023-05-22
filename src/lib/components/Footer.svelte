@@ -1,21 +1,12 @@
 <script lang="ts">
+	import menu from '$lib/data/menu.json';
 	import SocialMediaList from './SocialMediaList.svelte';
-
-	// FIXME: reuse from navbar
-	const pages = [
-		{ label: 'Início', href: '/' },
-		{ label: 'A Feministech', href: '/#sobre' },
-		{ label: 'Eventos', href: '/' },
-		{ label: 'Projetos', href: '/' },
-		{ label: 'Participantes', href: '/' },
-		{ label: 'Contato', href: '/' }
-	];
 </script>
 
 <footer class="footer">
 	<nav class="links">
-		{#each pages as page}
-			<a href={page.href}>{page.label}</a>
+		{#each menu as page}
+			<a href="/#{page.section}">{page.label}</a>
 		{/each}
 	</nav>
 	<SocialMediaList />

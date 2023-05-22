@@ -1,24 +1,51 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
+	import menu from '$lib/data/menu.json';
 	import FeministechLogoAlt from '$lib/brand/FeministechLogoAlt.svelte';
 
-	const pages = [
-		{ label: 'Início', href: '/' },
-		{ label: 'A Feministech', href: '/#sobre' },
-		{ label: 'Eventos', href: '/' },
-		{ label: 'Projetos', href: '/' },
-		{ label: 'Participantes', href: '/' },
-		{ label: 'Contato', href: '/' }
-	];
+	let activeSection = '';
+
+	const offset = 128;
+	const updateNav = () => {
+		if (
+			Math.floor(document.body.scrollTop) ===
+			Math.floor(document.body.scrollHeight - document.body.offsetHeight)
+		) {
+			activeSection = menu[menu.length - 1].section;
+			return;
+		}
+		const currentRegion = [...document.querySelectorAll('main > section')]
+			.map((el) => {
+				const box = el.getBoundingClientRect();
+				return {
+					id: el.id,
+					pos: box.height + box.top - offset
+				};
+			})
+			.find((section) => section.pos >= 0);
+		if (currentRegion) activeSection = currentRegion.id;
+	};
+
+	onMount(() => {
+		if (!browser) return;
+		updateNav();
+	});
 </script>
+
+<svelte:body on:scroll={updateNav} />
 
 <nav class="navbar">
 	<a href="/" class="logo">
 		<FeministechLogoAlt />
 	</a>
+
 	<ul class="navbar-items">
-		{#each pages as page, i}
+		{#each menu as page}
 			<li>
-				<a href={page.href} class:active={i == 0}>{page.label}</a>
+				<a href="/#{page.section}" class:active={activeSection == page.section}>
+					{page.label}
+				</a>
 			</li>
 		{/each}
 	</ul>

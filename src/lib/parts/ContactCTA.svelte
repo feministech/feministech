@@ -3,7 +3,7 @@
 	import Section from '$lib/layout/Section.svelte';
 </script>
 
-<Section id="contact">
+<Section id="contato">
 	<div class="cta">
 		<h1 class="title">Fale com a gente!</h1>
 		<p class="subtitle">
