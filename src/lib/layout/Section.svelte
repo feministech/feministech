@@ -12,5 +12,9 @@
 	.section {
 		width: 100%;
 		max-width: $page-max-width;
+
+		&:first-child {
+			padding-top: calc(6rem + 8rem); // espaço da navbar + padding
+		}
 	}
 </style>

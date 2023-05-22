@@ -26,7 +26,7 @@
 
 				<li class="event" class:passed={hasPassed}>
 					<a href={eventLink} class="banner">
-						<figure style="background-image: url({event.banner})" />
+						<figure style={event.banner && `background-image: url(${event.banner})`} />
 						{#if hasPassed}
 							<Ribbon>PASSADO</Ribbon>
 						{/if}
@@ -81,6 +81,7 @@
 					width: 100%;
 					aspect-ratio: 16 / 9;
 					border-radius: 1rem;
+					background-image: url('/images/events/fallback.webp');
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100%;
@@ -113,7 +114,7 @@
 						position: relative;
 
 						figure {
-							filter: grayscale(1);
+							filter: grayscale(1) brightness(1.75);
 						}
 					}
 				}

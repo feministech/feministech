@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
+	import { page } from '$app/stores';
 	import menu from '$lib/data/menu.json';
 	import FeministechLogoAlt from '$lib/brand/FeministechLogoAlt.svelte';
 
@@ -8,9 +9,11 @@
 
 	const offset = 128;
 	const updateNav = () => {
+		if (!browser) return;
 		if (
+			$page.url.pathname === '/' &&
 			Math.floor(document.body.scrollTop) ===
-			Math.floor(document.body.scrollHeight - document.body.offsetHeight)
+				Math.floor(document.body.scrollHeight - document.body.offsetHeight)
 		) {
 			activeSection = menu[menu.length - 1].section;
 			return;
@@ -26,6 +29,8 @@
 			.find((section) => section.pos >= 0);
 		if (currentRegion) activeSection = currentRegion.id;
 	};
+
+	page.subscribe(updateNav);
 
 	onMount(() => {
 		if (!browser) return;
