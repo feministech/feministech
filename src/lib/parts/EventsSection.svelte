@@ -1,10 +1,17 @@
 <script lang="ts">
+	import dayjs from 'dayjs';
 	import { ArrowRight, CalendarDays, Clock } from 'lucide-svelte';
 	import Button from '$lib/elements/Button.svelte';
 	import Title from '$lib/elements/Title.svelte';
 	import Section from '$lib/layout/Section.svelte';
+	import events from '$lib/data/events.json';
+	import Ribbon from '$lib/elements/Ribbon.svelte';
 
 	const eventsLimit = 4;
+	const eventsByDate = events
+		.map((event) => ({ ...event, date: dayjs(`${event.date} ${event.time || '12:00'}`) }))
+		.sort((a, b) => b.date.valueOf() - a.date.valueOf())
+		.slice(0, eventsLimit + 2);
 </script>
 
 <Section id="eventos">
@@ -13,28 +20,34 @@
 			<Title align="left" pretitle="Nossos">Eventos</Title>
 		</div>
 		<ul class="events-grid">
-			{#each Array(eventsLimit + 2) as uwu, i}
-				<li class="event">
-					<a href="/" class="banner">
-						<figure
-							style="background-image: url('https://source.unsplash.com/featured/1280x72{i}')"
-						/>
+			{#each eventsByDate as event, i}
+				{@const eventLink = `/eventos/${event.id}`}
+				{@const hasPassed = event.date.isBefore(dayjs())}
+
+				<li class="event" class:passed={hasPassed}>
+					<a href={eventLink} class="banner">
+						<figure style="background-image: url({event.banner})" />
+						{#if hasPassed}
+							<Ribbon>PASSADO</Ribbon>
+						{/if}
 					</a>
 					{#if i < eventsLimit}
-						<h1 class="title">Feministalk Hacktoberfest</h1>
-						<p class="description">
-							Feministalk sobre a Hacktoberfest, abordando Git, Github e Open Source
-						</p>
+						<h1 class="title">{event.title}</h1>
+						<p class="description">{event.description}</p>
 						<ul class="metadata">
-							<li><CalendarDays size={16} /> 08/10/2023</li>
-							<li><Clock size={16} /> 20:00</li>
+							<li><CalendarDays size={16} /> {event.date.format('DD/MM/YYYY')}</li>
+							{#if event.time}
+								<li><Clock size={16} /> {event.date.format('HH:mm')}</li>
+							{/if}
 						</ul>
-						<Button rounded outline>Saiba mais <ArrowRight size={16} /></Button>
+						<Button href={eventLink} rounded outline>
+							Saiba mais <ArrowRight size={16} />
+						</Button>
 					{/if}
 				</li>
 			{/each}
 			<div class="events-fade-out">
-				<Button href="/">Ver todos os eventos</Button>
+				<Button href="/eventos">Ver todos os eventos</Button>
 			</div>
 		</ul>
 	</div>
@@ -92,6 +105,16 @@
 						display: flex;
 						align-items: center;
 						gap: 0.25rem;
+					}
+				}
+
+				&.passed {
+					.banner {
+						position: relative;
+
+						figure {
+							filter: grayscale(1);
+						}
 					}
 				}
 			}
