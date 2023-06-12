@@ -1,5 +1,6 @@
 <script lang="ts">
 	export let pretitle = '';
+	export let subtitle = '';
 	export let align: 'left' | 'center' | 'right' = 'center';
 </script>
 
@@ -12,6 +13,12 @@
 <h1 class="title" class:left={align == 'left'} class:right={align == 'right'}>
 	<slot />
 </h1>
+
+{#if subtitle}
+	<p class="subtitle">
+		{subtitle}
+	</p>
+{/if}
 
 <style lang="scss">
 	@import '../scss/vars';
@@ -43,5 +50,12 @@
 		font-weight: 700;
 		font-size: 32px;
 		margin-bottom: 2.25rem;
+	}
+
+	.subtitle {
+		text-align: center;
+		margin-top: -1.25rem;
+		margin-bottom: 2.25rem;
+		color: rgba(#000, 0.5);
 	}
 </style>
