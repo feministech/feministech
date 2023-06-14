@@ -199,4 +199,30 @@
 			}
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-laptop) {
+		.timetable-item .event-presenters {
+			.presenter-avatar {
+				width: 4rem;
+				height: 4rem;
+			}
+
+			.presenter-info {
+				height: 4rem;
+			}
+
+			.presenter-name {
+				font-size: 1rem;
+			}
+
+			.presenter-socials {
+				gap: 0.5rem;
+
+				:global(svg) {
+					width: 1rem;
+					height: 1rem;
+				}
+			}
+		}
+	}
 </style>
