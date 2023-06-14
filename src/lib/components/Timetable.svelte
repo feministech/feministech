@@ -72,12 +72,7 @@
 						<li class="presenter" in:fade animate:flip={{ duration: 300 }}>
 							<Card>
 								<div class="presenter-inner">
-									<img
-										src={host?.avatar ||
-											`https://unavatar.io/${hostID}?fallback=https://github.com/${hostID}.png`}
-										alt=""
-										class="presenter-avatar"
-									/>
+									<img src={host?.avatar} alt="" class="presenter-avatar" />
 									<div class="presenter-info">
 										<p class="presenter-name">{host?.name}</p>
 										{#if host?.pronouns}
