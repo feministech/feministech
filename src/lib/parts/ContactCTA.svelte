@@ -56,4 +56,10 @@
 			color: #fff;
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-laptop) {
+		.cta {
+			padding: 4rem 14rem;
+		}
+	}
 </style>

@@ -132,4 +132,10 @@
 			background: linear-gradient(rgba($background-color, 0.75) 0%, $background-color 75%);
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-laptop) {
+		.events-fade-out {
+			height: 11.5rem;
+		}
+	}
 </style>

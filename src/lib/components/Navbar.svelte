@@ -105,4 +105,10 @@
 		width: 2.25rem;
 		height: 2.25rem;
 	}
+
+	@media (max-width: $layout-breakpoint-laptop) {
+		.navbar {
+			width: calc(100% - 8rem);
+		}
+	}
 </style>

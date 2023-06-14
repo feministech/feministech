@@ -52,6 +52,8 @@
 </div>
 
 <style lang="scss">
+	@import '../scss/vars';
+
 	.members-circle {
 		position: relative;
 		display: flex;
@@ -59,6 +61,7 @@
 		align-items: center;
 		height: 57rem;
 		padding: 0 4rem;
+		transition: all 0.2s ease;
 	}
 
 	.logo {
@@ -131,6 +134,20 @@
 
 		to {
 			transform: rotate(360deg);
+		}
+	}
+
+	@media (max-width: $layout-breakpoint-laptop) {
+		.members-circle {
+			height: 46rem;
+			transform: scale(0.8);
+		}
+	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.members-circle {
+			height: 23rem;
+			transform: scale(0.4);
 		}
 	}
 </style>
