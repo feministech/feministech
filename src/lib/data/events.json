@@ -9,7 +9,27 @@
 			{
 				"title": "Apresentação",
 				"time": "14:00",
-				"hosts": ["morgannadev"]
+				"hosts": ["danicaus"]
+			},
+			{
+				"title": "GitHub, Open Source e comunidades",
+				"time": "14:15",
+				"hosts": ["pachicodes"]
+			},
+			{
+				"title": "O que é e como participar do evento Hacktoberfest e contar a experiência",
+				"time": "14:55",
+				"hosts": ["bug_elseif"]
+			},
+			{
+				"title": "Aprendendo Git e Github",
+				"time": "15:35",
+				"hosts": ["andressacodes"]
+			},
+			{
+				"title": "O que é open source e como fazer um Pull Request para contribuir",
+				"time": "16:15",
+				"hosts": ["patriciaverso"]
 			}
 		]
 	},
