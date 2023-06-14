@@ -1,19 +1,10 @@
 <script lang="ts">
-	const tabs = [
-		{
-			id: 'qua',
-			label: 'Quarta (24/05)'
-		},
-		{
-			id: 'qui',
-			label: 'Quinta (25/05)'
-		},
-		{
-			id: 'sex',
-			label: 'Sexta (26/05)'
-		}
-	];
+	type Tab = {
+		id: string;
+		label: string;
+	};
 
+	export let tabs: Tab[] = [];
 	export let activeTab: string;
 </script>
 
