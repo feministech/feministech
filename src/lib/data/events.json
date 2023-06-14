@@ -4,7 +4,14 @@
 		"title": "Feministalk Hacktoberfest",
 		"description": "Feministalk sobre a Hacktoberfest, abordando Git, Github e Open Source",
 		"banner": "/images/events/hacktoberfest-2022.webp",
-		"date": "2022-10-08"
+		"date": "2022-10-08",
+		"schedule": [
+			{
+				"title": "Apresentação",
+				"time": "14:00",
+				"hosts": ["morgannadev"]
+			}
+		]
 	},
 	{
 		"id": "feministalk-sp",

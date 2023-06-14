@@ -8,6 +8,7 @@
 	import Subtitle from '$lib/elements/Subtitle.svelte';
 	import Tabs from '$lib/components/Tabs.svelte';
 	import Timetable from '$lib/components/Timetable.svelte';
+	import NaoSeiSeComentoImg from '../../../assets/img/nao-sei-se-comento.webp';
 
 	export let data;
 
@@ -17,7 +18,7 @@
 		data.event.schedule?.map((event) => ({
 			title: event.title,
 			hosts: event.hosts,
-			datetime: dayjs(`${event.date || data.event.date} ${event.time}`)
+			datetime: dayjs(`${event?.date || data.event.date} ${event.time}`)
 		})) || [];
 
 	const tabs = schedule
@@ -32,9 +33,13 @@
 			)} ${event.datetime.format('(DD/MM)')}`
 		}));
 
-	let activeTab = tabs[0].id; // iso date
+	const hasMultipleDays = tabs.length > 1;
 
-	$: activeSchedule = schedule.filter((event) => event.datetime.isSame(dayjs(activeTab), 'day'));
+	let activeTab = hasMultipleDays ? tabs[0].id : null; // iso date
+
+	$: activeSchedule = hasMultipleDays
+		? schedule.filter((event) => event.datetime.isSame(dayjs(activeTab), 'day'))
+		: schedule;
 </script>
 
 <Section id="eventos">
@@ -48,10 +53,17 @@
 		</Button>
 	</header>
 
-	<Subtitle borderless>Programação</Subtitle>
-	<Tabs {tabs} bind:activeTab />
-
-	<Timetable schedule={activeSchedule} />
+	{#if schedule.length}
+		<Subtitle borderless={!!hasMultipleDays}>Programação</Subtitle>
+		{#if hasMultipleDays && activeTab}
+			<Tabs {tabs} bind:activeTab />
+		{/if}
+		<Timetable schedule={activeSchedule} />
+	{:else}
+		<p class="empty">
+			<img src={NaoSeiSeComentoImg} alt="" />
+			<span>Ainda não temos informações sobre esse evento... 👀</span>
+		</p>{/if}
 </Section>
 
 <style lang="scss">
@@ -60,5 +72,17 @@
 		flex-direction: column;
 		align-items: center;
 		margin-bottom: 8rem;
+	}
+
+	.empty {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+		text-align: center;
+
+		img {
+			height: 8rem;
+		}
 	}
 </style>
