@@ -2,7 +2,7 @@ import people from '$lib/data/people.json';
 
 type Person = {
 	name: string;
-	pronouns: string;
+	pronoun?: string;
 	socials: {
 		[site: string]: string;
 	};

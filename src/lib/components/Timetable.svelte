@@ -1,5 +1,12 @@
 <script lang="ts">
-	import { siGithub, siInstagram, siTwitter, siLinkedin, type SimpleIcon } from 'simple-icons';
+	import {
+		siGithub,
+		siInstagram,
+		siTwitter,
+		siLinkedin,
+		type SimpleIcon,
+		siTwitch
+	} from 'simple-icons';
 	import { flip } from 'svelte/animate';
 	import { fade } from 'svelte/transition';
 	import DevIcon from '$lib/icons/DevIcon.svelte';
@@ -36,6 +43,10 @@
 			icon: siInstagram,
 			url: 'https://instagram.com/'
 		},
+		twitch: {
+			icon: siTwitch,
+			url: 'https://twitch.tv/'
+		},
 		devto: {
 			icon: DevIcon,
 			url: 'https://dev.to/'
@@ -69,7 +80,9 @@
 									/>
 									<div class="presenter-info">
 										<p class="presenter-name">{host?.name}</p>
-										<p class="presenter-pronouns">({host?.pronouns})</p>
+										{#if host?.pronouns}
+											<p class="presenter-pronouns">({host?.pronouns})</p>
+										{/if}
 										<p class="presenter-socials">
 											{#each Object.keys(host?.socials || []) as siteName}
 												{@const social = socials[siteName]}

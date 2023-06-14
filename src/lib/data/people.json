@@ -103,5 +103,41 @@
 			"linkedin": "malusabino"
 		},
 		"avatar": "/images/members/malusabino.webp"
+	},
+	{
+		"name": "Dani Caus",
+		"socials": {
+			"github": "danicaus",
+			"twitter": "danicaus",
+			"instagram": "danicaus",
+			"devto": "malusabino",
+			"linkedin": "danielacaus"
+		}
+	},
+	{
+		"name": "Bruna Ferreira",
+		"socials": {
+			"github": "bugelseif",
+			"twitter": "bug_elseif",
+			"instagram": "bug.elseif",
+			"twitch": "bug_elseif",
+			"linkedin": "bugelseif"
+		}
+	},
+	{
+		"name": "Andressa",
+		"socials": {
+			"twitter": "andressacodes",
+			"instagram": "andressacodes",
+			"twitch": "andressacodes",
+			"linkedin": "andressanassantos"
+		},
+		"avatar": "/images/members/andressacodes.webp"
+	},
+	{
+		"name": "Patrícia Vilella",
+		"socials": {
+			"twitter": "patriciaverso"
+		}
 	}
 ]
