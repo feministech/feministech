@@ -8,6 +8,7 @@ type Event = {
 	banner: string;
 	date: string;
 	time?: string;
+	url: string;
 	schedule?: {
 		title: string;
 		date?: string;
