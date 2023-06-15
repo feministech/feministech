@@ -2,7 +2,7 @@ name: Publicar no GitHub Pages
 
 on:
   push:
-    branches: ['gh-pages']
+    branches: ['redesign-sveltekit']
 
   workflow_dispatch:
 
