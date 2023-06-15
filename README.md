@@ -1,6 +1,5 @@
 <p align="center">
-    <img src="https://img.shields.io/badge/vue-js-%234FC08D.svg?&style=for-the-badge&logo=vue-js&logoColor=white">
-    <img src="https://img.shields.io/badge/nuxt-js-%2300C58E.svg?&style=for-the-badge&logo=nuxt-js&logoColor=white">
+    <img src="https://shields.io/badge/svelte-kit-ff3e00?logo=svelte&style=for-the-badge">
     <img src="https://img.shields.io/github/license/feministech/site-oficial?style=for-the-badge">
 </p>
 
@@ -30,25 +29,25 @@
 
 3. Prepare o ambiente de desenvolvimento instalando as dependências, usando uma das opções abaixo:
 
-```console
-yarn install
-# ou
+```sh
 npm install
+# ou
+yarn install
 ```
 
 3. Inicie o site em modo de desenvolvimento local para visualizar as suas alterações em tempo real usando:
 
-```console
-yarn dev
-# ou
+```sh
 npm run dev
+# ou
+yarn dev
 ```
 
 4. Assim que terminar os trabalhos, abra um _pull request_ para o _branch_ principal solicitando a revisão e aprovação de outra pessoa da comunidade para evitarmos erros que possam tirar o site do ar.
 
 ## 🚀 Como é feito o _deploy_?
 
-Criamos um _workflow_ do **GitHub Actions** para automatizar a _build_ do site estático em **Nuxt**, e o _deploy_ da nova versão em uma _branch_ separada para o **GitHub Pages** a cada nova _pull request_ aprovada.
+Criamos um _workflow_ do **GitHub Actions** para automatizar a _build_ do site estático em **SvelteKit**, e o _deploy_ da nova versão em uma _branch_ separada para o **GitHub Pages** a cada nova _pull request_ aprovada.
 
 Você pode encontrar informação sobre esse processo nos arquivos dentro da pasta de _workflows_.
 
