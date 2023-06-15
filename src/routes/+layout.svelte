@@ -12,11 +12,18 @@
 <Footer />
 
 <style lang="scss">
+	@import '../lib/scss/vars';
 	.main {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		gap: 8rem;
 		width: 100%;
+	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.main {
+			gap: 6rem;
+		}
 	}
 </style>

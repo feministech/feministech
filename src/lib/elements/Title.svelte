@@ -58,4 +58,11 @@
 		margin-bottom: 2.25rem;
 		color: rgba(#000, 0.5);
 	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.pretitle.left,
+		.title.left {
+			text-align: center;
+		}
+	}
 </style>

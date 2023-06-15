@@ -52,4 +52,17 @@
 			color: $primary;
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.footer {
+			padding: 3rem 0;
+			margin-top: 6rem;
+
+			.links {
+				justify-content: center;
+				flex-wrap: wrap;
+				gap: 1rem;
+			}
+		}
+	}
 </style>
