@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { Menu, X } from 'lucide-svelte';
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
@@ -36,24 +37,40 @@
 		if (!browser) return;
 		updateNav();
 	});
+
+	let isMobileMenuOpen = false;
+	const toggleMobileMenu = () => (isMobileMenuOpen = !isMobileMenuOpen);
 </script>
 
 <svelte:body on:scroll={updateNav} />
 
-<nav class="navbar">
+<nav class="navbar" class:mobile-menu-open={isMobileMenuOpen}>
 	<a href="/" class="logo">
 		<FeministechLogoAlt />
 	</a>
 
 	<ul class="navbar-items">
+		<li class="close">
+			<button on:click={toggleMobileMenu}>
+				<X />
+			</button>
+		</li>
 		{#each menu as page}
 			<li>
-				<a href="/#{page.section}" class:active={activeSection == page.section}>
+				<a
+					href="/#{page.section}"
+					class:active={activeSection == page.section}
+					on:click={toggleMobileMenu}
+				>
 					{page.label}
 				</a>
 			</li>
 		{/each}
 	</ul>
+
+	<button class="mobile-menu-toggle" on:click={toggleMobileMenu}>
+		<Menu />
+	</button>
 </nav>
 
 <style lang="scss">
@@ -96,7 +113,15 @@
 						text-underline-offset: 0.25rem;
 					}
 				}
+
+				&.close {
+					display: none;
+				}
 			}
+		}
+
+		.mobile-menu-toggle {
+			display: none;
 		}
 	}
 
@@ -109,6 +134,69 @@
 	@media (max-width: $layout-breakpoint-laptop) {
 		.navbar {
 			width: calc(100% - 8rem);
+		}
+	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.navbar {
+			top: 1rem;
+			left: 1rem;
+			width: calc(100% - 2rem);
+
+			.mobile-menu-toggle {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100%;
+				aspect-ratio: 1 /1;
+				background: none;
+				border: none;
+				color: $primary;
+			}
+
+			.navbar-items {
+				position: fixed;
+				top: calc(-1rem - 1px);
+				left: calc(-1rem - 1px);
+				background-color: $primary;
+				flex-direction: column;
+				width: 100vw;
+				height: 100vh;
+				font-size: 1.25rem;
+				transition: all 0.2s ease;
+
+				li a {
+					color: #fff;
+					width: 100%;
+					text-align: center;
+					justify-content: center;
+				}
+
+				.close {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					button {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						width: 3rem;
+						height: 3rem;
+						border-radius: 50%;
+						border: 2px solid #fff;
+						background: none;
+						color: #fff;
+					}
+				}
+			}
+
+			&:not(.mobile-menu-open) {
+				.navbar-items {
+					pointer-events: none;
+					opacity: 0;
+				}
+			}
 		}
 	}
 </style>
