@@ -23,4 +23,10 @@
 			padding: 0 4rem;
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.section {
+			padding: 0 1rem;
+		}
+	}
 </style>
