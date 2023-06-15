@@ -41,4 +41,17 @@
 			}
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.tabs {
+			overflow-x: scroll;
+			width: calc(100% + 2rem);
+			padding: 0 1rem;
+			margin-left: -1rem;
+
+			.tab {
+				text-wrap: nowrap;
+			}
+		}
+	}
 </style>

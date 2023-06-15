@@ -225,4 +225,10 @@
 			}
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.timetable-item .event-presenters {
+			grid-template-columns: 1fr;
+		}
+	}
 </style>
