@@ -65,4 +65,10 @@
 			margin-bottom: auto;
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.projects-grid {
+			grid-template-columns: 1fr;
+		}
+	}
 </style>

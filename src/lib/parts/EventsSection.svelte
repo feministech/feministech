@@ -138,4 +138,23 @@
 			height: 11.5rem;
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.events {
+			flex-direction: column;
+			gap: 0;
+
+			&-grid {
+				grid-template-columns: 1fr;
+
+				.event:nth-last-child(2) {
+					display: none;
+				}
+			}
+
+			&-fade-out {
+				height: 13rem;
+			}
+		}
+	}
 </style>

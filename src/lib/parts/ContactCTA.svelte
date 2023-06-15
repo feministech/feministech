@@ -62,4 +62,19 @@
 			padding: 4rem 14rem;
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.cta {
+			padding: 2rem 1rem;
+
+			&::before {
+				height: 8rem;
+				background-color: rgba($primary, 0.25);
+			}
+
+			.title {
+				font-size: 36px;
+			}
+		}
+	}
 </style>

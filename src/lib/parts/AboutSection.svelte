@@ -55,4 +55,15 @@
 			margin-right: -3rem;
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.about {
+			flex-direction: column;
+
+			.group-photo {
+				width: 100%;
+				margin-right: unset;
+			}
+		}
+	}
 </style>

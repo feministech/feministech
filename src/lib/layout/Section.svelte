@@ -27,6 +27,10 @@
 	@media (max-width: $layout-breakpoint-mobile) {
 		.section {
 			padding: 0 1rem;
+
+			&:first-child {
+				padding-top: 8rem;
+			}
 		}
 	}
 </style>

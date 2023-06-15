@@ -95,4 +95,14 @@
 			margin-bottom: 1.75rem;
 		}
 	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.hero-body {
+			flex-direction: column-reverse;
+		}
+
+		.info .title {
+			font-size: 36px;
+		}
+	}
 </style>
