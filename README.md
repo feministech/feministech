@@ -11,7 +11,7 @@
 
 <details>
     <summary>Captura de tela do site oficial</summary>
-    <img src="screenshot.jpeg">
+    <img src="screenshot.jpg">
 </details>
 
 ## 🔎 Requisitos:
