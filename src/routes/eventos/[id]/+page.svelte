@@ -67,6 +67,8 @@
 </Section>
 
 <style lang="scss">
+	@import '../../../lib/scss/vars';
+
 	.header {
 		display: flex;
 		flex-direction: column;
@@ -83,6 +85,12 @@
 
 		img {
 			height: 8rem;
+		}
+	}
+
+	@media (max-width: $layout-breakpoint-mobile) {
+		.header {
+			margin-bottom: 6rem;
 		}
 	}
 </style>
