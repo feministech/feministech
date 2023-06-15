@@ -5,6 +5,7 @@
 		"description": "Feministalk sobre a Hacktoberfest, abordando Git, Github e Open Source",
 		"banner": "/images/events/hacktoberfest-2022.webp",
 		"date": "2022-10-08",
+		"url": "https://twitch.tv/feministech",
 		"schedule": [
 			{
 				"title": "Apresentação",
@@ -37,32 +38,37 @@
 		"id": "feministalk-sp",
 		"title": "1º Feministalk presencial",
 		"description": "Feministalk presencial feito em São Paulo",
-		"date": "2022-09-10"
+		"date": "2022-09-10",
+		"url": "https://twitch.tv/feministech"
 	},
 	{
 		"id": "como-escrever-um-livro",
 		"title": "Feministalk: Como escrever um livro?",
 		"description": "Feministalk sobre escrita de livros",
-		"date": "2022-08-27"
+		"date": "2022-08-27",
+		"url": "https://twitch.tv/feministech"
 	},
 	{
 		"id": "acessibilidade",
 		"title": "Feministalk: Acessibilidade",
 		"description": "Feministalk e roda de conversa sobre acessibilidade",
-		"date": "2022-06-25"
+		"date": "2022-06-25",
+		"url": "https://twitch.tv/feministech"
 	},
 	{
 		"id": "feministreamer",
 		"title": "Feministalk: Como se tornar uma Feministreamer",
 		"description": "Feministalk sobre como começar a fazer lives",
-		"date": "2022-05-28"
+		"date": "2022-05-28",
+		"url": "https://twitch.tv/feministech"
 	},
 	{
 		"id": "carreiras",
 		"title": "Feministalk: Carreiras",
 		"description": "Feministalk sobre carreiras no mundo da tecnologia",
 		"date": "2022-04-23",
-		"time": "12:45"
+		"time": "12:45",
+		"url": "https://twitch.tv/feministech"
 	},
 	{
 		"id": "grace-hopper",
@@ -74,19 +80,22 @@
 		"id": "aprendev",
 		"title": "Feministalk: AprenDev",
 		"description": "Feministalk sobre técnicas de aprendizado no mundo da tecnologia",
-		"date": "2022-03-26"
+		"date": "2022-03-26",
+		"url": "https://twitch.tv/feministech"
 	},
 	{
 		"id": "como-palestrar",
 		"title": "Feministalk: Como Palestrar",
 		"description": "Feministalk onde falamos sobre como começar a palestrar",
-		"date": "2022-02-26"
+		"date": "2022-02-26",
+		"url": "https://twitch.tv/feministech"
 	},
 	{
 		"id": "botequeens-spoilers-2022",
 		"title": "Botequeens Spoilers 2022",
 		"description": "Evento de começo de ano da Feministech, anunciando os eventos que terão durante o ano",
-		"date": "2022-01-29"
+		"date": "2022-01-29",
+		"url": "https://twitch.tv/feministech"
 	},
 	{
 		"id": "galactech-2023",
@@ -95,6 +104,7 @@
 		"banner": "/images/events/galactech-2023.webp",
 		"date": "2023-05-24",
 		"time": "19:00",
+		"url": "https://twitch.tv/feministech",
 		"schedule": [
 			{
 				"title": "Roda de conversa: As diferentes visões na galáxia Developer Relations",

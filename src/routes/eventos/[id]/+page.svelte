@@ -1,7 +1,7 @@
 <script lang="ts">
 	import 'dayjs/locale/pt-br';
 	import dayjs from 'dayjs';
-	import { Twitch } from 'lucide-svelte';
+	import { PlayCircle, Twitch, Youtube } from 'lucide-svelte';
 	import Button from '$lib/elements/Button.svelte';
 	import Title from '$lib/elements/Title.svelte';
 	import Section from '$lib/layout/Section.svelte';
@@ -40,6 +40,12 @@
 	$: activeSchedule = hasMultipleDays
 		? schedule.filter((event) => event.datetime.isSame(dayjs(activeTab), 'day'))
 		: schedule;
+
+	const getWebsiteIcon = (url: string) => {
+		if (url.includes('twitch.tv')) return Twitch;
+		if (url.includes('youtube.com')) return Youtube;
+		return PlayCircle;
+	};
 </script>
 
 <Section id="eventos">
@@ -47,9 +53,9 @@
 		<Title pretitle="Evento" subtitle={data.event.description}>
 			{data.event.title}
 		</Title>
-		<Button>
-			<Twitch size={20} />
-			Assistir gravação
+		<Button href={data.event.url}>
+			<svelte:component this={getWebsiteIcon(data.event.url)} size={20} />
+			Acessar evento
 		</Button>
 	</header>
 
