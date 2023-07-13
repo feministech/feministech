@@ -1,0 +1,144 @@
+[
+	{
+		"name": "Doce",
+		"pronouns": "ele/delu",
+		"socials": {
+			"github": "doceazedo",
+			"twitter": "doceazedo911",
+			"instagram": "doceazedo911"
+		}
+	},
+	{
+		"name": "Morganna",
+		"pronouns": "ela/dela",
+		"socials": {
+			"github": "morgannadev",
+			"twitter": "morgannadev",
+			"instagram": "morgannadev",
+			"devto": "morgannadev",
+			"linkedin": "morgannadev"
+		}
+	},
+	{
+		"name": "Andreza Rocha",
+		"pronouns": "ela/dela",
+		"socials": {
+			"linkedin": "andrezarocha"
+		},
+		"avatar": "/images/members/andrezarocha.webp"
+	},
+	{
+		"name": "Larissa Vitoriano",
+		"pronouns": "ela/dela",
+		"socials": {
+			"twitter": "laricavitoriano",
+			"instagram": "laricavitoriano"
+		},
+		"avatar": "/images/members/laricavitoriano.webp"
+	},
+	{
+		"name": "Pachi Parra",
+		"pronouns": "ela/dela",
+		"socials": {
+			"github": "pachicodes",
+			"twitter": "pachicodes",
+			"instagram": "pachicodes"
+		}
+	},
+	{
+		"name": "Gisele",
+		"pronouns": "ela/dela",
+		"socials": {
+			"twitter": "gikapassuti",
+			"instagram": "gikapassuti"
+		}
+	},
+	{
+		"name": "Jeniffer Bittencourt",
+		"pronouns": "ela/dela",
+		"socials": {
+			"github": "jeniblodev",
+			"twitter": "jeniblo_dev",
+			"instagram": "jeniblo_dev",
+			"linkedin": "jeniffer-bittencourt"
+		}
+	},
+	{
+		"name": "Leticia 'levxyca'",
+		"pronouns": "ela/dela",
+		"socials": {
+			"github": "levxyca",
+			"twitter": "levxyca",
+			"instagram": "levxyca",
+			"linkedin": "leticiacaroline"
+		}
+	},
+	{
+		"name": "Lunna Fabris",
+		"pronouns": "ela/dela",
+		"socials": {
+			"twitter": "Lunna_Fabris"
+		}
+	},
+	{
+		"name": "Natália F. Dev",
+		"pronouns": "ela/dela",
+		"socials": {
+			"instagram": "nataliafdev"
+		}
+	},
+	{
+		"name": "Nadi Duno",
+		"pronouns": "ela/dela",
+		"socials": {
+			"instagram": "nadiduno.dev",
+			"linkedin": "nadiduno"
+		}
+	},
+	{
+		"name": "Malu Sabino",
+		"pronouns": "ela/dela",
+		"socials": {
+			"instagram": "malusabino",
+			"linkedin": "malusabino"
+		},
+		"avatar": "/images/members/malusabino.webp"
+	},
+	{
+		"name": "Dani Caus",
+		"socials": {
+			"github": "danicaus",
+			"twitter": "danicaus",
+			"instagram": "danicaus",
+			"devto": "malusabino",
+			"linkedin": "danielacaus"
+		}
+	},
+	{
+		"name": "Bruna Ferreira",
+		"socials": {
+			"github": "bugelseif",
+			"twitter": "bug_elseif",
+			"instagram": "bug.elseif",
+			"twitch": "bug_elseif",
+			"linkedin": "bugelseif"
+		}
+	},
+	{
+		"name": "Andressa",
+		"socials": {
+			"twitter": "andressacodes",
+			"instagram": "andressacodes",
+			"twitch": "andressacodes",
+			"linkedin": "andressanassantos"
+		},
+		"avatar": "/images/members/andressacodes.webp"
+	},
+	{
+		"name": "Patrícia Vilella",
+		"pronouns": "ela/dela",
+		"socials": {
+			"twitter": "patriciaverso"
+		}
+	}
+]

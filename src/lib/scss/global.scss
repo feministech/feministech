@@ -1,0 +1,21 @@
+@import './vars';
+
+body,
+html {
+	height: 100%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: $background-color;
+}
+
+body,
+button {
+	font-family: $font-body;
+	font-weight: 300;
+}

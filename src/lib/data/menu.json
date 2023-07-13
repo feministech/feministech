@@ -1,0 +1,8 @@
+[
+	{ "label": "Início", "section": "inicio" },
+	{ "label": "A Feministech", "section": "sobre" },
+	{ "label": "Eventos", "section": "eventos" },
+	{ "label": "Projetos", "section": "projetos" },
+	{ "label": "Participantes", "section": "participantes" },
+	{ "label": "Contato", "section": "contato" }
+]
