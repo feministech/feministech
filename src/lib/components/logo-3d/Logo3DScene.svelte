@@ -25,8 +25,8 @@
 	/>
 </T.PerspectiveCamera>
 
-<T.DirectionalLight position.x={5} position.y={10} />
-<T.AmbientLight intensity={1} />
+<T.DirectionalLight position.x={5} position.y={10} intensity={4} />
+<T.AmbientLight intensity={3} />
 
 {#await useGltf('/3d/feministech-logo.glb') then gltf}
 	<T
