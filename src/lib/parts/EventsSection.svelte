@@ -111,8 +111,8 @@
 					.banner {
 						position: relative;
 
-						figure {
-							filter: grayscale(1) brightness(1.75);
+						figure:not(:hover) {
+							filter: grayscale(.9);
 						}
 					}
 				}

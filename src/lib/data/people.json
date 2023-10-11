@@ -140,5 +140,37 @@
 		"socials": {
 			"twitter": "patriciaverso"
 		}
+	},
+	{
+		"name": "Carol Constantino",
+		"pronouns": "ela/dela",
+		"socials": {
+			"instagram": "constantinocarolini"
+		},
+		"avatar": "/images/members/constantinocarolini.webp"
+	},
+	{
+		"name": "Paloma Breit",
+		"pronouns": "ela/dela",
+		"socials": {
+			"instagram": "autismo_nada_azul"
+		},
+		"avatar": "/images/members/autismo_nada_azul.webp"
+	},
+	{
+		"name": "Alexia Calmon",
+		"pronouns": "ela/dela",
+		"socials": {
+			"instagram": "alexiacalmon"
+		},
+		"avatar": "/images/members/alexiacalmon.webp"
+	},
+	{
+		"name": "Rafaela",
+		"pronouns": "ela/dela",
+		"socials": {
+      "instagram": "rafaela"
+    },
+		"avatar": "/images/members/rafaela.webp"
 	}
 ]

@@ -149,5 +149,21 @@
 				"hosts": ["malusabino", "gikapassuti", "morgannadev"]
 			}
 		]
+	},
+	{
+		"id": "feministalk-mulheres-deficas-tecnologia",
+		"title": "Feministalk: Mulheres defiças na tecnologia",
+		"description": "Uma live com a participação de grandes mulheres e trabalhadoras da tecnologia falando sobre as suas experências",
+		"banner": "/images/events/mulheres-deficas-tecnologia.webp",
+		"date": "2023-08-26",
+		"time": "15:00",
+		"url": "https://www.youtube.com/watch?v=vg4Im-lJJik",
+		"schedule": [
+			{
+				"title": "Roda de conversa: Mulheres defiças na tecnologia",
+				"time": "15:00",
+				"hosts": ["constantinocarolini", "autismo_nada_azul", "alexiacalmon", "rafaela"]
+			}
+		]
 	}
 ]
