@@ -9,9 +9,9 @@
 	<div class="about">
 		<div class="content">
 			<p>
-				A Feministech é uma <b>comunidade feminista de pessoas trans, não-binárias e mulheres cis</b> que
-				produzem, consomem e compartilham conteúdo sobre tecnologia, enquanto constroem uma comunidade 
-        diversa e inclusiva.
+				A Feministech é uma <b>comunidade feminista de mulheres cis e trans e pessoas não-binárias</b> que
+				produzem, consomem e compartilham conteúdo sobre tecnologia, enquanto constroem uma comunidade
+				diversa e inclusiva.
 			</p>
 			<p>
 				O objetivo da Feministech é <b
