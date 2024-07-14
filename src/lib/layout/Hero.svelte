@@ -23,9 +23,7 @@
 				{/if}
 				<h1 class="title">Feita para <span>todes</span>.</h1>
 				<p class="subtitle">
-					A Feministech é uma comunidade feminista de mulheres cis e trans e pessoas não-binárias que
-					produzem, consomem e compartilham conteúdo sobre tecnologia, enquanto constroem uma
-					comunidade diversa e inclusiva.
+					A Feministech é uma comunidade feminista de mulheres cis e trans e pessoas não-binárias que compartilham conhecimento sobre tecnologia, enquanto constroem uma comunidade diversa e inclusiva.
 				</p>
 				<SocialMediaList />
 			</div>
